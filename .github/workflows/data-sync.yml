@@ -1,0 +1,62 @@
+name: Sync dxdata
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 20 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-data:
+    name: Fetch dxdata and commit updates
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'push' || github.actor != 'github-actions[bot]' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name || github.event.repository.default_branch }}
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch and generate local data
+        env:
+          DXDATA_FETCH_RETRIES: '10'
+          DXDATA_FETCH_TIMEOUT_MS: '900000'
+          DXDATA_FETCH_BACKOFF_MS: '3000'
+          DXDATA_USE_CURL_FALLBACK: '1'
+          DXDATA_ALLOW_STALE_JSON: '1'
+        run: pnpm run data:fetch:dxdata
+
+      - name: Commit and push when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/dxdata data/csv/dxdata
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(data): auto sync dxdata [skip changelog]"
+          git push
