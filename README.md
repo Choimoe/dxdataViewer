@@ -1,31 +1,12 @@
-<p align='center'>
-  <img src='https://repository-images.githubusercontent.com/442005408/3f8d7fed-9d3f-45c8-bcd5-0fa64e9ac535' alt='Vue.js starter template' width='600'/>
-</p>
-
-# Vue.js starter template
-
-Features:
-
-- 🛠 [Vue 3](https://v3.vuejs.org/guide/introduction.html)
-- ⚡️ [Vite](https://vitejs.dev/guide/)
-- 🗂 [PNPM](https://pnpm.io)
-- 🛣 [Vue Router](https://github.com/vuejs/vue-router-next)
-- 🔄 [Auto import](https://github.com/unplugin/unplugin-auto-import)
-- 🎨 [Tailwind CSS](https://tailwindcss.com/docs/)
-- 🔍 [Eslint with airbnb / Tailwind CSS / stylelint](https://github.com/airbnb/javascript)
-- 🌗 [Light and dark mode composable](https://github.com/lecoueyl/vue3-template/blob/main/src/composables/theme.js)
-- 🔡 [Inter var font](https://rsms.me/inter/)
-- 📄 [Github pages action](https://pages.github.com)
-
-[Open in Visual Studio Code](https://open.vscode.dev/lecoueyl/vue3-template)
+# dxdataViewer
 
 ## Getting Started
 
-Scaffold this repository
+clone this repository
 
 ```sh
-pnpx degit lecoueyl/vue3-template my-project
-cd my-project
+git clone https://github.com/Choimoe/dxdataViewer.git
+cd dxdataViewer
 ```
 
 Install and start dev server
@@ -35,18 +16,43 @@ pnpm install
 pnpm run dev
 ```
 
-## Deployment
+## Data Pipeline (Local JSON + CSV)
 
-### Netlify
+Fetch the `dxdata` source and generate local files for frontend table rendering:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lecoueyl/vue3-template)
+```sh
+pnpm run data:fetch:dxdata
+```
 
-### Github pages
+For slow or unstable network, use relaxed mode (longer timeout and more retries):
 
-The default github action will build to `gh-page` when pushing on `main` branch.
+```sh
+pnpm run data:fetch:dxdata:relaxed
+```
 
-For a project page, the base path of the repository must be specified. Add the following secret in the Github repository `Settings` > `Secrets` > `Actions`
+Optional environment variables:
 
-| Name                        | Value                    |
-| --------------------------- | ------------------------ |
-| VITE_BASE_PUBLIC_PATH       | `/repository-name/`      |
+- `DXDATA_FETCH_RETRIES` (default `8`)
+- `DXDATA_FETCH_TIMEOUT_MS` (default `600000`)
+- `DXDATA_FETCH_BACKOFF_MS` (default `2000`)
+- `DXDATA_USE_CURL_FALLBACK` (`1` or `0`, default `1`)
+- `DXDATA_SKIP_DOWNLOAD` (`1` to reuse local `data/raw/dxdata/dxdata.json` and only regenerate CSV)
+- `DXDATA_ALLOW_STALE_JSON` (`1` or `0`, default `1`)
+
+Generated structure:
+
+```text
+data/
+  raw/
+    dxdata/
+      dxdata.json
+  csv/
+    dxdata/
+      songs.csv
+      categories.csv
+      versions.csv
+      types.csv
+      difficulties.csv
+      regions.csv
+      update_time.csv
+```

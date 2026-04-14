@@ -1,9 +1,12 @@
 {
-  "name": "vue3-template",
+  "name": "dxdata-viewer",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "build": "vite build",
+    "data:fetch": "pnpm run data:fetch:dxdata",
+    "data:fetch:dxdata": "node scripts/data/fetch-dxdata.mjs",
+    "data:fetch:dxdata:relaxed": "DXDATA_FETCH_RETRIES=10 DXDATA_FETCH_TIMEOUT_MS=900000 DXDATA_FETCH_BACKOFF_MS=3000 node scripts/data/fetch-dxdata.mjs",
     "dev": "vite --host",
     "lint": "pnpm run lint:js && pnpm run lint:style",
     "lint:fix": "pnpm run lint:js -- --fix && pnpm run lint:style -- --fix",
