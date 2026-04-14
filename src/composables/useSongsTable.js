@@ -1,6 +1,8 @@
 import { computed, ref, watch } from 'vue';
 // eslint-disable-next-line import/no-unresolved
 import songsCsvRaw from '../../data/csv/dxdata/songs.csv?raw';
+// eslint-disable-next-line import/no-unresolved
+import versionsCsvRaw from '../../data/csv/dxdata/versions.csv?raw';
 
 const difficultyOrder = {
   basic: 1,
@@ -82,6 +84,43 @@ function parseSongsCsv(text) {
   });
 }
 
+function parseVersionsOrder(text) {
+  const lines = text
+    .split(/\r?\n/u)
+    .filter((line) => line.trim().length > 0);
+
+  if (lines.length <= 1) {
+    return [];
+  }
+
+  const headers = parseCsvLine(lines[0]);
+  const versionIndex = headers.indexOf('version');
+
+  if (versionIndex === -1) {
+    return [];
+  }
+
+  return lines.slice(1)
+    .map((line) => parseCsvLine(line)[versionIndex] || '')
+    .filter(Boolean);
+}
+
+function getLevelSortValue(levelText) {
+  const text = String(levelText || '').trim();
+  const match = text.match(/^(\d+)(\+)?$/u);
+
+  if (match) {
+    return (Number(match[1]) * 2) + (match[2] ? 1 : 0);
+  }
+
+  const parsed = Number(text);
+  if (!Number.isNaN(parsed)) {
+    return parsed * 2;
+  }
+
+  return Number.POSITIVE_INFINITY;
+}
+
 function compareValue(song, key) {
   if (key === 'internalId') {
     return Number(song.internalId) || 0;
@@ -109,6 +148,7 @@ function compareValue(song, key) {
 export default function useSongsTable() {
   const keyword = ref('');
   const difficulty = ref('');
+  const level = ref('');
   const minInternalLevel = ref('');
   const maxInternalLevel = ref('');
   const category = ref('');
@@ -127,10 +167,38 @@ export default function useSongsTable() {
   const pageSizeOptions = [25, 50, 100, 200];
 
   const songs = computed(() => parseSongsCsv(songsCsvRaw));
+  const versionOrder = parseVersionsOrder(versionsCsvRaw);
+  const versionOrderMap = new Map(versionOrder.map((name, idx) => [name, idx]));
 
   const difficultyOptions = computed(() => [...new Set(songs.value.map((song) => song.difficulty).filter(Boolean))]);
+  const levelOptions = computed(() => {
+    const levels = [...new Set(songs.value.map((song) => song.level).filter(Boolean))];
+    return levels.sort((a, b) => {
+      const left = getLevelSortValue(a);
+      const right = getLevelSortValue(b);
+
+      if (left !== right) {
+        return left - right;
+      }
+
+      return String(a).localeCompare(String(b), 'zh-Hans-CN');
+    });
+  });
   const categoryOptions = computed(() => [...new Set(songs.value.map((song) => song.category).filter(Boolean))]);
-  const versionOptions = computed(() => [...new Set(songs.value.map((song) => song.version).filter(Boolean))]);
+  const versionOptions = computed(() => {
+    const versions = [...new Set(songs.value.map((song) => song.version).filter(Boolean))];
+
+    return versions.sort((a, b) => {
+      const left = versionOrderMap.has(a) ? versionOrderMap.get(a) : Number.POSITIVE_INFINITY;
+      const right = versionOrderMap.has(b) ? versionOrderMap.get(b) : Number.POSITIVE_INFINITY;
+
+      if (left !== right) {
+        return left - right;
+      }
+
+      return String(a).localeCompare(String(b), 'zh-Hans-CN');
+    });
+  });
   const sheetTypeOptions = computed(() => [...new Set(songs.value.map((song) => song.sheetType).filter(Boolean))]);
 
   const filteredSongs = computed(() => {
@@ -148,6 +216,10 @@ export default function useSongsTable() {
       }
 
       if (difficulty.value && song.difficulty !== difficulty.value) {
+        return false;
+      }
+
+      if (level.value && song.level !== level.value) {
         return false;
       }
 
@@ -222,6 +294,7 @@ export default function useSongsTable() {
   function resetFilters() {
     keyword.value = '';
     difficulty.value = '';
+    level.value = '';
     minInternalLevel.value = '';
     maxInternalLevel.value = '';
     category.value = '';
@@ -236,6 +309,7 @@ export default function useSongsTable() {
   watch([
     keyword,
     difficulty,
+    level,
     minInternalLevel,
     maxInternalLevel,
     category,
@@ -262,6 +336,7 @@ export default function useSongsTable() {
   return {
     keyword,
     difficulty,
+    level,
     minInternalLevel,
     maxInternalLevel,
     category,
@@ -272,6 +347,7 @@ export default function useSongsTable() {
     minBreak,
     maxBreak,
     difficultyOptions,
+    levelOptions,
     categoryOptions,
     versionOptions,
     sheetTypeOptions,

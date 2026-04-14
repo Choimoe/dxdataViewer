@@ -7,6 +7,7 @@ const { currentTheme, switchTheme } = useTheme();
 const {
   keyword,
   difficulty,
+  level,
   minInternalLevel,
   maxInternalLevel,
   category,
@@ -17,6 +18,7 @@ const {
   minBreak,
   maxBreak,
   difficultyOptions,
+  levelOptions,
   categoryOptions,
   versionOptions,
   sheetTypeOptions,
@@ -88,6 +90,25 @@ const {
               </option>
               <option
                 v-for="item in difficultyOptions"
+                :key="item"
+                :value="item"
+              >
+                {{ item }}
+              </option>
+            </select>
+          </label>
+
+          <label class="flex flex-col gap-1 text-sm">
+            <span>等级</span>
+            <select
+              v-model="level"
+              class="rounded-md border border-slate-300 bg-white px-3 py-2 outline-none ring-indigo-500 focus:ring-2 dark:border-slate-600 dark:bg-slate-900"
+            >
+              <option value="">
+                全部
+              </option>
+              <option
+                v-for="item in levelOptions"
                 :key="item"
                 :value="item"
               >
