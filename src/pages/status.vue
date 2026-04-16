@@ -1,6 +1,5 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import MergedDataFooter from '@/components/layout/MergedDataFooter.vue';
 import useTheme from '@/composables/useTheme.js';
 
 const { currentTheme, switchTheme } = useTheme();
@@ -19,9 +18,20 @@ const mergeStatus = ref({
 
 onMounted(async () => {
   try {
-    // 从 merged-data.json 中读取合并信息
-    const response = await fetch('/data/raw/merged/merged-data.json?raw');
-    if (response.ok) {
+    // Try different paths for dev and prod
+    const paths = [
+      '/data/raw/merged/merged-data.json',
+      './data/raw/merged/merged-data.json',
+      '../data/raw/merged/merged-data.json',
+    ];
+
+    // Try all paths in parallel using Promise.allSettled
+    const results = await Promise.allSettled(paths.map((path) => fetch(path)));
+
+    const okResult = results.find((result) => result.status === 'fulfilled' && result.value.ok);
+    const response = okResult?.value;
+
+    if (response) {
       const data = await response.json();
 
       if (data.metadata) {
@@ -184,7 +194,5 @@ function getStatusLabel(status) {
         </div>
       </section>
     </main>
-
-    <MergedDataFooter />
   </div>
 </template>

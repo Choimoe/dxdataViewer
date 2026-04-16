@@ -35,8 +35,19 @@ export default ({ mode }) => {
         '@': resolve(__dirname, 'src'),
       },
     },
+    server: {
+      fs: {
+        allow: ['.', 'data'],
+      },
+    },
     build: {
-      rollupOptions: {},
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vue: ['vue', 'vue-router'],
+          },
+        },
+      },
     },
   });
 };

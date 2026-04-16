@@ -51,6 +51,7 @@
     "shallowReactive": true,
     "shallowReadonly": true,
     "shallowRef": true,
+    "songsTableColumns": true,
     "toRaw": true,
     "toRef": true,
     "toRefs": true,
@@ -60,18 +61,17 @@
     "useAttrs": true,
     "useCssModule": true,
     "useCssVars": true,
+    "useExportData": true,
     "useLink": true,
+    "useMergedSongsData": true,
     "useRoute": true,
     "useRouter": true,
     "useSlots": true,
+    "useSongsTable": true,
     "useTheme": true,
     "watch": true,
     "watchEffect": true,
     "watchPostEffect": true,
-    "watchSyncEffect": true,
-    "songsTableColumns": true,
-    "useSongsTable": true,
-    "useMergedSongsData": true,
-    "useExportData": true
+    "watchSyncEffect": true
   }
 }

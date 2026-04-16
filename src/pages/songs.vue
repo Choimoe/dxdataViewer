@@ -12,7 +12,6 @@ const { exportData } = useExportData();
 // 导出相关状态
 const exportFormat = ref('csv');
 const isExporting = ref(false);
-const showAdvancedExport = ref(false);
 
 const defaultExportColumns = songsTableColumns.map((col) => col.key);
 const selectedExportColumns = ref([...defaultExportColumns]);
@@ -427,7 +426,6 @@ async function handleExport() {
         </div>
 
         <details
-          v-model:open="showAdvancedExport"
           class="mt-4 rounded-lg border border-slate-200 p-3 dark:border-slate-700"
         >
           <summary class="cursor-pointer select-none text-sm font-medium">
@@ -473,7 +471,7 @@ async function handleExport() {
               <span class="text-xs text-slate-500 dark:text-slate-400">({{ option.key }})</span>
             </label>
           </div>
-        </div>
+        </details>
       </section>
 
       <SongsDataTable

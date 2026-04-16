@@ -10,8 +10,20 @@ const mergeStatus = ref({
 
 onMounted(async () => {
   try {
-    const response = await fetch('/data/raw/merged/merged-data.json?raw');
-    if (response.ok) {
+    // Try different paths for dev and prod
+    const paths = [
+      '/data/raw/merged/merged-data.json',
+      './data/raw/merged/merged-data.json',
+      '../data/raw/merged/merged-data.json',
+    ];
+
+    // Try all paths in parallel using Promise.allSettled
+    const results = await Promise.allSettled(paths.map((path) => fetch(path)));
+
+    const okResult = results.find((result) => result.status === 'fulfilled' && result.value.ok);
+    const response = okResult?.value;
+
+    if (response) {
       const data = await response.json();
 
       if (data.metadata?.mergedAt) {

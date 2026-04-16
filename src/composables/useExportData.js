@@ -4,16 +4,6 @@
  */
 
 export default function useExportData() {
-  function resolveColumns(data, selectedColumns) {
-    const autoColumns = getColumns(data);
-    if (!Array.isArray(selectedColumns) || selectedColumns.length === 0) {
-      return autoColumns;
-    }
-
-    const existingColumns = new Set(autoColumns);
-    return selectedColumns.filter((key) => existingColumns.has(key));
-  }
-
   function buildHeaderLabels(columns, headerLabels = {}) {
     return columns.map((col) => headerLabels[col] || col);
   }
@@ -47,6 +37,16 @@ export default function useExportData() {
     });
 
     return columns;
+  }
+
+  function resolveColumns(data, selectedColumns) {
+    const autoColumns = getColumns(data);
+    if (!Array.isArray(selectedColumns) || selectedColumns.length === 0) {
+      return autoColumns;
+    }
+
+    const existingColumns = new Set(autoColumns);
+    return selectedColumns.filter((key) => existingColumns.has(key));
   }
 
   /**
