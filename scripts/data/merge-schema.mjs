@@ -108,7 +108,7 @@ export const MERGE_RULES = {
         divingFish: 'type',
       },
       translate: {
-        zh_cn: '类型',
+        zh_cn: '谱面类型',
       },
     },
     difficulty: {
@@ -135,7 +135,7 @@ export const MERGE_RULES = {
         divingFish: 'ds',
       },
       translate: {
-        zh_cn: '难度定数',
+        zh_cn: '详细定数',
       },
     },
     noteDesigner: {

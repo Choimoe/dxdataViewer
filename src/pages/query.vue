@@ -94,6 +94,13 @@ const selectedExportColumns = ref([...defaultExportColumns]);
 const columnLabelMap = Object.fromEntries(
   songsTableColumns.map((col) => [col.key, col.label]),
 );
+const hiddenDerivedExportColumns = new Set(['internalLevelNum', 'difficultyRank']);
+
+Object.assign(columnLabelMap, {
+  category: '分类',
+  sheetType: '谱面类型',
+  internalLevelValue: '详细定数',
+});
 
 const availableExportColumns = computed(() => {
   const allKeys = new Set(defaultExportColumns);
@@ -104,6 +111,10 @@ const availableExportColumns = computed(() => {
         allKeys.add(key);
       }
     });
+  });
+
+  hiddenDerivedExportColumns.forEach((key) => {
+    allKeys.delete(key);
   });
 
   const rest = Array.from(allKeys)

@@ -288,7 +288,7 @@ async function handleExport() {
           </label>
 
           <label class="flex flex-col gap-1 text-sm">
-            <span>类型</span>
+            <span>谱面类型</span>
             <select
               v-model="sheetType"
               class="rounded-md border border-slate-300 bg-white px-3 py-2 outline-none ring-indigo-500 focus:ring-2 dark:border-slate-600 dark:bg-slate-900"
