@@ -70,6 +70,7 @@
     "watchPostEffect": true,
     "watchSyncEffect": true,
     "songsTableColumns": true,
-    "useSongsTable": true
+    "useSongsTable": true,
+    "useMergedSongsData": true
   }
 }
