@@ -116,16 +116,67 @@ function buildFieldRuleMeta(fieldRules, sourceBundle, mergedValues) {
   return meta;
 }
 
+function collapseWhitespace(text) {
+  return String(text).replaceAll(/[\u3000\s]+/gu, ' ').trim();
+}
+
+function removeUtagePrefix(title) {
+  return String(title).replace(/^[\[［][^\]］]{1,8}[\]］]\s*/u, '').trim();
+}
+
+function canonicalizeTitle(title) {
+  if (!title) {
+    return '';
+  }
+
+  const normalized = String(title).normalize('NFKC').toLowerCase();
+  return collapseWhitespace(removeUtagePrefix(normalized));
+}
+
+function compactTitleForMatch(title) {
+  if (!title) {
+    return '';
+  }
+
+  return canonicalizeTitle(title).replaceAll(/[\p{Z}\p{P}\p{S}]/gu, '');
+}
+
+function buildTitleKeys(title) {
+  return {
+    exactKey: canonicalizeTitle(title),
+    compactKey: compactTitleForMatch(title),
+  };
+}
+
+function addArrayIndex(indexMap, key, value) {
+  if (!key) {
+    return;
+  }
+
+  if (!indexMap.has(key)) {
+    indexMap.set(key, []);
+  }
+
+  indexMap.get(key).push(value);
+}
+
+function pickUniqueCandidate(candidates) {
+  if (!Array.isArray(candidates) || candidates.length === 0) {
+    return null;
+  }
+
+  if (candidates.length === 1) {
+    return candidates[0];
+  }
+
+  return null;
+}
+
 /**
  * 规范化标题用于匹配
  */
 function normalizeTitleForMatch(title) {
-  if (!title) return '';
-  return String(title)
-    .toLowerCase()
-    .trim()
-    .replaceAll(/[　\s]+/g, ' ')
-    .replaceAll(/[^\w\s\-]/g, '');
+  return compactTitleForMatch(title);
 }
 
 /**
@@ -133,27 +184,36 @@ function normalizeTitleForMatch(title) {
  */
 function buildDxdataIndex(dxdata) {
   const indexById = new Map();
-  const indexByTitle = new Map();
+  const indexByInternalId = new Map();
+  const indexByTitleExact = new Map();
+  const indexByTitleCompact = new Map();
 
   if (dxdata?.songs && Array.isArray(dxdata.songs)) {
     dxdata.songs.forEach((song) => {
       const id = song.id || song.songId;
       const title = song.title || song.name;
+      const internalId = extractDxratingInternalId(song);
 
       if (id) {
         indexById.set(String(id), song);
       }
+      if (internalId) {
+        indexByInternalId.set(internalId, song);
+      }
       if (title) {
-        const normalized = normalizeTitleForMatch(title);
-        if (!indexByTitle.has(normalized)) {
-          indexByTitle.set(normalized, []);
-        }
-        indexByTitle.get(normalized).push(song);
+        const { exactKey, compactKey } = buildTitleKeys(title);
+        addArrayIndex(indexByTitleExact, exactKey, song);
+        addArrayIndex(indexByTitleCompact, compactKey, song);
       }
     });
   }
 
-  return { indexById, indexByTitle };
+  return {
+    indexById,
+    indexByInternalId,
+    indexByTitleExact,
+    indexByTitleCompact,
+  };
 }
 
 /**
@@ -161,7 +221,8 @@ function buildDxdataIndex(dxdata) {
  */
 function buildDivingFishIndex(divingFish) {
   const indexById = new Map();
-  const indexByTitle = new Map();
+  const indexByTitleExact = new Map();
+  const indexByTitleCompact = new Map();
 
   if (Array.isArray(divingFish)) {
     divingFish.forEach((song) => {
@@ -172,34 +233,43 @@ function buildDivingFishIndex(divingFish) {
         indexById.set(String(id), song);
       }
       if (title) {
-        const normalized = normalizeTitleForMatch(title);
-        if (!indexByTitle.has(normalized)) {
-          indexByTitle.set(normalized, []);
-        }
-        indexByTitle.get(normalized).push(song);
+        const { exactKey, compactKey } = buildTitleKeys(title);
+        addArrayIndex(indexByTitleExact, exactKey, song);
+        addArrayIndex(indexByTitleCompact, compactKey, song);
       }
     });
   }
 
-  return { indexById, indexByTitle };
+  return {
+    indexById,
+    indexByTitleExact,
+    indexByTitleCompact,
+  };
+}
+
+function findSongByTitle(title, indexByTitleExact, indexByTitleCompact) {
+  const { exactKey, compactKey } = buildTitleKeys(title);
+
+  const exactCandidate = pickUniqueCandidate(indexByTitleExact.get(exactKey));
+  if (exactCandidate) {
+    return exactCandidate;
+  }
+
+  return pickUniqueCandidate(indexByTitleCompact.get(compactKey));
 }
 
 /**
  * 通过标题查找对应的 dxdata 歌曲
  */
-function findDxdataSongByTitle(title, dxdataIndexByTitle) {
-  const normalized = normalizeTitleForMatch(title);
-  const candidates = dxdataIndexByTitle.get(normalized);
-  return candidates?.[0] || null;
+function findDxdataSongByTitle(title, indexByTitleExact, indexByTitleCompact) {
+  return findSongByTitle(title, indexByTitleExact, indexByTitleCompact);
 }
 
 /**
  * 通过标题查找对应的 diving-fish 歌曲
  */
-function findDivingFishSongByTitle(title, divingFishIndexByTitle) {
-  const normalized = normalizeTitleForMatch(title);
-  const candidates = divingFishIndexByTitle.get(normalized);
-  return candidates?.[0] || null;
+function findDivingFishSongByTitle(title, indexByTitleExact, indexByTitleCompact) {
+  return findSongByTitle(title, indexByTitleExact, indexByTitleCompact);
 }
 
 /**
@@ -455,8 +525,16 @@ async function main() {
     console.log('✓ 已加载 maichart');
 
     // 构建索引便于查询
-    const { indexByTitle: dxdataIndexByTitle } = buildDxdataIndex(dxdata);
-    const { indexByTitle: divingFishIndexByTitle } = buildDivingFishIndex(divingFish);
+    const {
+      indexByInternalId: dxdataIndexByInternalId,
+      indexByTitleExact: dxdataIndexByTitleExact,
+      indexByTitleCompact: dxdataIndexByTitleCompact,
+    } = buildDxdataIndex(dxdata);
+    const {
+      indexById: divingFishIndexById,
+      indexByTitleExact: divingFishIndexByTitleExact,
+      indexByTitleCompact: divingFishIndexByTitleCompact,
+    } = buildDivingFishIndex(divingFish);
 
     console.log(`\n开始合并 ${Object.keys(maichart).length} 首歌曲...`);
 
@@ -465,9 +543,16 @@ async function main() {
     let divingFishMatches = 0;
 
     for (const [maichartId, maichartTitle] of Object.entries(maichart)) {
-      // 通过标题查找 dxdata 和 diving-fish 的对应歌曲
-      const dxdataSong = findDxdataSongByTitle(maichartTitle, dxdataIndexByTitle);
-      const divingFishSong = findDivingFishSongByTitle(maichartTitle, divingFishIndexByTitle);
+      const normalizedMaichartId = normalizeId(maichartId);
+
+      // 先走 ID 匹配，再回退标题匹配
+      const dxdataSong =
+        dxdataIndexByInternalId.get(normalizedMaichartId)
+        || findDxdataSongByTitle(maichartTitle, dxdataIndexByTitleExact, dxdataIndexByTitleCompact);
+
+      const divingFishSong =
+        divingFishIndexById.get(normalizedMaichartId)
+        || findDivingFishSongByTitle(maichartTitle, divingFishIndexByTitleExact, divingFishIndexByTitleCompact);
 
       if (dxdataSong) dxdataMatches += 1;
       if (divingFishSong) divingFishMatches += 1;

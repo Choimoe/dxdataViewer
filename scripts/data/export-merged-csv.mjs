@@ -226,6 +226,41 @@ async function main() {
     const sourceComparisonHeaders = ['songId', 'songTitle', 'dxdata', 'divingFish', 'maichart', 'sheetCount'];
     await writeCsvFile('source-coverage.csv', sourceComparisonRows, sourceComparisonHeaders);
 
+    // 6. 导出合并失败记录（至少一个关键数据源未匹配）
+    console.log('导出合并失败记录...');
+    const mergeFailureRows = data.songs
+      .filter((song) => !song.sources?.dxdata || !song.sources?.divingFish)
+      .map((song) => {
+        const missingSources = [];
+        if (!song.sources?.dxdata) missingSources.push('dxdata');
+        if (!song.sources?.divingFish) missingSources.push('diving-fish');
+
+        return {
+          songId: song.id,
+          songTitle: song.title,
+          titleDxdata: song.titleDxdata || '',
+          titleDivingFish: song.titleDivingFish || '',
+          missingSources: missingSources.join('|'),
+          hasDxdata: song.sources?.dxdata ? 'Y' : 'N',
+          hasDivingFish: song.sources?.divingFish ? 'Y' : 'N',
+          hasMaichart: song.sources?.maichart ? 'Y' : 'N',
+          sheetCount: song.sheets ? song.sheets.length : 0,
+        };
+      });
+
+    const mergeFailureHeaders = [
+      'songId',
+      'songTitle',
+      'titleDxdata',
+      'titleDivingFish',
+      'missingSources',
+      'hasDxdata',
+      'hasDivingFish',
+      'hasMaichart',
+      'sheetCount',
+    ];
+    await writeCsvFile('merge-failures.csv', mergeFailureRows, mergeFailureHeaders);
+
     console.log('\n✓ 所有 CSV 导出完成！');
     console.log(`\n导出文件位置：${CSV_DIR}`);
     console.log('\n生成的文件：');
@@ -234,6 +269,7 @@ async function main() {
     console.log('  3. statistics.csv - 数据覆盖统计');
     console.log('  4. missing-designers.csv - 缺失谱师的谱面');
     console.log('  5. source-coverage.csv - 数据源覆盖详情');
+    console.log('  6. merge-failures.csv - 合并失败记录');
   } catch (error) {
     console.error('导出失败:', error.message);
     process.exit(1);
