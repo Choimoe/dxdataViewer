@@ -14,8 +14,8 @@ const OUTPUT_PATH = resolve(OUTPUT_DIR, 'merged-data.json');
 /**
  * 合并混合数据源
  * 优先级：
- * 1. dxrating(dxdata) 的 internalId：优先作为主键（输出字段名仍为 id）
- * 2. 若 dxrating internalId 缺失，则回退 maichart 的 ID
+ * 1. maichart 的 ID：优先作为主键（输出字段名仍为 id）
+ * 2. 若 maichart ID 缺失，则回退 dxrating(dxdata) 的 internalId
  * 3. 若仍缺失，再回退 diving-fish 的 ID
  * 2. dxdata：谱面数据最全，谱面详情和难度信息来自这里
  * 3. diving-fish：数据准确但不全，用于填补谱师等空缺信息
@@ -58,7 +58,7 @@ function resolveSongId(maichartId, dxdataSong, divingFishSong) {
   const maichartSongId = normalizeId(maichartId);
   const divingFishId = normalizeId(divingFishSong?.id);
 
-  return dxratingId || maichartSongId || divingFishId;
+  return maichartSongId || dxratingId || divingFishId;
 }
 
 async function readJson(filePath) {
