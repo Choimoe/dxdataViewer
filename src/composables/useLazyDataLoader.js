@@ -33,20 +33,24 @@ export default function useLazyDataLoader() {
   };
 
   /**
-   * 模拟进度条更新
+   * 在未知总大小时平滑推进，避免进度条停滞。
    */
-  const simulateProgress = (total = 100, duration = 3000) => {
-    const interval = 30;
-    const steps = duration / interval;
-    const increment = total / steps;
-    let current = 0;
+  const createProgressPacer = (start = 0, ceiling = 85, step = 0.6, interval = 80) => {
+    let current = start;
 
     const timer = setInterval(() => {
-      current = Math.min(current + increment, total - 5);
-      loadingProgress.value = Math.floor(current);
+      current = Math.min(current + step, ceiling);
+      loadingProgress.value = Math.max(loadingProgress.value, Math.floor(current));
     }, interval);
 
-    return () => clearInterval(timer);
+    return {
+      stop() {
+        clearInterval(timer);
+      },
+      setCeiling(nextCeiling) {
+        current = Math.min(current, nextCeiling);
+      },
+    };
   };
 
   /**
@@ -65,8 +69,7 @@ export default function useLazyDataLoader() {
     loadingProgress.value = 0;
     currentSource.value = source;
 
-    // 开始模拟进度
-    const closeProgress = simulateProgress();
+    const pacer = createProgressPacer(0, 85);
 
     try {
       const response = await fetch(dataSourceInfo[source].url);
@@ -75,9 +78,15 @@ export default function useLazyDataLoader() {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
 
-      // 获取总字节数
+      // 获取总字节数。
+      // 压缩响应时 content-length 通常是压缩后体积，和 reader 读取到的解压字节不一致，
+      // 这会导致百分比超过 100%。因此仅在非压缩场景下将其视为可信总量。
       const contentLength = response.headers.get('content-length');
-      const total = contentLength ? parseInt(contentLength, 10) : 0;
+      const contentEncoding = (response.headers.get('content-encoding') || '').toLowerCase();
+      const parsedTotal = contentLength ? parseInt(contentLength, 10) : 0;
+      const total = Number.isFinite(parsedTotal) && parsedTotal > 0 ? parsedTotal : 0;
+      const hasCompressedBody = contentEncoding && contentEncoding !== 'identity';
+      const canTrustTotal = total > 0 && !hasCompressedBody;
       let received = 0;
 
       // 读取响应体流并更新进度
@@ -96,10 +105,18 @@ export default function useLazyDataLoader() {
         chunks.push(value);
         received += value.length;
 
-        if (total > 0) {
-          loadingProgress.value = Math.floor((received / total) * 90) + 5;
+        if (canTrustTotal) {
+          const ratio = Math.min(received / total, 1);
+          const networkProgress = 5 + Math.floor(ratio * 83);
+          loadingProgress.value = Math.max(loadingProgress.value, networkProgress);
+        } else {
+          // 未知或不可信总量时，按读取节奏缓慢推进，避免抖动。
+          pacer.setCeiling(88);
         }
       }
+
+      pacer.stop();
+      loadingProgress.value = Math.max(loadingProgress.value, 92);
 
       // 拼接数据
       const buffer = new Uint8Array(received);
@@ -112,6 +129,7 @@ export default function useLazyDataLoader() {
       }
 
       const text = new TextDecoder().decode(buffer);
+      loadingProgress.value = Math.max(loadingProgress.value, 96);
       data.value = JSON.parse(text);
       loadingProgress.value = 100;
     } catch (err) {
@@ -119,7 +137,7 @@ export default function useLazyDataLoader() {
       loadingProgress.value = 0;
       data.value = null;
     } finally {
-      closeProgress();
+      pacer.stop();
       isLoading.value = false;
     }
   };
