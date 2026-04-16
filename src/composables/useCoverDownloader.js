@@ -1,6 +1,7 @@
 import JSZip from 'jszip';
 
 const COVER_BASE_URL = 'https://www.diving-fish.com/covers';
+const COVER_PROXY_BASE_URL = 'https://wsrv.nl/?url=';
 
 function parseNumericId(value) {
   if (value === null || value === undefined) {
@@ -38,6 +39,10 @@ function formatCoverId(coverId) {
 function buildCoverUrl(songId) {
   const mapped = mapCoverRequestId(songId);
   return `${COVER_BASE_URL}/${formatCoverId(mapped)}.png`;
+}
+
+function buildProxyCoverUrl(songId) {
+  return `${COVER_PROXY_BASE_URL}${encodeURIComponent(buildCoverUrl(songId))}`;
 }
 
 function parseIdsFromText(inputText = '') {
@@ -102,13 +107,25 @@ function uniqueIds(ids = []) {
 
 async function fetchCoverBlob(songId) {
   const url = buildCoverUrl(songId);
-  const response = await fetch(url);
+  try {
+    const response = await fetch(url);
 
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    return await response.blob();
+  } catch (error) {
+    const proxyUrl = buildProxyCoverUrl(songId);
+    const proxyResponse = await fetch(proxyUrl);
+
+    if (!proxyResponse.ok) {
+      const baseMessage = error instanceof Error ? error.message : 'Unknown error';
+      throw new Error(`${baseMessage}; proxy HTTP ${proxyResponse.status}`);
+    }
+
+    return await proxyResponse.blob();
   }
-
-  return response.blob();
 }
 
 async function downloadCoversAsZip(songIds, options = {}) {
@@ -219,5 +236,6 @@ export default function useCoverDownloader() {
     triggerBlobDownload,
     mapCoverRequestId,
     buildCoverUrl,
+    buildProxyCoverUrl,
   };
 }

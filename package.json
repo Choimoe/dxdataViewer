@@ -15,6 +15,7 @@
     "data:fetch:dxdata:relaxed": "DXDATA_FETCH_RETRIES=10 DXDATA_FETCH_TIMEOUT_MS=900000 DXDATA_FETCH_BACKOFF_MS=3000 node scripts/data/fetch-dxdata.mjs",
     "data:merge": "node scripts/data/merge-datasources.mjs",
     "data:merge:export-csv": "node scripts/data/export-merged-csv.mjs",
+    "data:download:covers": "node scripts/data/download-covers.mjs",
     "dev": "vite --host",
     "lint": "pnpm run lint:js && pnpm run lint:style",
     "lint:fix": "pnpm run lint:js -- --fix && pnpm run lint:style -- --fix",
