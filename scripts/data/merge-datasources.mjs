@@ -591,7 +591,7 @@ async function main() {
     };
 
     // 保存合并后的数据
-    await writeFile(OUTPUT_PATH, JSON.stringify(result, null, 2) + '\n', 'utf8');
+    await writeFile(OUTPUT_PATH, JSON.stringify(result) + '\n', 'utf8');
 
     console.log('\n✓ 合并完成！');
     console.log(`  总歌曲数: ${mergedSongs.length}`);

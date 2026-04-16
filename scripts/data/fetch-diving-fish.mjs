@@ -233,7 +233,7 @@ async function main() {
   else {
     try {
       json = await fetchJsonWithRetry(SOURCE_URL, FETCH_RETRIES, FETCH_TIMEOUT_MS);
-      await writeFile(JSON_PATH, `${JSON.stringify(json, null, 2)}\n`, 'utf8');
+      await writeFile(JSON_PATH, `${JSON.stringify(json)}\n`, 'utf8');
       console.log('Downloaded Diving-Fish music data via fetch.');
     }
     catch (error) {
