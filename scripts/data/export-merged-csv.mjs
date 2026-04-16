@@ -226,10 +226,10 @@ async function main() {
     const sourceComparisonHeaders = ['songId', 'songTitle', 'dxdata', 'divingFish', 'maichart', 'sheetCount'];
     await writeCsvFile('source-coverage.csv', sourceComparisonRows, sourceComparisonHeaders);
 
-    // 6. 导出合并失败记录（至少一个关键数据源未匹配）
+    // 6. 导出合并失败记录（仅当 dxdata 和 diving-fish 都缺失）
     console.log('导出合并失败记录...');
     const mergeFailureRows = data.songs
-      .filter((song) => !song.sources?.dxdata || !song.sources?.divingFish)
+      .filter((song) => !song.sources?.dxdata && !song.sources?.divingFish)
       .map((song) => {
         const missingSources = [];
         if (!song.sources?.dxdata) missingSources.push('dxdata');
@@ -269,7 +269,7 @@ async function main() {
     console.log('  3. statistics.csv - 数据覆盖统计');
     console.log('  4. missing-designers.csv - 缺失谱师的谱面');
     console.log('  5. source-coverage.csv - 数据源覆盖详情');
-    console.log('  6. merge-failures.csv - 合并失败记录');
+    console.log('  6. merge-failures.csv - 合并失败记录（双源都缺失）');
   } catch (error) {
     console.error('导出失败:', error.message);
     process.exit(1);
