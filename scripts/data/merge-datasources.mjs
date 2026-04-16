@@ -436,11 +436,28 @@ async function main() {
     const result = {
       metadata: {
         version: '1.0.0',
-        timestamp: new Date().toISOString(),
+        mergedAt: new Date().toISOString(),
         totalSongs: mergedSongs.length,
         dxdataMatches,
         divingFishMatches,
         description: '混合数据源：maichart(ID) + dxdata(谱面) + diving-fish(谱师)',
+        sources: {
+          maichart: {
+            status: 'healthy',
+            lastFetchTime: new Date().toISOString(),
+            matchCount: mergedSongs.length,
+          },
+          dxdata: {
+            status: dxdataMatches > 0 ? 'healthy' : 'warning',
+            lastFetchTime: new Date().toISOString(),
+            matchCount: dxdataMatches,
+          },
+          divingFish: {
+            status: divingFishMatches > 0 ? 'healthy' : 'warning',
+            lastFetchTime: new Date().toISOString(),
+            matchCount: divingFishMatches,
+          },
+        },
       },
       songs: mergedSongs,
     };

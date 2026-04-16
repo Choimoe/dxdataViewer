@@ -1,18 +1,21 @@
 <script setup>
+import MergedDataFooter from '@/components/layout/MergedDataFooter.vue';
+import useTheme from '@/composables/useTheme.js';
+
 const { currentTheme, switchTheme } = useTheme();
 
 const pages = [
   {
     title: 'Songs 展示',
-    description: '进入 songs 数据筛选、排序、分页界面',
+    description: '进入 songs 数据筛选、排序、分页界面（支持 diving-fish、dxdata、merged 数据源）',
     path: '/songs',
     cta: '进入 Songs 页面',
   },
   {
-    title: '混合数据源',
-    description: '综合三个数据源（maichart ID + dxdata 谱面 + diving-fish 谱师），填补空缺数据',
-    path: '/merged',
-    cta: '进入混合数据源页面',
+    title: '混合数据源状态',
+    description: '查看混合数据源的详细状态，包括三个数据源的同步情况和统计信息',
+    path: '/status',
+    cta: '查看混合数据源状态',
   },
 ];
 </script>
@@ -59,5 +62,7 @@ const pages = [
         </p>
       </RouterLink>
     </main>
+
+    <MergedDataFooter />
   </div>
 </template>

@@ -1,8 +1,10 @@
 <script setup>
 import { ref } from 'vue';
 import SongsDataTable from '@/components/songs/SongsDataTable.vue';
+import MergedDataFooter from '@/components/layout/MergedDataFooter.vue';
 import useSongsTable, { songsTableColumns } from '@/composables/useSongsTable.js';
 import useExportData from '@/composables/useExportData.js';
+import useTheme from '@/composables/useTheme.js';
 
 const { currentTheme, switchTheme } = useTheme();
 const { exportData } = useExportData();
@@ -359,5 +361,7 @@ async function handleExport() {
         @update:page-size="pageSize = $event"
       />
     </main>
+
+    <MergedDataFooter />
   </div>
 </template>
