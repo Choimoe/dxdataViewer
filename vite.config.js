@@ -36,9 +36,7 @@ export default ({ mode }) => {
       },
     },
     build: {
-      rollupOptions: {
-        external: ['xlsx'],
-      },
+      rollupOptions: {},
     },
   });
 };
