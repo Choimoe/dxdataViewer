@@ -8,6 +8,12 @@ const pages = [
     path: '/songs',
     cta: '进入 Songs 页面',
   },
+  {
+    title: '混合数据源',
+    description: '综合三个数据源（maichart ID + dxdata 谱面 + diving-fish 谱师），填补空缺数据',
+    path: '/merged',
+    cta: '进入混合数据源页面',
+  },
 ];
 </script>
 
