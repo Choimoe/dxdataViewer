@@ -262,7 +262,7 @@ async function handleExport() {
       <section class="mb-4 rounded-xl border border-slate-300 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800/60">
         <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4">
           <label class="flex flex-col gap-1 text-sm">
-            <span>关键字（曲名）</span>
+            <span>曲名</span>
             <input
               v-model.trim="keyword"
               type="text"
@@ -348,7 +348,7 @@ async function handleExport() {
           </label>
 
           <label class="flex flex-col gap-1 text-sm">
-            <span>艺术家（模糊）</span>
+            <span>艺术家</span>
             <input
               v-model.trim="artistKeyword"
               type="text"
@@ -358,7 +358,7 @@ async function handleExport() {
           </label>
 
           <label class="flex flex-col gap-1 text-sm">
-            <span>谱师（模糊）</span>
+            <span>谱师</span>
             <input
               v-model.trim="noteDesignerKeyword"
               type="text"
@@ -390,7 +390,7 @@ async function handleExport() {
 
           <div class="grid grid-cols-2 gap-2">
             <label class="flex flex-col gap-1 text-sm">
-              <span>Break 最小</span>
+              <span>Break 最小值</span>
               <input
                 v-model.number="minBreak"
                 type="number"
@@ -399,7 +399,7 @@ async function handleExport() {
               >
             </label>
             <label class="flex flex-col gap-1 text-sm">
-              <span>Break 最大</span>
+              <span>Break 最大值</span>
               <input
                 v-model.number="maxBreak"
                 type="number"
@@ -450,7 +450,7 @@ async function handleExport() {
             @click="handleExport"
           >
             <span v-if="!isExporting">
-              ⬇ 导出当前筛选 ({{ pagination.total }} 行)
+              导出当前筛选 ({{ pagination.total }} 行)
             </span>
             <span v-else>
               导出中...

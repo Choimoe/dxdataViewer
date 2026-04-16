@@ -6,7 +6,7 @@ const { currentTheme, switchTheme } = useTheme();
 
 const pages = [
   {
-    title: 'Songs 展示',
+    title: '谱面筛选',
     description: '进入 songs 数据筛选、排序、分页界面（支持 diving-fish、dxdata、merged 数据源）',
     path: '/songs',
     cta: '进入 Songs 页面',
