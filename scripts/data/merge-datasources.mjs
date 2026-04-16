@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { MERGE_RULES, SOURCE_PRIORITY, buildFieldMeta, firstNonEmptyValue, getByPath } from './merge-schema.mjs';
 
 const ROOT_DIR = resolve(process.cwd());
 const RAW_DIR = resolve(ROOT_DIR, 'data', 'raw');
@@ -26,6 +27,51 @@ async function readJson(filePath) {
     console.error(`Failed to read ${filePath}:`, error.message);
     return null;
   }
+}
+
+function isMeaningfulValue(value) {
+  if (value === null || value === undefined) {
+    return false;
+  }
+
+  if (Array.isArray(value)) {
+    return value.length > 0;
+  }
+
+  if (typeof value === 'string') {
+    return value.trim() !== '';
+  }
+
+  return true;
+}
+
+function buildFieldRuleMeta(fieldRules, sourceBundle, mergedValues) {
+  const meta = {};
+
+  for (const [fieldName, fieldRule] of Object.entries(fieldRules)) {
+    const sourceValues = {};
+    let selectedSource = null;
+    const candidateValues = [];
+
+    for (const sourceName of SOURCE_PRIORITY) {
+      const sourcePath = fieldRule.sources?.[sourceName];
+      const sourceValue = sourcePath ? getByPath(sourceBundle[sourceName], sourcePath) : undefined;
+      sourceValues[sourceName] = sourceValue;
+      candidateValues.push(sourceValue);
+
+      if (selectedSource === null && isMeaningfulValue(sourceValue)) {
+        selectedSource = sourceName;
+      }
+    }
+
+    const mergedValue = Object.prototype.hasOwnProperty.call(mergedValues, fieldName)
+      ? mergedValues[fieldName]
+      : firstNonEmptyValue(candidateValues);
+
+    meta[fieldName] = buildFieldMeta(fieldRule, sourceValues, mergedValue, selectedSource);
+  }
+
+  return meta;
 }
 
 /**
@@ -193,10 +239,46 @@ function mergeSheetInfo(dxdataSheet, divingFishChart) {
   return merged;
 }
 
+function buildSheetFieldValues(dxdataSheet, divingFishChart, mergedSheet) {
+  const sourceBundle = {
+    dxdata: dxdataSheet,
+    divingFish: divingFishChart,
+    maichart: null,
+  };
+
+  return {
+    mergedValues: {
+      type: mergedSheet.type,
+      difficulty: mergedSheet.difficulty,
+      level: mergedSheet.level,
+      internalLevelValue: mergedSheet.internalLevelValue,
+      noteDesigner: mergedSheet.noteDesigner,
+      noteCounts: mergedSheet.noteCounts,
+      isSpecial: mergedSheet.isSpecial,
+      version: mergedSheet.version,
+      internalId: mergedSheet.internalId,
+      releaseDate: mergedSheet.releaseDate,
+    },
+    sourceBundle,
+  };
+}
+
+function buildRawSourceBundle(maichartId, maichartTitle, dxdataSong, divingFishSong) {
+  return {
+    maichart: {
+      id: maichartId,
+      title: maichartTitle,
+    },
+    dxdata: dxdataSong || null,
+    divingFish: divingFishSong || null,
+  };
+}
+
 /**
  * 合并单个歌曲的所有信息
  */
 function mergeSongData(maichartId, maichartTitle, dxdataSong, divingFishSong) {
+  const rawSources = buildRawSourceBundle(maichartId, maichartTitle, dxdataSong, divingFishSong);
   const merged = {
     id: maichartId,
     title: maichartTitle,
@@ -216,8 +298,23 @@ function mergeSongData(maichartId, maichartTitle, dxdataSong, divingFishSong) {
       divingFish: !!divingFishSong,
       maichart: true,
     },
+    sourceRecords: rawSources,
     searchAcronyms: dxdataSong?.searchAcronyms || [],
   };
+
+  merged.fieldRules = buildFieldRuleMeta(MERGE_RULES.song, rawSources, {
+    id: merged.id,
+    title: merged.title,
+    artist: merged.artist,
+    bpm: merged.bpm,
+    category: merged.category,
+    imageName: merged.imageName,
+    isNew: merged.isNew,
+    isLocked: merged.isLocked,
+    version: merged.version,
+    releaseDate: merged.releaseDate,
+    searchAcronyms: merged.searchAcronyms,
+  });
 
   // 从 dxdata 的 sheets 构建谱面信息
   if (dxdataSong?.sheets && Array.isArray(dxdataSong.sheets)) {
@@ -241,6 +338,12 @@ function mergeSongData(maichartId, maichartTitle, dxdataSong, divingFishSong) {
 
       const mergedSheet = mergeSheetInfo(dxSheetInfo, divingFishChart);
       if (mergedSheet) {
+        const { mergedValues, sourceBundle } = buildSheetFieldValues(dxSheetInfo, divingFishChart, mergedSheet);
+        mergedSheet.sourceRecords = {
+          dxdata: dxSheet,
+          divingFish: divingFishChart,
+        };
+        mergedSheet.fieldRules = buildFieldRuleMeta(MERGE_RULES.sheet, sourceBundle, mergedValues);
         merged.sheets.push(mergedSheet);
       }
     });
@@ -259,6 +362,26 @@ function mergeSongData(maichartId, maichartTitle, dxdataSong, divingFishSong) {
       const sheetInfo = extractDivingFishChartInfo(chart, difficulty, level, ds);
       if (sheetInfo) {
         sheetInfo.type = sheetType;
+        sheetInfo.sourceRecords = {
+          dxdata: null,
+          divingFish: chart,
+        };
+        sheetInfo.fieldRules = buildFieldRuleMeta(MERGE_RULES.sheet, {
+          dxdata: null,
+          divingFish: chart,
+          maichart: null,
+        }, {
+          type: sheetInfo.type,
+          difficulty: sheetInfo.difficulty,
+          level: sheetInfo.level,
+          internalLevelValue: sheetInfo.internalLevelValue,
+          noteDesigner: sheetInfo.noteDesigner,
+          noteCounts: sheetInfo.noteCounts,
+          isSpecial: sheetInfo.isSpecial,
+          version: sheetInfo.version,
+          internalId: sheetInfo.internalId,
+          releaseDate: sheetInfo.releaseDate,
+        });
         merged.sheets.push(sheetInfo);
       }
     });

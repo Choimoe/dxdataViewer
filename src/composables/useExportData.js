@@ -4,6 +4,18 @@
  */
 
 export default function useExportData() {
+  function normalizeExportValue(value) {
+    if (value === null || value === undefined) {
+      return '';
+    }
+
+    if (Array.isArray(value) || typeof value === 'object') {
+      return JSON.stringify(value);
+    }
+
+    return value;
+  }
+
   /**
    * 获取数据的所有键（从第一条记录）
    */
@@ -27,11 +39,7 @@ export default function useExportData() {
    * 转义CSV字段（处理包含逗号、引号、换行的字段）
    */
   function escapeCSVField(field) {
-    if (field === null || field === undefined) {
-      return '';
-    }
-
-    const str = String(field);
+    const str = String(normalizeExportValue(field));
 
     // 如果包含逗号、引号或换行，需要用引号包围
     if (str.includes(',') || str.includes('"') || str.includes('\n')) {
@@ -55,7 +63,7 @@ export default function useExportData() {
     const header = columns.map((col) => escapeCSVField(col)).join(',');
 
     // 创建数据行
-    const rows = data.map((record) => columns.map((col) => escapeCSVField(record[col])).join(','));
+    const rows = data.map((record) => columns.map((col) => escapeCSVField(normalizeExportValue(record[col]))).join(','));
 
     return [header, ...rows].join('\n');
   }
@@ -75,7 +83,7 @@ export default function useExportData() {
 
     // 创建数据行，处理多行值
     const rows = data.map((record) => columns.map((col) => {
-      const value = record[col];
+      const value = normalizeExportValue(record[col]);
       if (value === null || value === undefined) {
         return '';
       }
@@ -95,7 +103,8 @@ export default function useExportData() {
     // 尝试动态导入xlsx库
     try {
       // eslint-disable-next-line global-require, import/no-unresolved
-      const XLSX = await import('xlsx');
+      const xlsxModule = await import('xlsx');
+      const XLSX = xlsxModule.default || xlsxModule;
 
       if (!data || data.length === 0) {
         return null;
@@ -106,7 +115,7 @@ export default function useExportData() {
       // 转换数据为工作表格式
       const worksheetData = [
         columns, // 表头
-        ...data.map((record) => columns.map((col) => record[col])),
+        ...data.map((record) => columns.map((col) => normalizeExportValue(record[col]))),
       ];
 
       // 创建工作簿
@@ -180,7 +189,7 @@ export default function useExportData() {
         const columns = getColumns(data);
         const worksheetData = [
           columns,
-          ...data.map((record) => columns.map((col) => record[col])),
+          ...data.map((record) => columns.map((col) => normalizeExportValue(record[col]))),
         ];
 
         const worksheet = XLSX.utils.aoa_to_sheet(worksheetData);

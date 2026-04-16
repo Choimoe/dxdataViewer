@@ -1,11 +1,20 @@
 <script setup>
+import { ref } from 'vue';
 import SongsDataTable from '@/components/songs/SongsDataTable.vue';
 import useMergedSongsData from '@/composables/useMergedSongsData.js';
+import useExportData from '@/composables/useExportData.js';
+import { songsTableColumns } from '@/composables/useSongsTable.js';
 
 const { currentTheme, switchTheme } = useTheme();
+const { exportData } = useExportData();
+
+// 导出相关状态
+const exportFormat = ref('csv');
+const isExporting = ref(false);
 
 const {
   displayedSongs,
+  filteredSongs,
   versionsList,
   keyword,
   difficulty,
@@ -60,6 +69,38 @@ const levelOptions = [
   '6', '7', '8', '9', '9+',
   '10', '10+', '11', '11+', '12', '12+', '13', '13+', '14', '14+', '15', '15+',
 ];
+
+const songsDataTableColumns = songsTableColumns;
+
+/**
+ * 导出当前筛选的结果
+ */
+async function handleExport() {
+  if (pagination.value.total === 0) {
+    // eslint-disable-next-line no-alert
+    alert('没有数据可导出');
+    return;
+  }
+
+  isExporting.value = true;
+  try {
+    const timestamp = new Date().toISOString().slice(0, 10);
+    const filename = `dxdata-songs-${timestamp}`;
+
+    const success = await exportData(filteredSongs.value, exportFormat.value, filename);
+    if (!success && exportFormat.value === 'xlsx') {
+      // eslint-disable-next-line no-alert
+      alert('XLSX 库未安装，请运行: pnpm add xlsx');
+    }
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error('Export error:', error);
+    // eslint-disable-next-line no-alert
+    alert('导出失败');
+  } finally {
+    isExporting.value = false;
+  }
+}
 </script>
 
 <template>
@@ -303,6 +344,46 @@ const levelOptions = [
           </button>
           <span class="text-slate-600 dark:text-slate-300">
             当前结果：{{ pagination.start }} - {{ pagination.end }} / {{ pagination.total }}
+          </span>
+        </div>
+      </section>
+
+      <!-- 导出选项 -->
+      <section class="mb-4 rounded-xl border border-slate-300 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800/60">
+        <div class="flex flex-wrap items-end gap-3">
+          <label class="flex flex-col gap-1 text-sm">
+            <span>导出格式</span>
+            <select
+              v-model="exportFormat"
+              class="rounded-md border border-slate-300 bg-white px-3 py-2 outline-none ring-indigo-500 focus:ring-2 dark:border-slate-600 dark:bg-slate-900"
+            >
+              <option value="csv">
+                CSV (Excel 兼容)
+              </option>
+              <option value="txt">
+                TXT (制表符分隔)
+              </option>
+              <option value="xlsx">
+                XLSX (Excel 格式)
+              </option>
+            </select>
+          </label>
+
+          <button
+            :disabled="isExporting || pagination.total === 0"
+            class="rounded-md border border-indigo-500 bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-600 disabled:border-slate-300 disabled:bg-slate-300 dark:disabled:border-slate-600 dark:disabled:bg-slate-600"
+            @click="handleExport"
+          >
+            <span v-if="!isExporting">
+              ⬇ 导出当前筛选 ({{ pagination.total }} 行)
+            </span>
+            <span v-else>
+              导出中...
+            </span>
+          </button>
+
+          <span class="text-xs text-slate-500 dark:text-slate-400">
+            导出整个筛选结果，不受分页限制
           </span>
         </div>
       </section>

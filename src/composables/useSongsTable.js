@@ -1,5 +1,7 @@
 import { computed, ref, watch } from 'vue';
 // eslint-disable-next-line import/no-unresolved
+import mergedDataRaw from '../../data/raw/merged/merged-data.json?raw';
+// eslint-disable-next-line import/no-unresolved
 import divingFishSongsCsvRaw from '../../data/csv/diving-fish/songs.csv?raw';
 // eslint-disable-next-line import/no-unresolved
 import divingFishVersionsCsvRaw from '../../data/csv/diving-fish/versions.csv?raw';
@@ -88,6 +90,94 @@ function parseSongsCsv(text) {
   });
 }
 
+function parseMergedSongsJson(text) {
+  const parsed = JSON.parse(text);
+  const songs = Array.isArray(parsed?.songs) ? parsed.songs : [];
+
+  return songs.flatMap((song, songIndex) => {
+    const sheets = Array.isArray(song.sheets) ? song.sheets : [];
+
+    if (sheets.length === 0) {
+      return [{
+        _rowId: `${song.id || song.songId || songIndex}-na-na-${songIndex}`,
+        internalId: song.id || song.songId || '',
+        songId: song.id || song.songId || '',
+        title: song.title || '',
+        artist: song.artist || '',
+        sheetType: '',
+        difficulty: '',
+        level: '',
+        internalLevelValue: '',
+        noteDesigner: '',
+        noteBreak: '',
+        category: song.category || '',
+        version: song.version || '',
+        releaseDate: song.releaseDate || '',
+        searchAcronyms: Array.isArray(song.searchAcronyms) ? song.searchAcronyms.join('|') : '',
+        levelNum: 0,
+        internalLevelNum: 0,
+        noteBreakNum: 0,
+        difficultyRank: 999,
+        sourceRecords: song.sourceRecords || {},
+        fieldRules: song.fieldRules || {},
+      }];
+    }
+
+    return sheets.map((sheet, sheetIndex) => {
+      const noteCounts = sheet.noteCounts || {};
+
+      return {
+        _rowId: `${song.id || song.songId || songIndex}-${sheet.type || 'na'}-${sheet.difficulty || 'na'}-${sheetIndex}`,
+        internalId: sheet.internalId || song.id || song.songId || '',
+        songId: song.id || song.songId || '',
+        title: song.title || '',
+        artist: song.artist || '',
+        sheetType: sheet.type || 'dx',
+        difficulty: sheet.difficulty || '',
+        level: sheet.level || '',
+        internalLevelValue: sheet.internalLevelValue || '',
+        noteDesigner: sheet.noteDesigner || '',
+        noteBreak: noteCounts.break ?? '',
+        category: song.category || '',
+        version: sheet.version || song.version || '',
+        releaseDate: sheet.releaseDate || song.releaseDate || '',
+        searchAcronyms: Array.isArray(song.searchAcronyms) ? song.searchAcronyms.join('|') : '',
+        levelNum: Number(sheet.level) || 0,
+        internalLevelNum: Number(sheet.internalLevelValue) || 0,
+        noteBreakNum: Number(noteCounts.break) || 0,
+        difficultyRank: difficultyOrder[sheet.difficulty] || 999,
+        sourceRecords: {
+          song: song.sourceRecords || {},
+          sheet: sheet.sourceRecords || {},
+        },
+        fieldRules: {
+          song: song.fieldRules || {},
+          sheet: sheet.fieldRules || {},
+        },
+      };
+    });
+  });
+}
+
+function parseMergedVersionsOrder(text) {
+  const parsed = JSON.parse(text);
+  const songs = Array.isArray(parsed?.songs) ? parsed.songs : [];
+  const versions = [];
+  const seen = new Set();
+
+  songs.forEach((song) => {
+    const version = song.version || '';
+    if (!version || seen.has(version)) {
+      return;
+    }
+
+    seen.add(version);
+    versions.push(version);
+  });
+
+  return versions;
+}
+
 function parseVersionsOrder(text) {
   const lines = text
     .split(/\r?\n/u)
@@ -151,10 +241,11 @@ function compareValue(song, key) {
 
 export default function useSongsTable() {
   const dataSourceOptions = [
+    { value: 'merged', label: 'Merged' },
     { value: 'diving-fish', label: 'Diving-Fish' },
     { value: 'dxdata', label: 'dxdata' },
   ];
-  const dataSource = ref('diving-fish');
+  const dataSource = ref('merged');
 
   const keyword = ref('');
   const difficulty = ref('');
@@ -177,6 +268,10 @@ export default function useSongsTable() {
   const pageSizeOptions = [25, 50, 100, 200];
 
   const songs = computed(() => {
+    if (dataSource.value === 'merged') {
+      return parseMergedSongsJson(mergedDataRaw);
+    }
+
     if (dataSource.value === 'dxdata') {
       return parseSongsCsv(dxdataSongsCsvRaw);
     }
@@ -185,10 +280,16 @@ export default function useSongsTable() {
   });
 
   const versionOrderMap = computed(() => {
-    const versionsCsvRaw = dataSource.value === 'dxdata'
-      ? dxdataVersionsCsvRaw
-      : divingFishVersionsCsvRaw;
-    const versionOrder = parseVersionsOrder(versionsCsvRaw);
+    let versionOrder;
+
+    if (dataSource.value === 'merged') {
+      versionOrder = parseMergedVersionsOrder(mergedDataRaw);
+    } else if (dataSource.value === 'dxdata') {
+      versionOrder = parseVersionsOrder(dxdataVersionsCsvRaw);
+    } else {
+      versionOrder = parseVersionsOrder(divingFishVersionsCsvRaw);
+    }
+
     return new Map(versionOrder.map((name, idx) => [name, idx]));
   });
 
@@ -384,6 +485,7 @@ export default function useSongsTable() {
     total,
     totalPages,
     pagedSongs,
+    sortedSongs,
     setSort,
     resetFilters,
   };
