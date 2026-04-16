@@ -1,17 +1,10 @@
-import SourceSelector from '@/pages/source-selector.vue';
-import Query from '@/pages/query.vue';
-import Songs from '@/pages/songs.vue';
-import Status from '@/pages/status.vue';
-import Covers from '@/pages/covers.vue';
-import NotFound from '@/pages/not-found.vue';
-
 export const routes = [
-  { path: '/', component: SourceSelector },
-  { path: '/query', component: Query },
-  { path: '/songs', component: Songs },
-  { path: '/status', component: Status },
-  { path: '/covers', component: Covers },
-  { path: '/:path(.*)', component: NotFound },
+  { path: '/', component: () => import('@/pages/source-selector.vue') },
+  { path: '/query', component: () => import('@/pages/query.vue') },
+  { path: '/songs', component: () => import('@/pages/songs.vue') },
+  { path: '/status', component: () => import('@/pages/status.vue') },
+  { path: '/covers', component: () => import('@/pages/covers.vue') },
+  { path: '/:path(.*)', component: () => import('@/pages/not-found.vue') },
 ];
 
 export default routes;
