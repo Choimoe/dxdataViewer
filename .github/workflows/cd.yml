@@ -38,9 +38,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Fetch diving-fish data
-        run: pnpm run data:fetch:diving-fish:relaxed
-
       - name: Build
         env:
           VITE_BASE_PUBLIC_PATH: ${{ secrets.VITE_BASE_PUBLIC_PATH }}
