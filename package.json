@@ -7,6 +7,8 @@
     "data:fetch": "pnpm run data:fetch:diving-fish",
     "data:fetch:diving-fish": "node scripts/data/fetch-diving-fish.mjs",
     "data:fetch:diving-fish:relaxed": "DIVING_FISH_FETCH_RETRIES=8 DIVING_FISH_FETCH_TIMEOUT_MS=300000 DIVING_FISH_FETCH_BACKOFF_MS=3000 node scripts/data/fetch-diving-fish.mjs",
+    "data:fetch:maichart": "node scripts/data/fetch-maichart.mjs",
+    "data:fetch:maichart:relaxed": "MAICHART_FETCH_RETRIES=8 MAICHART_FETCH_TIMEOUT_MS=300000 MAICHART_FETCH_BACKOFF_MS=3000 node scripts/data/fetch-maichart.mjs",
     "data:schedule:diving-fish": "node scripts/data/schedule-diving-fish.mjs",
     "data:fetch:dxdata": "node scripts/data/fetch-dxdata.mjs",
     "data:fetch:dxdata:relaxed": "DXDATA_FETCH_RETRIES=10 DXDATA_FETCH_TIMEOUT_MS=900000 DXDATA_FETCH_BACKOFF_MS=3000 node scripts/data/fetch-dxdata.mjs",

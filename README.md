@@ -61,6 +61,38 @@ data/
       versions.csv
 ```
 
+### Maichart Mapping
+
+Fetch the Maichart song id mapping and save it as raw JSON for fallback lookup:
+
+```sh
+pnpm run data:fetch:maichart
+```
+
+For slow or unstable network, use relaxed mode:
+
+```sh
+pnpm run data:fetch:maichart:relaxed
+```
+
+Optional environment variables:
+
+- `MAICHART_FETCH_RETRIES` (default `5`)
+- `MAICHART_FETCH_TIMEOUT_MS` (default `180000`)
+- `MAICHART_FETCH_BACKOFF_MS` (default `2000`)
+- `MAICHART_USE_CURL_FALLBACK` (`1` or `0`, default `1`)
+- `MAICHART_SKIP_DOWNLOAD` (`1` to reuse local `data/raw/maichart/index.json`)
+- `MAICHART_ALLOW_STALE_JSON` (`1` or `0`, default `1`)
+
+Generated structure:
+
+```text
+data/
+  raw/
+    maichart/
+      index.json
+```
+
 ### dxdata
 
 Fetch the `dxdata` source and generate local files for frontend table rendering:

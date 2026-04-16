@@ -54,11 +54,14 @@ jobs:
           DXDATA_ALLOW_STALE_JSON: '1'
         run: pnpm run data:fetch:dxdata
 
+      - name: Fetch maichart mapping
+        run: pnpm run data:fetch:maichart:relaxed
+
       - name: Commit and push when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw/diving-fish data/csv/diving-fish data/raw/dxdata data/csv/dxdata
+          git add data/raw/diving-fish data/csv/diving-fish data/raw/dxdata data/csv/dxdata data/raw/maichart
 
           if git diff --cached --quiet; then
             echo "No data changes to commit."
