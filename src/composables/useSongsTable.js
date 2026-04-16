@@ -1,8 +1,12 @@
 import { computed, ref, watch } from 'vue';
 // eslint-disable-next-line import/no-unresolved
-import songsCsvRaw from '../../data/csv/dxdata/songs.csv?raw';
+import divingFishSongsCsvRaw from '../../data/csv/diving-fish/songs.csv?raw';
 // eslint-disable-next-line import/no-unresolved
-import versionsCsvRaw from '../../data/csv/dxdata/versions.csv?raw';
+import divingFishVersionsCsvRaw from '../../data/csv/diving-fish/versions.csv?raw';
+// eslint-disable-next-line import/no-unresolved
+import dxdataSongsCsvRaw from '../../data/csv/dxdata/songs.csv?raw';
+// eslint-disable-next-line import/no-unresolved
+import dxdataVersionsCsvRaw from '../../data/csv/dxdata/versions.csv?raw';
 
 const difficultyOrder = {
   basic: 1,
@@ -146,6 +150,12 @@ function compareValue(song, key) {
 }
 
 export default function useSongsTable() {
+  const dataSourceOptions = [
+    { value: 'diving-fish', label: 'Diving-Fish' },
+    { value: 'dxdata', label: 'dxdata' },
+  ];
+  const dataSource = ref('diving-fish');
+
   const keyword = ref('');
   const difficulty = ref('');
   const level = ref('');
@@ -166,9 +176,21 @@ export default function useSongsTable() {
   const pageSize = ref(25);
   const pageSizeOptions = [25, 50, 100, 200];
 
-  const songs = computed(() => parseSongsCsv(songsCsvRaw));
-  const versionOrder = parseVersionsOrder(versionsCsvRaw);
-  const versionOrderMap = new Map(versionOrder.map((name, idx) => [name, idx]));
+  const songs = computed(() => {
+    if (dataSource.value === 'dxdata') {
+      return parseSongsCsv(dxdataSongsCsvRaw);
+    }
+
+    return parseSongsCsv(divingFishSongsCsvRaw);
+  });
+
+  const versionOrderMap = computed(() => {
+    const versionsCsvRaw = dataSource.value === 'dxdata'
+      ? dxdataVersionsCsvRaw
+      : divingFishVersionsCsvRaw;
+    const versionOrder = parseVersionsOrder(versionsCsvRaw);
+    return new Map(versionOrder.map((name, idx) => [name, idx]));
+  });
 
   const difficultyOptions = computed(() => [...new Set(songs.value.map((song) => song.difficulty).filter(Boolean))]);
   const levelOptions = computed(() => {
@@ -189,8 +211,8 @@ export default function useSongsTable() {
     const versions = [...new Set(songs.value.map((song) => song.version).filter(Boolean))];
 
     return versions.sort((a, b) => {
-      const left = versionOrderMap.has(a) ? versionOrderMap.get(a) : Number.POSITIVE_INFINITY;
-      const right = versionOrderMap.has(b) ? versionOrderMap.get(b) : Number.POSITIVE_INFINITY;
+      const left = versionOrderMap.value.has(a) ? versionOrderMap.value.get(a) : Number.POSITIVE_INFINITY;
+      const right = versionOrderMap.value.has(b) ? versionOrderMap.value.get(b) : Number.POSITIVE_INFINITY;
 
       if (left !== right) {
         return left - right;
@@ -307,6 +329,7 @@ export default function useSongsTable() {
   }
 
   watch([
+    dataSource,
     keyword,
     difficulty,
     level,
@@ -334,6 +357,8 @@ export default function useSongsTable() {
   });
 
   return {
+    dataSource,
+    dataSourceOptions,
     keyword,
     difficulty,
     level,

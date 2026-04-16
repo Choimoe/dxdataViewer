@@ -5,6 +5,8 @@ import useSongsTable, { songsTableColumns } from '@/composables/useSongsTable.js
 const { currentTheme, switchTheme } = useTheme();
 
 const {
+  dataSource,
+  dataSourceOptions,
   keyword,
   difficulty,
   level,
@@ -69,6 +71,22 @@ const {
     <main class="mx-auto w-full max-w-7xl px-4 py-6 md:px-6">
       <section class="mb-4 rounded-xl border border-slate-300 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800/60">
         <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4">
+          <label class="flex flex-col gap-1 text-sm">
+            <span>数据源</span>
+            <select
+              v-model="dataSource"
+              class="rounded-md border border-slate-300 bg-white px-3 py-2 outline-none ring-indigo-500 focus:ring-2 dark:border-slate-600 dark:bg-slate-900"
+            >
+              <option
+                v-for="item in dataSourceOptions"
+                :key="item.value"
+                :value="item.value"
+              >
+                {{ item.label }}
+              </option>
+            </select>
+          </label>
+
           <label class="flex flex-col gap-1 text-sm">
             <span>关键字（曲名）</span>
             <input
