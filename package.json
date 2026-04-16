@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.1.0",
   "scripts": {
+    "prebuild": "pnpm run data:merge",
     "build": "vite build",
     "data:fetch": "pnpm run data:fetch:diving-fish",
     "data:fetch:diving-fish": "node scripts/data/fetch-diving-fish.mjs",
