@@ -114,7 +114,7 @@ async function fetchCoverBlob(songId) {
       throw new Error(`HTTP ${response.status}`);
     }
 
-    return await response.blob();
+    return response.blob();
   } catch (error) {
     const proxyUrl = buildProxyCoverUrl(songId);
     const proxyResponse = await fetch(proxyUrl);
@@ -124,7 +124,7 @@ async function fetchCoverBlob(songId) {
       throw new Error(`${baseMessage}; proxy HTTP ${proxyResponse.status}`);
     }
 
-    return await proxyResponse.blob();
+    return proxyResponse.blob();
   }
 }
 
