@@ -41,7 +41,18 @@ jobs:
       - name: Build
         env:
           VITE_BASE_PUBLIC_PATH: ${{ secrets.VITE_BASE_PUBLIC_PATH }}
-        run: pnpm run build
+        run: |
+          echo "Building with VITE_BASE_PUBLIC_PATH=${VITE_BASE_PUBLIC_PATH:-/dxdataViewer/}"
+          pnpm run build
+          echo "Build completed. Contents of dist:"
+          ls -la dist/ | head -n 20
+
+      - name: Configure SPA 404 fallback
+        run: |
+          if [ -f dist/index.html ]; then
+            cp dist/index.html dist/404.html
+            echo "Created SPA 404 fallback"
+          fi
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
