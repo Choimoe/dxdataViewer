@@ -1,1 +1,0 @@
-import{a as e}from"./index-yArX22kk.js";import{o as t,f as o,g as s}from"./vue-Dak8qlbF.js";const n={},c={class:"flex h-screen items-center justify-center"},r=s("h1",{class:"text-3xl font-bold leading-tight text-gray-900 dark:text-gray-100"}," Page not Found ",-1),a=[r];function _(d,f){return t(),o("header",c,a)}const h=e(n,[["render",_]]);export{h as default};
