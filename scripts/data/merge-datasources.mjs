@@ -29,36 +29,38 @@ function normalizeId(value) {
   return String(value).trim();
 }
 
-function extractDxratingInternalId(dxdataSong) {
+function extractDxratingInternalIds(dxdataSong) {
   if (!dxdataSong) {
-    return '';
+    return [];
   }
+
+  const internalIds = new Set();
 
   const directInternalId = normalizeId(dxdataSong.internalId);
   if (directInternalId) {
-    return directInternalId;
+    internalIds.add(directInternalId);
   }
 
   if (!Array.isArray(dxdataSong.sheets)) {
-    return '';
+    return Array.from(internalIds);
   }
 
   for (const sheet of dxdataSong.sheets) {
     const sheetInternalId = normalizeId(sheet?.internalId);
     if (sheetInternalId) {
-      return sheetInternalId;
+      internalIds.add(sheetInternalId);
     }
   }
 
-  return '';
+  return Array.from(internalIds);
 }
 
 function resolveSongId(maichartId, dxdataSong, divingFishSong) {
-  const dxratingId = extractDxratingInternalId(dxdataSong);
+  const dxratingIds = extractDxratingInternalIds(dxdataSong);
   const maichartSongId = normalizeId(maichartId);
   const divingFishId = normalizeId(divingFishSong?.id);
 
-  return maichartSongId || dxratingId || divingFishId;
+  return maichartSongId || dxratingIds[0] || divingFishId;
 }
 
 async function readJson(filePath) {
@@ -192,12 +194,12 @@ function buildDxdataIndex(dxdata) {
     dxdata.songs.forEach((song) => {
       const id = song.id || song.songId;
       const title = song.title || song.name;
-      const internalId = extractDxratingInternalId(song);
+      const internalIds = extractDxratingInternalIds(song);
 
       if (id) {
         indexById.set(String(id), song);
       }
-      if (internalId) {
+      for (const internalId of internalIds) {
         indexByInternalId.set(internalId, song);
       }
       if (title) {
@@ -245,6 +247,65 @@ function buildDivingFishIndex(divingFish) {
     indexByTitleExact,
     indexByTitleCompact,
   };
+}
+
+function normalizeDivingFishSongType(type) {
+  const normalized = String(type || '').trim().toUpperCase();
+
+  if (normalized === 'SD') {
+    return 'std';
+  }
+
+  if (normalized === 'DX') {
+    return 'dx';
+  }
+
+  return '';
+}
+
+function findDivingFishChartForSheet(dxdataSheet, divingFishSong) {
+  if (!dxdataSheet || !divingFishSong || !Array.isArray(divingFishSong.charts)) {
+    return null;
+  }
+
+  const expectedType = normalizeDivingFishSongType(divingFishSong.type);
+  if (!expectedType) {
+    return null;
+  }
+
+  const sheetType = String(dxdataSheet.type || '').trim().toLowerCase();
+  if (sheetType !== expectedType) {
+    return null;
+  }
+
+  const difficultyOrder = ['basic', 'advanced', 'expert', 'master', 'remaster'];
+  const chartIndex = difficultyOrder.indexOf(String(dxdataSheet.difficulty || '').trim().toLowerCase());
+  if (chartIndex < 0) {
+    return null;
+  }
+
+  const chart = divingFishSong.charts[chartIndex];
+  if (!chart) {
+    return null;
+  }
+
+  const level = divingFishSong.level?.[chartIndex];
+  const ds = divingFishSong.ds?.[chartIndex];
+  return extractDivingFishChartInfo(chart, dxdataSheet.difficulty, level, ds);
+}
+
+function filterDxdataSheetsForSong(dxdataSong, songId) {
+  if (!dxdataSong?.sheets || !Array.isArray(dxdataSong.sheets)) {
+    return [];
+  }
+
+  const normalizedSongId = normalizeId(songId);
+  if (!normalizedSongId) {
+    return dxdataSong.sheets;
+  }
+
+  const matchedSheets = dxdataSong.sheets.filter((sheet) => normalizeId(sheet?.internalId) === normalizedSongId);
+  return matchedSheets.length > 0 ? matchedSheets : dxdataSong.sheets;
 }
 
 function findSongByTitle(title, indexByTitleExact, indexByTitleCompact) {
@@ -430,24 +491,14 @@ function mergeSongData(maichartId, maichartTitle, dxdataSong, divingFishSong) {
   });
 
   // 从 dxdata 的 sheets 构建谱面信息
-  if (dxdataSong?.sheets && Array.isArray(dxdataSong.sheets)) {
-    const difficulties = ['basic', 'advanced', 'expert', 'master', 'remaster'];
-
-    dxdataSong.sheets.forEach((dxSheet) => {
+  const dxdataSheets = filterDxdataSheetsForSong(dxdataSong, resolvedSongId);
+  if (dxdataSheets.length > 0) {
+    dxdataSheets.forEach((dxSheet) => {
       const difficulty = dxSheet.difficulty || '';
       const dxSheetInfo = extractSheetInfo(dxSheet, difficulty);
 
       // 查找对应的 diving-fish chart 来补充谱师信息
-      let divingFishChart = null;
-      if (divingFishSong?.charts && Array.isArray(divingFishSong.charts)) {
-        const chartIndex = difficulties.indexOf(difficulty);
-        if (chartIndex >= 0 && divingFishSong.charts[chartIndex]) {
-          const chart = divingFishSong.charts[chartIndex];
-          const level = divingFishSong.level?.[chartIndex];
-          const ds = divingFishSong.ds?.[chartIndex];
-          divingFishChart = extractDivingFishChartInfo(chart, difficulty, level, ds);
-        }
-      }
+      const divingFishChart = findDivingFishChartForSheet(dxSheet, divingFishSong);
 
       const mergedSheet = mergeSheetInfo(dxSheetInfo, divingFishChart);
       if (mergedSheet) {
