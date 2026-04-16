@@ -1,10 +1,12 @@
-import Index from '@/pages/index.vue';
+import SourceSelector from '@/pages/source-selector.vue';
+import Query from '@/pages/query.vue';
 import Songs from '@/pages/songs.vue';
 import Status from '@/pages/status.vue';
 import NotFound from '@/pages/not-found.vue';
 
 export const routes = [
-  { path: '/', component: Index },
+  { path: '/', component: SourceSelector },
+  { path: '/query', component: Query },
   { path: '/songs', component: Songs },
   { path: '/status', component: Status },
   { path: '/:path(.*)', component: NotFound },
