@@ -71,6 +71,7 @@
     "watchSyncEffect": true,
     "songsTableColumns": true,
     "useSongsTable": true,
-    "useMergedSongsData": true
+    "useMergedSongsData": true,
+    "useExportData": true
   }
 }

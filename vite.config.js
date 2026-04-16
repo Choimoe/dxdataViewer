@@ -35,5 +35,10 @@ export default ({ mode }) => {
         '@': resolve(__dirname, 'src'),
       },
     },
+    build: {
+      rollupOptions: {
+        external: ['xlsx'],
+      },
+    },
   });
 };
