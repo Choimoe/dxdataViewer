@@ -19,10 +19,11 @@ const mergeStatus = ref({
 onMounted(async () => {
   try {
     // Try different paths for dev and prod
+    const basePath = import.meta.env.VITE_BASE_PUBLIC_PATH || '/dxdataViewer/';
     const paths = [
+      `${basePath.replace(/\/$/, '')}/data/raw/merged/merged-data.json`,
       '/data/raw/merged/merged-data.json',
       './data/raw/merged/merged-data.json',
-      '../data/raw/merged/merged-data.json',
     ];
 
     // Try all paths in parallel using Promise.allSettled
