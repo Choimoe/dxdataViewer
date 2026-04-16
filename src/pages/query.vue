@@ -563,11 +563,18 @@ const sourceNames = {
       <section class="rounded-xl border border-slate-300 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-800/60">
         <SongsDataTable
           v-if="displayedSongs.length > 0"
-          :songs="displayedSongs"
+          :rows="displayedSongs"
           :columns="songsTableColumns"
           :sort-key="sortKey"
           :sort-direction="sortDirection"
-          @sort="setSort"
+          :page="pagination.currentPage"
+          :page-size="pageSize"
+          :page-size-options="pageSizeOptions"
+          :total-pages="pagination.totalPages"
+          :total="pagination.total"
+          @set-sort="setSort"
+          @update:page="page = $event"
+          @update:page-size="pageSize = $event"
         />
         <div
           v-else
