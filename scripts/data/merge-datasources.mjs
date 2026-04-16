@@ -14,10 +14,49 @@ const OUTPUT_PATH = resolve(OUTPUT_DIR, 'merged-data.json');
 /**
  * 合并混合数据源
  * 优先级：
- * 1. maichart 的 ID：最准， 用作主键
+ * 1. dxrating(dxdata) 的 ID：优先作为主键
+ * 2. 若 dxrating 缺失，则回退 maichart 的 ID
+ * 3. 若 dxrating 与 maichart 不一致，且有 diving-fish，则按三源“多数值”决策
  * 2. dxdata：谱面数据最全，谱面详情和难度信息来自这里
  * 3. diving-fish：数据准确但不全，用于填补谱师等空缺信息
  */
+
+function normalizeId(value) {
+  if (value === null || value === undefined) {
+    return '';
+  }
+
+  return String(value).trim();
+}
+
+function resolveSongId(maichartId, dxdataSong, divingFishSong) {
+  const dxratingId = normalizeId(dxdataSong?.id || dxdataSong?.songId);
+  const maichartSongId = normalizeId(maichartId);
+  const divingFishId = normalizeId(divingFishSong?.id);
+
+  if (dxratingId && maichartSongId && dxratingId !== maichartSongId) {
+    const idCounts = new Map();
+
+    [dxratingId, maichartSongId, divingFishId]
+      .filter(Boolean)
+      .forEach((id) => {
+        idCounts.set(id, (idCounts.get(id) || 0) + 1);
+      });
+
+    const maxCount = Math.max(...idCounts.values());
+    const majorityIds = Array.from(idCounts.entries())
+      .filter(([, count]) => count === maxCount)
+      .map(([id]) => id);
+
+    if (majorityIds.length === 1) {
+      return majorityIds[0];
+    }
+
+    return dxratingId;
+  }
+
+  return dxratingId || maichartSongId || divingFishId;
+}
 
 async function readJson(filePath) {
   try {
@@ -278,9 +317,10 @@ function buildRawSourceBundle(maichartId, maichartTitle, dxdataSong, divingFishS
  * 合并单个歌曲的所有信息
  */
 function mergeSongData(maichartId, maichartTitle, dxdataSong, divingFishSong) {
+  const resolvedSongId = resolveSongId(maichartId, dxdataSong, divingFishSong);
   const rawSources = buildRawSourceBundle(maichartId, maichartTitle, dxdataSong, divingFishSong);
   const merged = {
-    id: maichartId,
+    id: resolvedSongId,
     title: maichartTitle,
     titleDxdata: dxdataSong?.title || dxdataSong?.name || '',
     titleDivingFish: divingFishSong?.title || '',

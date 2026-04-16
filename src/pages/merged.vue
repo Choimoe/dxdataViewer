@@ -17,14 +17,11 @@ const showAdvancedExport = ref(false);
 const defaultExportColumns = songsTableColumns.map((col) => col.key);
 const selectedExportColumns = ref([...defaultExportColumns]);
 const columnLabelMap = Object.fromEntries(songsTableColumns.map((col) => [col.key, col.label]));
+const hiddenDerivedExportColumns = new Set(['levelNum', 'internalLevelNum', 'noteBreakNum', 'difficultyRank']);
 
 Object.assign(columnLabelMap, {
-  songId: '歌曲ID',
+  songId: 'id',
   searchAcronyms: '搜索别名',
-  levelNum: '等级数值',
-  internalLevelNum: '定数数值',
-  noteBreakNum: 'Break 数值',
-  difficultyRank: '难度排序值',
   sourceRecords: '来源记录',
   fieldRules: '字段规则',
   titleDxdata: '曲名(dxdata)',
@@ -100,6 +97,10 @@ const availableExportColumns = computed(() => {
         allKeys.add(key);
       }
     });
+  });
+
+  hiddenDerivedExportColumns.forEach((key) => {
+    allKeys.delete(key);
   });
 
   const rest = Array.from(allKeys).filter((key) => !defaultExportColumns.includes(key));
