@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router';
 import DataSourceSelector from '@/components/DataSourceSelector.vue';
 import LoadingScreen from '@/components/loading/LoadingScreen.vue';
 import useLazyDataLoader from '@/composables/useLazyDataLoader.js';
+import { clearLoadedSourceData, setLoadedSourceData } from '@/stores/loadedDataStore.js';
 import useTheme from '@/composables/useTheme.js';
 
 const { currentTheme, switchTheme } = useTheme();
@@ -28,9 +29,7 @@ const handleSelectSource = async (sourceKey) => {
 
   // 数据加载完成后跳转到查询页面
   if (data.value && !error.value) {
-    // 使用sessionStorage临时存储加载的数据
-    sessionStorage.setItem('loadedSource', sourceKey);
-    sessionStorage.setItem('sourceData', JSON.stringify(data.value));
+    setLoadedSourceData(sourceKey, data.value);
 
     // 跳转到查询页面
     router.push('/query');
@@ -47,6 +46,7 @@ const errorMessage = computed(() => {
 
 onMounted(() => {
   clearData();
+  clearLoadedSourceData();
 });
 </script>
 

@@ -6,29 +6,28 @@ import { useRouter } from 'vue-router';
 import SongsDataTable from '@/components/songs/SongsDataTable.vue';
 import useSongsDataFromSource from '@/composables/useSongsDataFromSource.js';
 import useExportData from '@/composables/useExportData.js';
+import { useLoadedDataStore } from '@/stores/loadedDataStore.js';
 import useTheme from '@/composables/useTheme.js';
 
 const router = useRouter();
 const { currentTheme, switchTheme } = useTheme();
 const { exportData } = useExportData();
 
-// 从 sessionStorage 加载数据源
+// 从内存 store 加载数据源
 const sourceData = ref(null);
 const loadedSource = ref(null);
 const isLoading = ref(true);
+const { loadedData, loadedSource: activeSource } = useLoadedDataStore();
 
 onMounted(() => {
   try {
-    const source = sessionStorage.getItem('loadedSource');
-    const data = sessionStorage.getItem('sourceData');
-
-    if (!source || !data) {
+    if (!activeSource.value || !loadedData.value) {
       router.push('/');
       return;
     }
 
-    sourceData.value = JSON.parse(data);
-    loadedSource.value = source;
+    sourceData.value = loadedData.value;
+    loadedSource.value = activeSource.value;
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Failed to load source data:', error);
