@@ -14,7 +14,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 25,Sweets×Sweets,✓,✓,✓,4
 27,Love or Lies,✓,✓,✓,4
 29,VICTORY,✓,✗,✓,4
-30,ネコ日和。,✓,✓,✓,8
+30,ネコ日和。,✓,✓,✓,4
 31,虹と太陽,✓,✓,✓,4
 34,Garden,✓,✗,✓,4
 35,炭★坑★節,✓,✓,✓,4
@@ -23,7 +23,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 41,Chu Chu,✓,✗,✓,4
 42,jelly,✓,✓,✓,4
 43,愛を止めないで,✓,✗,✓,4
-44,ハッピーシンセサイザ,✓,✓,✓,8
+44,ハッピーシンセサイザ,✓,✓,✓,4
 45,Choo Choo TRAIN,✓,✗,✓,4
 46,ルカルカ★ナイトフィーバー,✓,✓,✓,4
 47,源平大戦絵巻テーマソング,✓,✓,✓,5
@@ -44,12 +44,12 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 67,パンダヒーロー,✓,✓,✓,4
 68,オレンジの夏,✓,✓,✓,4
 69,BaBan!! －甘い罠－,✓,✓,✓,4
-70,ジングルベル,✓,✓,✓,9
+70,ジングルベル,✓,✓,✓,5
 71,マトリョシカ,✓,✓,✓,5
 73,メグメグ☆ファイアーエンドレスナイト,✓,✓,✓,4
 75,天国と地獄,✓,✓,✓,4
 76,きみのためなら死ねる,✓,✓,✓,4
-77,怪盗Rのテーマ,✓,✓,✓,8
+77,怪盗Rのテーマ,✓,✓,✓,4
 78,マリアをはげませ,✓,✓,✓,4
 79,SHOW TIME,✓,✓,✓,4
 80,City Escape: Act1,✓,✓,✓,5
@@ -61,29 +61,29 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 100,Tell Your World,✓,✓,✓,5
 101,おちゃめ機能,✓,✓,✓,4
 102,ダンシング☆サムライ,✓,✓,✓,4
-106,BAD∞END∞NIGHT,✓,✓,✓,8
+106,BAD∞END∞NIGHT,✓,✓,✓,4
 107,ロミオとシンデレラ,✓,✓,✓,5
 108,Sweetiex2,✓,✓,✓,4
 109,腐れ外道とチョコレゐト,✓,✓,✓,4
 110,Quartet Theme [Reborn],✓,✓,✓,4
 111,Sky High [Reborn],✓,✓,✓,5
 112,Like the Wind [Reborn],✓,✓,✓,4
-113,YA･DA･YO [Reborn],✓,✓,✓,5
+113,YA･DA･YO [Reborn],✓,✓,✓,4
 114,Space Harrier Main Theme [Reborn],✓,✓,✓,4
 115,DADDY MULK -Groove remix-,✓,✓,✓,5
 116,ぴぴぱぷぅ！,✓,✓,✓,4
-117,炎歌 -ほむらうた-,✓,✓,✓,8
+117,炎歌 -ほむらうた-,✓,✓,✓,4
 118,犬日和。,✓,✓,✓,4
 119,ソーラン☆節,✓,✓,✓,4
 120,デコボコ体操第二,✓,✓,✓,4
 121,スイートマジック,✓,✓,✓,4
-122,ゴーゴー幽霊船,✓,✓,✓,8
-125,千本桜,✓,✗,✓,8
+122,ゴーゴー幽霊船,✓,✓,✓,4
+125,千本桜,✓,✗,✓,4
 126,つけまつける,✓,✗,✓,4
 127,Get Off of My Way,✓,✗,✓,4
-128,御旗のもとに,✓,✓,✓,8
+128,御旗のもとに,✓,✓,✓,4
 130,FEEL ALIVE,✓,✓,✓,4
-131,Link,✓,✓,✓,5
+131,Link,✓,✓,✓,1
 132,Turn around,✓,✓,✓,4
 133,We Gonna Party,✓,✓,✓,5
 134,Night Fly,✓,✓,✓,5
@@ -97,8 +97,8 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 142,Black Out,✓,✓,✓,4
 143,Fragrance,✓,✓,✓,5
 144,air's gravity,✓,✓,✓,5
-145,Starlight Disco,✓,✓,✓,9
-146,39,✓,✓,✓,9
+145,Starlight Disco,✓,✓,✓,5
+146,39,✓,✓,✓,5
 147,地上の戦士,✓,✓,✓,4
 148,サブリナ,✓,✗,✓,4
 149,SPELL MAGIC,✓,✗,✓,4
@@ -119,26 +119,26 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 173,サラバ、愛しき悲しみたちよ,✓,✗,✓,4
 174,創聖のアクエリオン,✓,✗,✓,4
 176,Butter-Fly,✓,✗,✓,4
-181,君の知らない物語,✓,✗,✓,8
+181,君の知らない物語,✓,✗,✓,4
 182,残酷な天使のテーゼ,✓,✗,✓,4
 184,I ♥,✓,✓,✓,4
-185,＊ハロー、プラネット。,✓,✓,✓,8
+185,＊ハロー、プラネット。,✓,✓,✓,4
 186,イアイア★ナイトオブデザイア,✓,✓,✓,4
-187,ローリンガール,✓,✓,✓,8
-188,天ノ弱,✓,✓,✓,8
+187,ローリンガール,✓,✓,✓,4
+188,天ノ弱,✓,✓,✓,4
 189,弱虫モンブラン,✓,✓,✓,4
-190,モザイクロール,✓,✓,✓,8
-191,脳漿炸裂ガール,✓,✓,✓,8
+190,モザイクロール,✓,✓,✓,4
+191,脳漿炸裂ガール,✓,✓,✓,4
 192,SPiCa,✓,✗,✓,4
-193,セツナトリップ,✓,✓,✓,8
+193,セツナトリップ,✓,✓,✓,4
 194,放課後ストライド,✓,✓,✓,4
 198,カゲロウデイズ,✓,✓,✓,5
-199,チルノのパーフェクトさんすう教室,✓,✓,✓,8
+199,チルノのパーフェクトさんすう教室,✓,✓,✓,4
 200,Bad Apple!! feat.nomico,✓,✓,✓,5
-201,魔理沙は大変なものを盗んでいきました,✓,✓,✓,8
-202,Grip & Break down !!,✓,✓,✓,8
+201,魔理沙は大変なものを盗んでいきました,✓,✓,✓,4
+202,Grip & Break down !!,✓,✓,✓,4
 203,"Help me, ERINNNNNN!!（Band ver.）",✓,✓,✓,4
-204,ナイト・オブ・ナイツ,✓,✓,✓,9
+204,ナイト・オブ・ナイツ,✓,✓,✓,5
 205,全人類ノ非想天則,✓,✓,✓,4
 206,しゅわスパ大作戦☆,✓,✓,✓,4
 207,時空を超えて久しぶり！,✓,✓,✓,4
@@ -154,7 +154,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 220,セガサターン起動音[H.][Remix],✓,✓,✓,4
 223,夜咄ディセイブ,✓,✓,✓,4
 224,ウサテイ,✓,✓,✓,4
-225,sweet little sister,✓,✓,✓,8
+225,sweet little sister,✓,✓,✓,4
 226,Blew Moon,✓,✓,✓,5
 227,Garakuta Doll Play,✓,✓,✓,5
 228,Dreampainter,✓,✓,✓,4
@@ -164,24 +164,24 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 232,Life Feels Good,✓,✓,✓,4
 233,MYTHOS,✓,✓,✓,4
 234,End of Twilight,✓,✓,✓,4
-235,火炎地獄,✓,✓,✓,8
+235,火炎地獄,✓,✓,✓,4
 236,ユビキリ,✓,✓,✓,4
 237,Pixel Voyage,✓,✓,✓,4
 238,Get Happy,✓,✓,✓,4
 239,System “Z”,✓,✓,✓,5
 240,Beat of getting entangled,✓,✓,✓,5
 241,Cosmic Train,✓,✓,✓,4
-242,ナミダと流星,✓,✓,✓,8
+242,ナミダと流星,✓,✓,✓,4
 244,おても☆Yan,✓,✓,✓,4
 246,maiム・maiム feat.週刊少年マガジン,✓,✓,✓,4
 247,Danza zandA,✓,✓,✓,5
 248,Backyun! －悪い女－,✓,✓,✓,5
-251,Monochrome Rainbow,✓,✓,✓,8
+251,Monochrome Rainbow,✓,✓,✓,4
 252,みんなのマイマイマー,✓,✓,✓,5
 253,円舞曲、君に,✓,✓,✓,4
 254,Live & Learn,✓,✓,✓,4
 255,Burning Hearts ～炎のANGEL～,✓,✓,✓,5
-256,いーあるふぁんくらぶ,✓,✓,✓,9
+256,いーあるふぁんくらぶ,✓,✓,✓,5
 258,Nyan Cat EX,✓,✓,✓,4
 259,ぽっぴっぽー,✓,✓,✓,4
 260,LUCIA,✓,✓,✓,5
@@ -205,7 +205,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 283,ネトゲ廃人シュプレヒコール,✓,✓,✓,4
 284,むかしむかしのきょうのぼく,✓,✗,✓,4
 285,magician's operation,✓,✓,✓,4
-288,六兆年と一夜物語,✓,✓,✓,8
+288,六兆年と一夜物語,✓,✓,✓,4
 289,みくみくにしてあげる♪【してやんよ】,✓,✓,✓,4
 290,リリリリ★バーニングナイト,✓,✓,✓,4
 291,ハロ／ハワユ,✓,✓,✓,4
@@ -216,9 +216,9 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 298,お嫁にしなさいっ！,✓,✓,✓,4
 299,ロストワンの号哭,✓,✓,✓,5
 300,Sweet Devil,✓,✗,✓,4
-301,患部で止まってすぐ溶ける～狂気の優曇華院,✓,✓,✓,9
-302,ケロ⑨destiny,✓,✓,✓,8
-303,"Endless, Sleepless Night",✓,✓,✓,8
+301,患部で止まってすぐ溶ける～狂気の優曇華院,✓,✓,✓,5
+302,ケロ⑨destiny,✓,✓,✓,4
+303,"Endless, Sleepless Night",✓,✓,✓,4
 305,POP STAR,✓,✓,✓,4
 308,Back 2 Back,✓,✓,✓,4
 309,神々の祈り,✓,✓,✓,4
@@ -227,10 +227,10 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 312,ってゐ！ ～えいえんてゐVer～,✓,✓,✓,5
 313,待チ人ハ来ズ。,✓,✓,✓,4
 314,Cosmic Magic Shooter,✓,✓,✓,4
-315,深海少女,✓,✓,✓,8
-316,M.S.S.Planet,✓,✓,✓,8
+315,深海少女,✓,✓,✓,4
+316,M.S.S.Planet,✓,✓,✓,4
 318,東方スイーツ！～鬼畜姉妹と受難メイド～,✓,✓,✓,4
-319,幻想のサテライト,✓,✓,✓,8
+319,幻想のサテライト,✓,✓,✓,4
 320,最速最高シャッターガール,✓,✓,✓,4
 321,バラライカ,✓,✓,✓,4
 322,林檎華憐歌,✓,✓,✓,4
@@ -270,18 +270,18 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 359,YU-MU,✓,✓,✓,4
 360,物凄い勢いでけーねが物凄いうた,✓,✓,✓,4
 362,BETTER CHOICE,✓,✓,✓,4
-363,Oshama Scramble!,✗,✓,✓,4
+363,Oshama Scramble!,✓,✓,✓,4
 364,D✪N’T  ST✪P  R✪CKIN’,✓,✓,✓,5
 365,ガラテアの螺旋,✓,✓,✓,5
-366,oboro,✓,✓,✓,8
-367,Dragoon,✓,✓,✓,9
+366,oboro,✓,✓,✓,4
+367,Dragoon,✓,✓,✓,5
 368,シリウス,✓,✗,✓,4
 369,ほとんど違法行為,✓,✗,✓,4
 370,naraku within,✓,✗,✓,4
 371,Stand Up!!!!,✓,✗,✓,4
 372,ファミリーパーティー,✓,✗,✓,4
 374,アンハッピーリフレイン,✓,✓,✓,4
-375,One Step Ahead,✓,✓,✓,8
+375,One Step Ahead,✓,✓,✓,4
 376,L9,✓,✓,✓,4
 377,おいでよ！妖精の森,✓,✗,✓,4
 378,planet dancer,✓,✓,✓,5
@@ -304,14 +304,14 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 401,赤心性：カマトト荒療治,✓,✓,✓,4
 402,ニブンノイチ,✓,✗,✓,4
 403,悪戯,✓,✓,✓,4
-404,響縁,✓,✓,✓,8
+404,響縁,✓,✓,✓,4
 405,カノン,✓,✗,✓,4
 406,オルフェ,✓,✗,✓,4
 407,LOL -lots of laugh-,✓,✗,✓,4
 408,クローバー♣クラブ,✓,✗,✓,4
 409,妄想税,✓,✗,✓,4
 410,どういうことなの！？,✓,✗,✓,4
-411,初音ミクの消失,✓,✓,✓,8
+411,初音ミクの消失,✓,✓,✓,4
 412,イノコリ先生,✓,✓,✓,4
 413,キャプテン・ムラサのケツアンカー,✓,✓,✓,4
 414,若い力 -SEGA HARD GIRLS MIX-,✓,✓,✓,5
@@ -319,9 +319,9 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 417,ウミユリ海底譚,✓,✓,✓,4
 418,welcome to maimai!! with マイマイマー,✓,✓,✓,4
 419,ストリーミングハート,✓,✓,✓,4
-420,Change Our MIRAI！,✓,✓,✓,8
+420,Change Our MIRAI！,✓,✓,✓,4
 421,Aiolos,✓,✓,✓,4
-422,LANCE,✓,✓,✓,8
+422,LANCE,✓,✓,✓,4
 423,SAVIOR OF SONG,✓,✗,✓,4
 424,橙の幻想郷音頭,✓,✓,✓,4
 425,東方妖々夢 ～the maximum moving about～,✓,✓,✓,4
@@ -381,7 +381,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 490,Infantoon Fantasy,✓,✓,✓,4
 491,ヘタリアン☆ジェット,✓,✗,✓,4
 492,Jumble Rumble,✓,✓,✓,4
-493,Imitation:Loud Lounge,✓,✓,✓,8
+493,Imitation:Loud Lounge,✓,✓,✓,4
 494,CITRUS MONSTER,✓,✓,✓,4
 495,Hyper Active,✓,✓,✓,4
 496,AMAZING MIGHTYYYY!!!!,✓,✓,✓,5
@@ -423,8 +423,8 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 532,洗脳,✓,✓,✓,5
 533,Barbed Eye,✓,✓,✓,4
 534,Nitrous Fury,✓,✓,✓,4
-535,色は匂へど散りぬるを,✓,✓,✓,8
-536,月に叢雲華に風,✓,✓,✓,8
+535,色は匂へど散りぬるを,✓,✓,✓,4
+536,月に叢雲華に風,✓,✓,✓,4
 537,No Routine,✓,✓,✓,4
 538,ひれ伏せ愚民どもっ！,✓,✓,✓,4
 539,エテルニタス・ルドロジー,✓,✓,✓,4
@@ -438,14 +438,14 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 548,DETARAME ROCK&ROLL THEORY,✓,✓,✓,4
 550,PERFECT HUMAN,✓,✗,✓,4
 551,ファッとして桃源郷,✓,✗,✓,4
-552,ゴーストルール,✓,✓,✓,8
+552,ゴーストルール,✓,✓,✓,4
 553,チュルリラ・チュルリラ・ダッダッダ！,✓,✓,✓,4
 555,GOODMEN,✓,✓,✓,4
 556,夜明けまであと３秒,✓,✓,✓,4
 557,Last Brave ～ Go to zero,✓,✓,✓,4
 558,STAIRWAY TO GENERATION,✓,✓,✓,4
 559,空威張りビヘイビア,✓,✓,✓,4
-560,回レ！雪月花,✓,✗,✓,8
+560,回レ！雪月花,✓,✗,✓,4
 561,いっしそう電☆舞舞神拳！,✓,✓,✓,4
 562,いぇす！ゆゆゆ☆ゆるゆり♪♪,✓,✗,✓,4
 564,ENJOY POLIS,✓,✓,✓,4
@@ -454,9 +454,9 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 567,HERA,✓,✓,✓,4
 568,分からない,✓,✓,✓,4
 571,Our Wrenally,✓,✓,✓,4
-572,Scream out! -maimai SONIC WASHER Edit-,✓,✓,✓,8
+572,Scream out! -maimai SONIC WASHER Edit-,✓,✓,✓,4
 573,四月の雨,✓,✓,✓,4
-574,Selector,✓,✓,✓,8
+574,Selector,✓,✓,✓,4
 575,Star☆Glitter,✓,✗,✓,4
 576,H-A-J-I-M-A-R-I-U-T-A-!!,✓,✗,✓,4
 578,ドキドキDREAM!!!,✓,✓,✓,4
@@ -471,12 +471,12 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 587,白ゆき,✓,✓,✓,4
 589,Panopticon,✓,✓,✓,5
 592,Sakura Fubuki,✓,✓,✓,4
-593,conflict,✓,✓,✓,8
+593,conflict,✓,✓,✓,4
 598,すーぱーぬこになりたい,✓,✓,✓,4
 599,踊れオーケストラ,✓,✓,✓,4
 600,SUSHI食べたい feat.ソイソース,✓,✗,✓,4
 601,きらっせ☆ウッド村ファーム,✓,✓,✓,4
-602,taboo tears you up,✓,✓,✓,8
+602,taboo tears you up,✓,✓,✓,4
 603,その群青が愛しかったようだった,✓,✓,✓,4
 604,Jumping!!,✓,✗,✓,4
 605,7 Girls War,✓,✗,✓,4
@@ -487,14 +487,14 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 612,GO BACK 2 YOUR RAVE,✓,✓,✓,4
 613,天国と地獄 -言ノ葉リンネ-,✓,✓,✓,4
 614,夢花火,✓,✓,✓,4
-615,Paradisus-Paradoxum,✓,✗,✓,8
+615,Paradisus-Paradoxum,✓,✗,✓,4
 617,オトヒメモリー☆ウタゲーション,✓,✓,✓,4
 618,ラブチーノ,✓,✓,✓,4
 620,東京レトロ,✓,✗,✓,4
 621,ARROW,✓,✓,✓,4
-622,バッド・ダンス・ホール,✓,✓,✓,8
+622,バッド・ダンス・ホール,✓,✓,✓,4
 624,KISS CANDY FLAVOR,✓,✓,✓,4
-625,Maxi,✓,✓,✓,8
+625,Maxi,✓,✓,✓,4
 626,相思創愛,✓,✓,✓,4
 627,心象蜃気楼,✓,✓,✓,4
 628,光線チューニング,✓,✓,✓,4
@@ -507,7 +507,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 637,ないせんのうた,✓,✓,✓,4
 639,Starlight Dance Floor,✓,✓,✓,4
 640,妖精村の月誕祭 ～Lunate Elf,✓,✓,✓,4
-641,Calamity Fortune,✓,✓,✓,8
+641,Calamity Fortune,✓,✓,✓,4
 642,Justified,✓,✓,✓,4
 643,Excalibur ～Revived resolution～,✓,✓,✓,4
 645,ホシトハナ,✓,✗,✓,4
@@ -526,14 +526,14 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 662,Sunshine world tour,✓,✗,✓,4
 663,ちがう!!!,✓,✗,✓,4
 664,Moon of Noon,✓,✓,✓,4
-665,チルノのパーフェクトさんすう教室　⑨周年バージョン,✓,✓,✓,8
+665,チルノのパーフェクトさんすう教室　⑨周年バージョン,✓,✓,✓,4
 666,デスパレイト,✓,✓,✓,4
-668,ようこそジャパリパークへ,✓,✗,✓,9
+668,ようこそジャパリパークへ,✓,✗,✓,5
 669,あ・え・い・う・え・お・あお!!,✓,✗,✓,4
 670,ドーナツホール,✓,✓,✓,4
 672,MilK,✓,✓,✓,4
 673,咲キ誇レ常世ノ華,✓,✓,✓,4
-674,Magical Flavor,✓,✓,✓,8
+674,Magical Flavor,✓,✓,✓,4
 675,白い雪のプリンセスは,✓,✗,✓,4
 676,好き！雪！本気マジック,✓,✗,✓,4
 677,スターナイトスノウ,✓,✗,✓,4
@@ -547,7 +547,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 687,共感覚おばけ,✓,✓,✓,4
 688,麒麟,✓,✓,✓,4
 689,Credits,✓,✓,✓,4
-690,ダンスロボットダンス,✓,✓,✓,8
+690,ダンスロボットダンス,✓,✓,✓,4
 691,アルカリレットウセイ,✓,✓,✓,4
 692,ドクハク,✓,✓,✓,4
 693,キレキャリオン,✓,✓,✓,4
@@ -556,13 +556,13 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 696,Still,✓,✓,✓,4
 697,ガヴリールドロップキック,✓,✗,✓,4
 698,fantastic dreamer,✓,✗,✓,4
-699,天狗の落とし文 feat. ｙｔｒ,✓,✓,✓,8
+699,天狗の落とし文 feat. ｙｔｒ,✓,✓,✓,4
 700,疾走あんさんぶる,✓,✓,✓,4
 701,Doll Judgment,✓,✓,✓,4
-702,WARNING×WARNING×WARNING,✓,✓,✓,8
+702,WARNING×WARNING×WARNING,✓,✓,✓,4
 704,SPILL OVER COLORS,✓,✓,✓,5
 705,Mare Maris,✓,✓,✓,4
-706,シャルル,✓,✓,✓,8
+706,シャルル,✓,✓,✓,4
 707,フリィダム ロリィタ,✓,✓,✓,4
 708,バレリーコ,✓,✓,✓,4
 709,アウターサイエンス,✓,✓,✓,4
@@ -585,7 +585,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 731,妄想感傷代償連盟,✓,✓,✓,5
 732,LOVE EAST,✓,✓,✓,4
 733,Fist Bump,✓,✓,✓,4
-734,ENERGY SYNERGY MATRIX,✓,✓,✓,8
+734,ENERGY SYNERGY MATRIX,✓,✓,✓,4
 735,Session High⤴,✓,✓,✓,4
 736,World Vanquisher,✓,✓,✓,4
 737,FestivaLight,✓,✓,✓,4
@@ -677,7 +677,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 832,命ばっかり,✓,✓,✓,4
 833,the EmpErroR,✓,✓,✓,5
 834,PANDORA PARADOXXX,✓,✓,✓,5
-835,Believe the Rainbow,✓,✓,✓,8
+835,Believe the Rainbow,✓,✓,✓,4
 836,"Good Bye, Mr. Jack",✓,✓,✓,4
 837,Altale,✓,✓,✓,4
 838,最終鬼畜妹フランドール・S,✓,✓,✓,5
@@ -699,84 +699,84 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 904,とても遠い愛,✗,✗,✓,0
 906,So long,✗,✗,✓,0
 907,飛行履歴,✗,✗,✓,0
-1020,Technicians High,✓,✓,✓,8
-1051,Destr0yer,✓,✓,✓,8
-1081,サンバランド,✓,✓,✓,8
-1085,Halcyon,✓,✓,✓,8
-1103,渦状銀河のシンフォニエッタ,✓,✓,✓,8
+1020,Technicians High,✓,✓,✓,4
+1051,Destr0yer,✓,✓,✓,4
+1081,サンバランド,✓,✓,✓,4
+1085,Halcyon,✓,✓,✓,4
+1103,渦状銀河のシンフォニエッタ,✓,✓,✓,4
 1200,Paranoia,✓,✓,✓,8
-1235,VIIIbit Explorer,✓,✓,✓,8
-1301,華の集落、秋のお届け,✓,✓,✓,8
+1235,VIIIbit Explorer,✓,✓,✓,4
+1301,華の集落、秋のお届け,✓,✓,✓,4
 1327,僕は空気が嫁ない,✓,✓,✓,8
 1736,プリズム△▽リズム,✓,✓,✓,8
 1819,AFTER PANDORA,✓,✗,✓,4
 10021,コネクト,✓,✗,✓,9
-10030,ネコ日和。,✓,✓,✓,8
-10044,ハッピーシンセサイザ,✓,✓,✓,8
-10070,ジングルベル,✓,✓,✓,9
+10030,ネコ日和。,✓,✓,✓,4
+10044,ハッピーシンセサイザ,✓,✓,✓,4
+10070,ジングルベル,✓,✓,✓,4
 10077,怪盗Rのテーマ,✓,✓,✓,8
 10106,BAD∞END∞NIGHT,✓,✓,✓,8
-10117,炎歌 -ほむらうた-,✓,✓,✓,8
-10122,ゴーゴー幽霊船,✓,✓,✓,8
-10125,千本桜,✓,✗,✓,8
-10128,御旗のもとに,✓,✓,✓,8
-10145,Starlight Disco,✓,✓,✓,9
-10146,39,✓,✓,✓,9
-10181,君の知らない物語,✓,✗,✓,8
-10185,＊ハロー、プラネット。,✓,✓,✓,8
+10117,炎歌 -ほむらうた-,✓,✓,✓,4
+10122,ゴーゴー幽霊船,✓,✓,✓,4
+10125,千本桜,✓,✗,✓,4
+10128,御旗のもとに,✓,✓,✓,4
+10145,Starlight Disco,✓,✓,✓,4
+10146,39,✓,✓,✓,4
+10181,君の知らない物語,✓,✗,✓,4
+10185,＊ハロー、プラネット。,✓,✓,✓,4
 10187,ローリンガール,✓,✓,✓,8
-10188,天ノ弱,✓,✓,✓,8
-10190,モザイクロール,✓,✓,✓,8
-10191,脳漿炸裂ガール,✓,✓,✓,8
-10193,セツナトリップ,✓,✓,✓,8
+10188,天ノ弱,✓,✓,✓,4
+10190,モザイクロール,✓,✓,✓,4
+10191,脳漿炸裂ガール,✓,✓,✓,4
+10193,セツナトリップ,✓,✓,✓,4
 10199,チルノのパーフェクトさんすう教室,✗,✗,✓,0
 10201,魔理沙は大変なものを盗んでいきました,✓,✓,✓,8
-10202,Grip & Break down !!,✓,✓,✓,8
-10204,ナイト・オブ・ナイツ,✓,✓,✓,9
-10225,sweet little sister,✓,✓,✓,8
-10235,火炎地獄,✓,✓,✓,8
-10242,ナミダと流星,✓,✓,✓,8
-10251,Monochrome Rainbow,✓,✓,✓,8
-10256,いーあるふぁんくらぶ,✓,✓,✓,9
-10288,六兆年と一夜物語,✓,✓,✓,8
-10301,患部で止まってすぐ溶ける～狂気の優曇華院,✓,✓,✓,9
-10302,ケロ⑨destiny,✓,✓,✓,8
-10303,"Endless, Sleepless Night",✓,✓,✓,8
-10315,深海少女,✓,✓,✓,8
-10316,M.S.S.Planet,✓,✓,✓,8
-10319,幻想のサテライト,✓,✓,✓,8
-10363,Oshama Scramble!,✓,✓,✓,8
-10366,oboro,✓,✓,✓,8
-10367,Dragoon,✓,✓,✓,9
-10375,One Step Ahead,✓,✓,✓,8
-10404,響縁,✓,✓,✓,8
-10411,初音ミクの消失,✓,✓,✓,8
-10420,Change Our MIRAI！,✓,✓,✓,8
-10422,LANCE,✓,✓,✓,8
+10202,Grip & Break down !!,✓,✓,✓,4
+10204,ナイト・オブ・ナイツ,✓,✓,✓,4
+10225,sweet little sister,✓,✓,✓,4
+10235,火炎地獄,✓,✓,✓,4
+10242,ナミダと流星,✓,✓,✓,4
+10251,Monochrome Rainbow,✓,✓,✓,4
+10256,いーあるふぁんくらぶ,✓,✓,✓,4
+10288,六兆年と一夜物語,✓,✓,✓,4
+10301,患部で止まってすぐ溶ける～狂気の優曇華院,✓,✓,✓,4
+10302,ケロ⑨destiny,✓,✓,✓,4
+10303,"Endless, Sleepless Night",✓,✓,✓,4
+10315,深海少女,✓,✓,✓,4
+10316,M.S.S.Planet,✓,✓,✓,4
+10319,幻想のサテライト,✓,✓,✓,4
+10363,Oshama Scramble!,✓,✓,✓,4
+10366,oboro,✓,✓,✓,4
+10367,Dragoon,✓,✓,✓,4
+10375,One Step Ahead,✓,✓,✓,4
+10404,響縁,✓,✓,✓,4
+10411,初音ミクの消失,✓,✓,✓,4
+10420,Change Our MIRAI！,✓,✓,✓,4
+10422,LANCE,✓,✓,✓,4
 10475,かくしん的☆めたまるふぉ～ぜっ！,✓,✗,✓,9
-10493,Imitation:Loud Lounge,✓,✓,✓,8
+10493,Imitation:Loud Lounge,✓,✓,✓,4
 10500,シュガーソングとビターステップ,✓,✗,✓,8
 10501,Daydream café,✓,✗,✓,8
-10535,色は匂へど散りぬるを,✓,✓,✓,8
-10536,月に叢雲華に風,✓,✓,✓,8
-10552,ゴーストルール,✓,✓,✓,8
-10560,回レ！雪月花,✓,✗,✓,8
-10572,Scream out! -maimai SONIC WASHER Edit-,✓,✓,✓,8
-10574,Selector,✓,✓,✓,8
-10593,conflict,✓,✓,✓,8
-10602,taboo tears you up,✓,✓,✓,8
-10615,Paradisus-Paradoxum,✓,✗,✓,8
-10625,Maxi,✓,✓,✓,8
-10641,Calamity Fortune,✓,✓,✓,8
-10665,チルノのパーフェクトさんすう教室　⑨周年バージョン,✓,✓,✓,8
-10668,ようこそジャパリパークへ,✓,✗,✓,9
+10535,色は匂へど散りぬるを,✓,✓,✓,4
+10536,月に叢雲華に風,✓,✓,✓,4
+10552,ゴーストルール,✓,✓,✓,4
+10560,回レ！雪月花,✓,✗,✓,4
+10572,Scream out! -maimai SONIC WASHER Edit-,✓,✓,✓,4
+10574,Selector,✓,✓,✓,4
+10593,conflict,✓,✓,✓,4
+10602,taboo tears you up,✓,✓,✓,4
+10615,Paradisus-Paradoxum,✓,✗,✓,4
+10625,Maxi,✓,✓,✓,4
+10641,Calamity Fortune,✓,✓,✓,4
+10665,チルノのパーフェクトさんすう教室　⑨周年バージョン,✓,✓,✓,4
+10668,ようこそジャパリパークへ,✓,✗,✓,4
 10674,Magical Flavor,✓,✓,✓,8
-10690,ダンスロボットダンス,✓,✓,✓,8
-10699,天狗の落とし文 feat. ｙｔｒ,✓,✓,✓,8
-10702,WARNING×WARNING×WARNING,✓,✓,✓,8
-10706,シャルル,✓,✓,✓,8
+10690,ダンスロボットダンス,✓,✓,✓,4
+10699,天狗の落とし文 feat. ｙｔｒ,✓,✓,✓,4
+10702,WARNING×WARNING×WARNING,✓,✓,✓,4
+10706,シャルル,✓,✓,✓,4
 10728,POP TEAM EPIC,✓,✗,✓,9
-10734,ENERGY SYNERGY MATRIX,✓,✓,✓,8
+10734,ENERGY SYNERGY MATRIX,✓,✓,✓,4
 10835,Believe the Rainbow,✓,✓,✓,8
 11001,BLACK ROSE,✓,✓,✓,4
 11002,Secret Sleuth,✓,✓,✓,5
@@ -794,7 +794,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11017,福宿音屋魂音泉,✓,✓,✓,4
 11018,Now or Never,✓,✓,✓,5
 11019,Scarlet Wings,✓,✓,✓,4
-11020,Technicians High,✓,✓,✓,8
+11020,Technicians High,✓,✓,✓,4
 11021,魔ジョ狩リ,✓,✓,✓,4
 11022,TwisteD! XD,✓,✓,✓,4
 11023,Blows Up Everything,✓,✓,✓,5
@@ -823,7 +823,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11048,ナイト・オブ・ナイツ (Cranky Remix),✓,✓,✓,4
 11049,Bad Apple!! feat.nomico (REDALiCE Remix),✓,✓,✓,4
 11050,Strobe♡Girl,✓,✓,✓,4
-11051,Destr0yer,✓,✓,✓,8
+11051,Destr0yer,✓,✓,✓,4
 11052,グリーンライツ・セレナーデ,✓,✓,✓,4
 11055,POPPY PAPPY DAY,✓,✗,✓,4
 11056,Clattanoia,✓,✗,✓,4
@@ -848,10 +848,10 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11077,デビル☆アイドル,✓,✓,✓,4
 11078,quiet room,✓,✓,✓,4
 11080,Jump!! Jump!! Jump!!,✓,✓,✓,4
-11081,サンバランド,✓,✓,✓,8
+11081,サンバランド,✓,✓,✓,4
 11083,サヨナラチェーンソー,✓,✓,✓,4
 11084,イカサマライフゲイム,✓,✓,✓,4
-11085,Halcyon,✓,✓,✓,8
+11085,Halcyon,✓,✓,✓,4
 11086,だれかの心臓になれたなら,✓,✓,✓,4
 11087,幾望の月,✓,✓,✓,4
 11088,39みゅーじっく！,✓,✓,✓,4
@@ -869,7 +869,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11100,シエルブルーマルシェ,✓,✓,✓,5
 11101,GRÄNDIR,✓,✓,✓,4
 11102,封焔の135秒,✓,✓,✓,4
-11103,渦状銀河のシンフォニエッタ,✓,✓,✓,8
+11103,渦状銀河のシンフォニエッタ,✓,✓,✓,4
 11104,ヤミツキ,✓,✓,✓,4
 11105,ワードワードワード,✓,✓,✓,4
 11106,Valsqotch,✓,✓,✓,4
@@ -922,7 +922,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11154,居並ぶ穀物と溜息まじりの運送屋,✓,✓,✓,4
 11155,ARAIS,✓,✓,✓,4
 11156,マイオドレ！舞舞タイム,✓,✗,✓,4
-11157,Aetheric Energy,✓,✓,✓,5
+11157,Aetheric Energy,✓,✓,✓,4
 11158,Komplexe,✓,✓,✓,4
 11159,Beautiful Future,✓,✓,✓,4
 11160,Mutation,✓,✓,✓,4
@@ -963,7 +963,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11197,劣等上等,✓,✓,✓,4
 11198,アスノヨゾラ哨戒班,✓,✓,✓,4
 11199,悪戯センセーション,✓,✓,✓,4
-11200,Paranoia,✓,✓,✓,8
+11200,Paranoia,✓,✓,✓,4
 11201,絡繰りドール,✓,✓,✓,4
 11202,物凄いヴァイブスで魔理沙が物凄いラップ,✓,✓,✓,4
 11204,Sweet Requiem,✓,✓,✓,4
@@ -987,7 +987,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11223,Heavenly Blast,✓,✓,✓,4
 11224,Paradisoda,✓,✓,✓,4
 11225,VANTABLACK RAVER,✓,✓,✓,4
-11226,時計の国のジェミニ,✓,✓,✓,5
+11226,時計の国のジェミニ,✓,✓,✓,4
 11227,Xenovcipher,✓,✓,✓,4
 11228,星めぐり、果ての君へ。,✓,✓,✓,5
 11229,スローアライズ,✓,✓,✓,4
@@ -996,7 +996,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11232,Never Give Up!,✓,✓,✓,5
 11233,Starry Colors,✓,✓,✓,4
 11234,ほしぞらスペクタクル,✓,✓,✓,4
-11235,VIIIbit Explorer,✓,✓,✓,8
+11235,VIIIbit Explorer,✓,✓,✓,4
 11236,Last Samurai,✓,✓,✓,4
 11237,蒼穹舞楽,✓,✓,✓,4
 11238,AMABIE,✓,✓,✓,4
@@ -1060,7 +1060,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11298,トリアージ,✓,✓,✓,4
 11299,NAGAREBOSHI☆ROCKET,✓,✓,✓,4
 11300,U&iVERSE -銀河鸞翔-,✓,✓,✓,4
-11301,華の集落、秋のお届け,✓,✓,✓,8
+11301,華の集落、秋のお届け,✓,✓,✓,4
 11302,BLACK SWAN,✓,✓,✓,4
 11303,星詠みとデスペラード,✓,✓,✓,4
 11304,Round Round Spinning Around,✓,✓,✓,4
@@ -1084,7 +1084,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11323,Shooting Stars,✓,✗,✓,4
 11324,MOON NIGHTのせいにして,✓,✗,✓,4
 11325,テレキャスタービーボーイ,✓,✓,✓,5
-11327,僕は空気が嫁ない,✓,✓,✓,8
+11327,僕は空気が嫁ない,✓,✓,✓,4
 11328,デッドマンズバラッド,✓,✓,✓,4
 11329,イヤホンロマンス,✓,✗,✓,4
 11330,竹,✓,✓,✓,4
@@ -1118,7 +1118,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11362,響け！CHIREI MY WAY!,✓,✓,✓,4
 11363,神々が恋した幻想郷,✓,✓,✓,4
 11364,Lia=Fail,✓,✓,✓,4
-11365,アンビバレンス,✓,✓,✓,5
+11365,アンビバレンス,✓,✓,✓,4
 11367,veil,✓,✗,✓,4
 11369,廻廻奇譚,✓,✓,✓,5
 11370,さんさーら！,✓,✗,✓,4
@@ -1468,7 +1468,7 @@ songId,songTitle,dxdata,divingFish,maichart,sheetCount
 11733,MUSIC PЯAYER,✓,✓,✓,4
 11734,壱雫空,✓,✓,✓,4
 11735,ザムザ,✓,✓,✓,4
-11736,プリズム△▽リズム,✓,✓,✓,8
+11736,プリズム△▽リズム,✓,✓,✓,4
 11737,パラドクスイヴ,✓,✓,✓,4
 11738,YKWTD,✓,✓,✓,4
 11739,184億回のマルチトニック,✓,✓,✓,4

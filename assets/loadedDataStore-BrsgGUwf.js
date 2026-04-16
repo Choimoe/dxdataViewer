@@ -1,0 +1,1 @@
+import{l as o}from"./vue-Dak8qlbF.js";const a=o(""),e=o(null);function n(u,t){a.value=u,e.value=t}function r(){a.value="",e.value=null}function c(){return{loadedSource:a,loadedData:e}}export{r as c,n as s,c as u};
