@@ -175,7 +175,7 @@ export const MERGE_RULES = {
     },
     internalId: {
       sources: {
-        dxdata: 'internalId',
+        dxdata: 'id',
         divingFish: 'id',
       },
       translate: {
