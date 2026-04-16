@@ -14,9 +14,9 @@ const OUTPUT_PATH = resolve(OUTPUT_DIR, 'merged-data.json');
 /**
  * 合并混合数据源
  * 优先级：
- * 1. dxrating(dxdata) 的 ID：优先作为主键
- * 2. 若 dxrating 缺失，则回退 maichart 的 ID
- * 3. 若 dxrating 与 maichart 不一致，且有 diving-fish，则按三源“多数值”决策
+ * 1. dxrating(dxdata) 的 internalId：优先作为主键（输出字段名仍为 id）
+ * 2. 若 dxrating internalId 缺失，则回退 maichart 的 ID
+ * 3. 若仍缺失，再回退 diving-fish 的 ID
  * 2. dxdata：谱面数据最全，谱面详情和难度信息来自这里
  * 3. diving-fish：数据准确但不全，用于填补谱师等空缺信息
  */
@@ -29,31 +29,34 @@ function normalizeId(value) {
   return String(value).trim();
 }
 
+function extractDxratingInternalId(dxdataSong) {
+  if (!dxdataSong) {
+    return '';
+  }
+
+  const directInternalId = normalizeId(dxdataSong.internalId);
+  if (directInternalId) {
+    return directInternalId;
+  }
+
+  if (!Array.isArray(dxdataSong.sheets)) {
+    return '';
+  }
+
+  for (const sheet of dxdataSong.sheets) {
+    const sheetInternalId = normalizeId(sheet?.internalId);
+    if (sheetInternalId) {
+      return sheetInternalId;
+    }
+  }
+
+  return '';
+}
+
 function resolveSongId(maichartId, dxdataSong, divingFishSong) {
-  const dxratingId = normalizeId(dxdataSong?.id || dxdataSong?.songId);
+  const dxratingId = extractDxratingInternalId(dxdataSong);
   const maichartSongId = normalizeId(maichartId);
   const divingFishId = normalizeId(divingFishSong?.id);
-
-  if (dxratingId && maichartSongId && dxratingId !== maichartSongId) {
-    const idCounts = new Map();
-
-    [dxratingId, maichartSongId, divingFishId]
-      .filter(Boolean)
-      .forEach((id) => {
-        idCounts.set(id, (idCounts.get(id) || 0) + 1);
-      });
-
-    const maxCount = Math.max(...idCounts.values());
-    const majorityIds = Array.from(idCounts.entries())
-      .filter(([, count]) => count === maxCount)
-      .map(([id]) => id);
-
-    if (majorityIds.length === 1) {
-      return majorityIds[0];
-    }
-
-    return dxratingId;
-  }
 
   return dxratingId || maichartSongId || divingFishId;
 }

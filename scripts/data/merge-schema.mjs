@@ -5,7 +5,7 @@ export const MERGE_RULES = {
     id: {
       sources: {
         maichart: 'id',
-        dxdata: 'id',
+        dxdata: 'sheets.0.internalId',
         divingFish: 'id',
       },
       translate: {
