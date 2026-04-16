@@ -4,6 +4,20 @@
  */
 
 export default function useExportData() {
+  function resolveColumns(data, selectedColumns) {
+    const autoColumns = getColumns(data);
+    if (!Array.isArray(selectedColumns) || selectedColumns.length === 0) {
+      return autoColumns;
+    }
+
+    const existingColumns = new Set(autoColumns);
+    return selectedColumns.filter((key) => existingColumns.has(key));
+  }
+
+  function buildHeaderLabels(columns, headerLabels = {}) {
+    return columns.map((col) => headerLabels[col] || col);
+  }
+
   function normalizeExportValue(value) {
     if (value === null || value === undefined) {
       return '';
@@ -52,15 +66,16 @@ export default function useExportData() {
   /**
    * 将对象转换为CSV格式
    */
-  function convertToCSV(data) {
+  function convertToCSV(data, options = {}) {
     if (!data || data.length === 0) {
       return '';
     }
 
-    const columns = getColumns(data);
+    const columns = resolveColumns(data, options.columns);
+    const headers = buildHeaderLabels(columns, options.headers);
 
     // 创建表头
-    const header = columns.map((col) => escapeCSVField(col)).join(',');
+    const header = headers.map((col) => escapeCSVField(col)).join(',');
 
     // 创建数据行
     const rows = data.map((record) => columns.map((col) => escapeCSVField(normalizeExportValue(record[col]))).join(','));
@@ -71,15 +86,16 @@ export default function useExportData() {
   /**
    * 将对象转换为TXT格式（制表符分隔）
    */
-  function convertToTXT(data) {
+  function convertToTXT(data, options = {}) {
     if (!data || data.length === 0) {
       return '';
     }
 
-    const columns = getColumns(data);
+    const columns = resolveColumns(data, options.columns);
+    const headers = buildHeaderLabels(columns, options.headers);
 
     // 创建表头
-    const header = columns.join('\t');
+    const header = headers.join('\t');
 
     // 创建数据行，处理多行值
     const rows = data.map((record) => columns.map((col) => {
@@ -99,7 +115,7 @@ export default function useExportData() {
    * 将对象数组导出为XLSX格式（返回base64字符串）
    * 需要外部库支持，这里提供简单实现或提示
    */
-  async function convertToXLSX(data) {
+  async function convertToXLSX(data, options = {}) {
     // 尝试动态导入xlsx库
     try {
       // eslint-disable-next-line global-require, import/no-unresolved
@@ -110,11 +126,12 @@ export default function useExportData() {
         return null;
       }
 
-      const columns = getColumns(data);
+      const columns = resolveColumns(data, options.columns);
+      const headers = buildHeaderLabels(columns, options.headers);
 
       // 转换数据为工作表格式
       const worksheetData = [
-        columns, // 表头
+        headers, // 表头
         ...data.map((record) => columns.map((col) => normalizeExportValue(record[col]))),
       ];
 
@@ -157,7 +174,7 @@ export default function useExportData() {
    * @param {string} filename 文件名（不含扩展名）
    * @returns {Promise<boolean>} 成功返回true
    */
-  async function exportData(data, format, filename) {
+  async function exportData(data, format, filename, options = {}) {
     if (!data || data.length === 0) {
       // eslint-disable-next-line no-console
       console.error('No data to export');
@@ -170,15 +187,15 @@ export default function useExportData() {
       let extension;
 
       if (format === 'csv') {
-        content = convertToCSV(data);
+        content = convertToCSV(data, options);
         mimeType = 'text/csv;charset=utf-8';
         extension = 'csv';
       } else if (format === 'txt') {
-        content = convertToTXT(data);
+        content = convertToTXT(data, options);
         mimeType = 'text/plain;charset=utf-8';
         extension = 'txt';
       } else if (format === 'xlsx') {
-        const XLSX = await convertToXLSX(data);
+        const XLSX = await convertToXLSX(data, options);
         if (!XLSX) {
           // eslint-disable-next-line no-console
           console.error('XLSX not available. Install with: pnpm add xlsx');
@@ -186,9 +203,10 @@ export default function useExportData() {
         }
 
         // 创建工作表和工作簿
-        const columns = getColumns(data);
+        const columns = resolveColumns(data, options.columns);
+        const headers = buildHeaderLabels(columns, options.headers);
         const worksheetData = [
-          columns,
+          headers,
           ...data.map((record) => columns.map((col) => normalizeExportValue(record[col]))),
         ];
 

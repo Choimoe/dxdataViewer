@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 import SongsDataTable from '@/components/songs/SongsDataTable.vue';
 import MergedDataFooter from '@/components/layout/MergedDataFooter.vue';
 import useSongsTable, { songsTableColumns } from '@/composables/useSongsTable.js';
@@ -12,6 +12,24 @@ const { exportData } = useExportData();
 // 导出相关状态
 const exportFormat = ref('csv');
 const isExporting = ref(false);
+const showAdvancedExport = ref(false);
+
+const defaultExportColumns = songsTableColumns.map((col) => col.key);
+const selectedExportColumns = ref([...defaultExportColumns]);
+const columnLabelMap = Object.fromEntries(songsTableColumns.map((col) => [col.key, col.label]));
+
+Object.assign(columnLabelMap, {
+  songId: '歌曲ID',
+  searchAcronyms: '搜索别名',
+  levelNum: '等级数值',
+  internalLevelNum: '定数数值',
+  noteBreakNum: 'Break 数值',
+  difficultyRank: '难度排序值',
+  sourceRecords: '来源记录',
+  fieldRules: '字段规则',
+  titleDxdata: '曲名(dxdata)',
+  titleDivingFish: '曲名(diving-fish)',
+});
 
 const {
   dataSource,
@@ -46,6 +64,59 @@ const {
   resetFilters,
 } = useSongsTable();
 
+const availableExportColumns = computed(() => {
+  const allKeys = new Set(defaultExportColumns);
+
+  sortedSongs.value.forEach((row) => {
+    Object.keys(row).forEach((key) => {
+      if (!key.startsWith('_')) {
+        allKeys.add(key);
+      }
+    });
+  });
+
+  const rest = Array.from(allKeys).filter((key) => !defaultExportColumns.includes(key));
+  rest.sort((a, b) => a.localeCompare(b));
+
+  return [...defaultExportColumns, ...rest];
+});
+
+const exportColumnOptions = computed(() => availableExportColumns.value.map((key) => ({
+  key,
+  label: columnLabelMap[key] || key,
+})));
+
+const exportHeaderLabels = computed(() => Object.fromEntries(
+  exportColumnOptions.value.map((option) => [option.key, option.label]),
+));
+
+watch(availableExportColumns, (keys) => {
+  const validKeys = new Set(keys);
+  const filteredSelection = selectedExportColumns.value.filter((key) => validKeys.has(key));
+
+  if (filteredSelection.length > 0) {
+    if (filteredSelection.length !== selectedExportColumns.value.length) {
+      selectedExportColumns.value = filteredSelection;
+    }
+    return;
+  }
+
+  const defaults = defaultExportColumns.filter((key) => validKeys.has(key));
+  selectedExportColumns.value = defaults.length > 0 ? defaults : keys;
+}, { immediate: true });
+
+function selectAllExportColumns() {
+  selectedExportColumns.value = [...availableExportColumns.value];
+}
+
+function selectDefaultExportColumns() {
+  selectedExportColumns.value = defaultExportColumns.filter((key) => availableExportColumns.value.includes(key));
+}
+
+function clearExportColumns() {
+  selectedExportColumns.value = [];
+}
+
 /**
  * 导出当前筛选的结果
  */
@@ -61,7 +132,10 @@ async function handleExport() {
     const timestamp = new Date().toISOString().slice(0, 10);
     const filename = `dxdata-songs-${timestamp}`;
 
-    const success = await exportData(sortedSongs.value, exportFormat.value, filename);
+    const success = await exportData(sortedSongs.value, exportFormat.value, filename, {
+      columns: selectedExportColumns.value,
+      headers: exportHeaderLabels.value,
+    });
     if (!success && exportFormat.value === 'xlsx') {
       // eslint-disable-next-line no-alert
       alert('XLSX 库未安装，请运行: pnpm add xlsx');
@@ -328,7 +402,7 @@ async function handleExport() {
           </label>
 
           <button
-            :disabled="isExporting || total === 0"
+            :disabled="isExporting || total === 0 || selectedExportColumns.length === 0"
             class="rounded-md border border-indigo-500 bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-600 disabled:border-slate-300 disabled:bg-slate-300 dark:disabled:border-slate-600 dark:disabled:bg-slate-600"
             @click="handleExport"
           >
@@ -343,6 +417,62 @@ async function handleExport() {
           <span class="text-xs text-slate-500 dark:text-slate-400">
             导出整个筛选结果，不受分页限制
           </span>
+
+          <span
+            v-if="selectedExportColumns.length === 0"
+            class="text-xs text-red-500"
+          >
+            请至少选择 1 列导出
+          </span>
+        </div>
+
+        <details
+          v-model:open="showAdvancedExport"
+          class="mt-4 rounded-lg border border-slate-200 p-3 dark:border-slate-700"
+        >
+          <summary class="cursor-pointer select-none text-sm font-medium">
+            高级导出选项（默认与网页表格一致）
+          </summary>
+
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <button
+              type="button"
+              class="rounded-md border border-slate-300 px-2 py-1 hover:bg-slate-100 dark:border-slate-600 dark:hover:bg-slate-700"
+              @click="selectDefaultExportColumns"
+            >
+              仅表格列
+            </button>
+            <button
+              type="button"
+              class="rounded-md border border-slate-300 px-2 py-1 hover:bg-slate-100 dark:border-slate-600 dark:hover:bg-slate-700"
+              @click="selectAllExportColumns"
+            >
+              全选
+            </button>
+            <button
+              type="button"
+              class="rounded-md border border-slate-300 px-2 py-1 hover:bg-slate-100 dark:border-slate-600 dark:hover:bg-slate-700"
+              @click="clearExportColumns"
+            >
+              清空
+            </button>
+          </div>
+
+          <div class="mt-3 grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4">
+            <label
+              v-for="option in exportColumnOptions"
+              :key="option.key"
+              class="flex items-center gap-2 rounded-md border border-slate-200 px-2 py-1 text-sm dark:border-slate-700"
+            >
+              <input
+                v-model="selectedExportColumns"
+                type="checkbox"
+                :value="option.key"
+              >
+              <span>{{ option.label }}</span>
+              <span class="text-xs text-slate-500 dark:text-slate-400">({{ option.key }})</span>
+            </label>
+          </div>
         </div>
       </section>
 
