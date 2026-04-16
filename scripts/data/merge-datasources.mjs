@@ -619,7 +619,7 @@ async function main() {
         totalSongs: mergedSongs.length,
         dxdataMatches,
         divingFishMatches,
-        description: '混合数据源：maichart(ID) + dxdata(谱面) + diving-fish(谱师)',
+        description: '混合数据源',
         sources: {
           maichart: {
             status: 'healthy',

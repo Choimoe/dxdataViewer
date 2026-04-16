@@ -12,23 +12,23 @@ export default function useLazyDataLoader() {
   const currentSource = ref(null);
 
   const dataSourceInfo = {
+    merged: {
+      name: '混合数据源',
+      description: '统合所有数据源',
+      url: 'data/raw/merged/merged-data.json',
+      size: '约 6.5MB',
+    },
     dxdata: {
       name: 'DXData',
-      description: '从 DXData 官方数据源',
+      description: '从 DXData 官方数据源，数据更新较快',
       url: 'data/raw/dxdata/dxdata.json',
       size: '约 20MB',
     },
     diving_fish: {
       name: 'Diving Fish',
-      description: '从 Diving Fish 数据源',
+      description: '从 Diving Fish 数据源，主要包含CN数据',
       url: 'data/raw/diving-fish/music_data.json',
       size: '约 8MB',
-    },
-    merged: {
-      name: '混合数据源（推荐）',
-      description: '统合所有数据源，包含最完整的谱师信息',
-      url: 'data/raw/merged/merged-data.json',
-      size: '约 6.5MB',
     },
   };
 

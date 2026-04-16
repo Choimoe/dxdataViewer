@@ -185,10 +185,10 @@ async function handleExport() {
       <div class="mx-auto flex w-full max-w-7xl items-center justify-between p-4 md:px-6">
         <div>
           <h1 class="text-xl font-semibold md:text-2xl">
-            混合数据源 (Merged)
+            混合数据源
           </h1>
           <p class="text-sm text-slate-600 dark:text-slate-300">
-            综合三个数据源：maichart(ID) + dxdata(谱面) + diving-fish(谱师)
+            综合三个数据源：maichart + dxdata + diving-fish
           </p>
         </div>
 

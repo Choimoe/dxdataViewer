@@ -111,14 +111,6 @@ const handleSelect = (sourceKey) => {
           </RouterLink>
         </div>
       </div>
-
-      <!-- 提示 -->
-      <div class="mt-12 rounded-xl border border-blue-200 bg-blue-50 p-4 dark:border-blue-800 dark:bg-blue-900/20">
-        <p class="text-sm text-blue-900 dark:text-blue-200">
-          <strong>💡 提示：</strong>
-          推荐使用"混合数据源"，它统合了所有数据源的信息，提供最完整的谱师数据和谱面信息。
-        </p>
-      </div>
     </main>
   </div>
 </template>
