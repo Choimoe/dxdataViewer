@@ -754,7 +754,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 10420,Change Our MIRAI！,イロドリミドリ「CHUNITHM」,256,オンゲキ＆CHUNITHM,maimai でらっくす,,false,false,4,true,true,true
 10422,LANCE,Ras,156,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
 10475,かくしん的☆めたまるふぉ～ぜっ！,土間うまる [CV.田中あいみ]「乾物妹！うまるちゃん」,139,POPS＆アニメ,,,false,false,9,true,false,true
-10493,Imitation:Loud Lounge,Ino(chronoize),145,maimai,maimai MURASAKi,,false,false,4,true,true,true
+10493,Imitation:Loud Lounge,Ino(chronoize),145,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
 10500,シュガーソングとビターステップ,UNISON SQUARE GARDEN,132,POPS＆アニメ,,,false,false,8,true,false,true
 10501,Daydream café,Petit Rabbit's「ご注文はうさぎですか？」,150,POPS＆アニメ,,,false,false,8,true,false,true
 10535,色は匂へど散りぬるを,幽閉サテライト(Produce:嵯峨飛鳥 Arranged:Iceon),138,東方Project,maimai でらっくす BUDDiES,,false,false,4,true,true,true
@@ -1482,16 +1482,16 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11747,地獄,164 feat.ELISA・小林太郎,190,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11748,シスターシスター,せきこみごはん,150,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11749,有明/Ariake,SIINCA,190,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11750,Flashback,RiraN,160,maimai,,,false,false,4,true,false,true
-11751,Colorfull:Encounter,Reku Mochizuki,185,maimai,,,false,false,4,true,false,true
-11752,雨露霜雪,かねこちはる vs t+pazolite,250,maimai,,,false,false,4,true,false,true
-11753,宙天,t+pazolite vs かねこちはる,125,maimai,,,false,false,4,true,false,true
+11750,Flashback,RiraN,160,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11751,Colorfull:Encounter,Reku Mochizuki,185,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11752,雨露霜雪,かねこちはる vs t+pazolite,250,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11753,宙天,t+pazolite vs かねこちはる,125,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11754,Elemental Ethnic,Yooh,163,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11755,美夜月鏡,かゆき,164,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11756,Resolution,曲：ANCHOR／歌：皇城 セツナ(CV：八巻 アンナ),190,オンゲキ＆CHUNITHM,,,false,false,4,true,false,true
-11757,いちげき！のテーマ,曲：ヒゲドライバー／歌：いちげきしゅーたーず！,175,オンゲキ＆CHUNITHM,,,false,false,4,true,false,true
-11758,Radiance,Nhato,155,オンゲキ＆CHUNITHM,,,false,false,4,true,false,true
-11759,R'N'R Monsta,Lite Show Magic,220,オンゲキ＆CHUNITHM,,,false,false,4,true,false,true
+11756,Resolution,曲：ANCHOR／歌：皇城 セツナ(CV：八巻 アンナ),190,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11757,いちげき！のテーマ,曲：ヒゲドライバー／歌：いちげきしゅーたーず！,175,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11758,Radiance,Nhato,155,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11759,R'N'R Monsta,Lite Show Magic,220,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11760,勇者,YOASOBI,104,POPS＆アニメ,maimai でらっくす PRiSM,,false,false,5,true,true,true
 11761,病み垢ステロイド,かいりきベア,203,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11763,ダーリンダンス,かいりきベア,153,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,5,true,true,true
@@ -1505,7 +1505,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11772,人マニア,原口沙輔 feat.重音テト,150,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11773,転生林檎,ピノキオピー,145,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11774,"メイトなやつら（FEAT. 天開司, 佐藤ホームズ, あっくん大魔王 & 歌衣メイカ）",MonsterZ MATE,160,POPS＆アニメ,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11775,モンスターカミング,おめがシスターズ,210,POPS＆アニメ,,,false,false,4,true,false,true
+11775,モンスターカミング,おめがシスターズ,210,POPS＆アニメ,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11776,ゆけむり魂温泉 II,魂音泉,140,東方Project,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11777,人間が大好きなこわれた妖怪の唄,ビートまりお,55,東方Project,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11778,シリウスの輝きのように,鳳 ここな(CV.石見舞菜香)、静香(CV.長谷川育美)、カトリナ・グリーベル(CV.天城サリー)、新妻八恵(CV.長縄まりあ)、柳場ぱんだ(CV.大空直美)、流石知冴(CV.佐々木李子),158,POPS＆アニメ,maimai でらっくす PRiSM,,false,false,5,true,true,true
@@ -1528,12 +1528,12 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11795,右に曲ガール,はるふり,175,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11796,ウルトラトレーラー,マサラダ,155,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11797,バベル,いよわ feat.重音テト,225,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11798,お願い！コンコンお稲荷さま,ARM×狐夢想 feat. ななひら,175,ゲーム＆バラエティ,,,false,false,4,true,false,true
-11799,いっぱい食べる君が好きだよ,ななひら,224,ゲーム＆バラエティ,,,false,false,4,true,false,true
-11800,ピポピポ -People People- feat. ななひら,Neko Hacker,230,ゲーム＆バラエティ,,,false,false,4,true,false,true
-11802,ワールドワイドワンダー,TOKOTOKO（西沢さんP）,142,niconico＆ボーカロイド,,,false,false,4,true,false,true
-11803,MORNINGLOOM,saaa,102,ゲーム＆バラエティ,,,false,false,4,true,false,true
-11804,How To Make 音ゲ～曲！,F Rabbeat feat.マスタード,185,ゲーム＆バラエティ,,,false,false,4,true,false,true
+11798,お願い！コンコンお稲荷さま,ARM×狐夢想 feat. ななひら,175,ゲーム＆バラエティ,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11799,いっぱい食べる君が好きだよ,ななひら,224,ゲーム＆バラエティ,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11800,ピポピポ -People People- feat. ななひら,Neko Hacker,230,ゲーム＆バラエティ,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11802,ワールドワイドワンダー,TOKOTOKO（西沢さんP）,142,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11803,MORNINGLOOM,saaa,102,ゲーム＆バラエティ,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11804,How To Make 音ゲ～曲！,F Rabbeat feat.マスタード,185,ゲーム＆バラエティ,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11805,リアライズ,柊マグネタイト,150,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11806,Fraq,owl＊tree feat. べんざ,221,maimai,,,false,false,4,true,false,true
 11807,ウタヒメナイトストーム,yowanecity feat.Eye,164,maimai,,,false,false,4,true,false,true
@@ -1758,11 +1758,11 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 111156,[奏]マイオドレ！舞舞タイム,キノシタ feat. そらみこ (ホロライブ ときのそら＆さくらみこ),,宴会場,,,false,false,1,true,false,true
 111188,[藍]絶え間なく藍色,獅子志司,125,niconico & VOCALOID,maimai でらっくす Splash,,false,false,4,false,true,true
 111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,165,宴会場,maimai でらっくす BUDDiES,,false,false,1,false,true,true
-111234,[星]ほしぞらスペクタクル,奏音,200,宴会場,maimai でらっくす UNiVERSE,,false,false,1,true,true,true
+111234,[星]ほしぞらスペクタクル,奏音,200,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 111325,[奏]テレキャスタービーボーイ,すりぃ,182,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 111355,[協]ラグトレイン,稲葉曇,147,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 111359,[奏]アカツキアライヴァル,Last Note.,125,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-111363,[片]神々が恋した幻想郷,Unlucky Morpheus,155,宴会場,maimai でらっくす UNiVERSE,,false,false,1,true,true,true
+111363,[片]神々が恋した幻想郷,Unlucky Morpheus,155,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 111365,[奏]アンビバレンス,すりぃ×相沢,187,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 111388,[即]チューリングの跡,Frums,180,宴会場,maimai でらっくす FESTiVAL,,false,false,1,true,true,true
 111429,[爆]Love's Theme of BADASS ～バッド・アス 愛のテーマ～,Hommarju,202,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
