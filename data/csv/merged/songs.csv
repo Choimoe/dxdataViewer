@@ -1708,7 +1708,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 100224,[傾]ウサテイ,あまね＋ビートまりお(COOL＆CREATE),190,東方Project,maimai GreeN,,false,false,4,true,true,true
 100227,[は]Garakuta Doll Play,t+pazolite,256,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 100230,[宴]CYCLES,Masayoshi Minoshima feat. 綾倉盟,135,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-100259,[協]ぽっぴっぽー, ,150,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
+100259,[協]ぽっぴっぽー, ,150,宴会場,maimai GreeN,,false,false,1,true,true,true
 100282,[撫]からくりピエロ,40mP,102,niconico & VOCALOID,maimai GreeN PLUS,,false,false,5,false,true,true
 100305,[星]POP STAR,平井堅 [cover],140,POPS＆アニメ,maimai GreeN PLUS,,false,false,4,true,true,true
 100308,[傾]Back 2 Back,長沼英樹「ソニック ラッシュ」,150,ゲーム＆バラエティ,maimai GreeN PLUS,,false,false,4,true,true,true
@@ -1732,7 +1732,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 100775,[宴]ジンギスカン,仁井山征弘 Feat. GREAT G and surprise,150,POPS＆アニメ,MiLK PLUS,,false,false,4,true,true,true
 100851,[幸]犬日和。(はっぴー歌唱Ver),こうのさんとはっぴーちゃん/Hiroの犯行,,宴会場,,,false,false,1,true,false,true
 100998,[宴]Oshama Scramble! (Cranky Remix),Cranky,190,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-101516,[藏]Aegleseeker,,,,,,false,false,0,false,false,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,234,其他游戏,maimai でらっくす FESTiVAL,,false,false,4,false,true,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",203,ゲーム＆バラエティ,maimai,,false,false,4,true,true,true
 110114,[耐]Space Harrier Main Theme [Reborn],佐野 信義「スペースハリアー」,125,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 110121,[甘]スイートマジック,ろん×Junky,123,宴会場,maimai でらっくす PRiSM PLUS,,false,false,1,true,true,true
@@ -1743,7 +1743,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 110417,[習]ウミユリ海底譚,n-buna,120,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 110532,[奏]洗脳,ゆりん・柿チョコ×Neru,125,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 110553,[奏]チュルリラ・チュルリラ・ダッダッダ！,和田たけあき(くらげP),220,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-110579,[協]ポップミュージックは僕のもの,ONIGAWARA,135,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
+110579,[協]ポップミュージックは僕のもの,ONIGAWARA,135,宴会場,maimai MURASAKi,,false,false,1,true,true,true
 110606,[右]The wheel to the right,Sampling Masters MEGA,200,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 110631,[逆]KING is BACK!!,A-One,176,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 110647,[協]エイリアンエイリアン,ナユタン星人,152,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
@@ -1757,7 +1757,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 111113,[回]ハム太郎とっとこうた,ハムちゃんず [covered by 光吉猛修],140,宴会場,maimai でらっくす PRiSM PLUS,,false,false,1,true,true,true
 111156,[奏]マイオドレ！舞舞タイム,キノシタ feat. そらみこ (ホロライブ ときのそら＆さくらみこ),,宴会場,,,false,false,1,true,false,true
 111188,[藍]絶え間なく藍色,獅子志司,125,niconico & VOCALOID,maimai でらっくす Splash,,false,false,4,false,true,true
-111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,165,宴会場,maimai でらっくす BUDDiES,,false,false,1,false,true,true
+111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,165,舞萌,maimai でらっくす Splash,,false,false,4,false,true,true
 111234,[星]ほしぞらスペクタクル,奏音,200,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 111325,[奏]テレキャスタービーボーイ,すりぃ,182,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 111355,[協]ラグトレイン,稲葉曇,147,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
@@ -1771,7 +1771,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 111479,[覚]Hainuwele,ETIA.,175,宴会場,maimai でらっくす FESTiVAL,,false,false,1,true,true,true
 111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,160,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 111513,[回]回る空うさぎ,Orangestar,120,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-111516,[蔵]Aegleseeker,Silentroom vs Frums,234,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
+111516,[蔵]Aegleseeker,Silentroom vs Frums,234,宴会場,maimai でらっくす FESTiVAL,,false,false,1,true,true,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",155,舞萌,maimai でらっくす BUDDiES,,false,false,4,false,true,true
 111557,[蛸]不機嫌なスリーカード,HIMEHINA,195,宴会場,maimai でらっくす PRiSM,,false,false,1,true,true,true
 111577,[両]はんぶんこ,三枝明那,124,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true

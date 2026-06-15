@@ -7008,7 +7008,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 100224,[傾]ウサテイ,あまね＋ビートまりお(COOL＆CREATE),東方Project,maimai GreeN,std,master,14,14,はっぴー,549,16,65,,16,646,false,true,true
 100227,[は]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【は】,14?,14,,,,,,,,true,true,true
 100230,[宴]CYCLES,Masayoshi Minoshima feat. 綾倉盟,宴会場,maimai でらっくす BUDDiES,utage,【宴】,13?,13,,,,,,,,true,true,true
-100259,[協]ぽっぴっぽー, ,宴会場,maimai でらっくす BUDDiES,utage,【協】,13+?,13.6,,,,,,,,true,true,true
+100259,[協]ぽっぴっぽー, ,宴会場,maimai GreeN,utage,【協】,13+?,13.6,,,,,,,,true,true,true
 100282,[撫]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,basic,3,3,-,107,,5,,2,114,false,false,true
 100282,[撫]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,advanced,6,6.6,-,162,10,16,,5,193,false,false,true
 100282,[撫]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,expert,10,10.1,Jack,254,30,43,,8,335,false,false,true
@@ -7068,6 +7068,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 100775,[宴]ジンギスカン,仁井山征弘 Feat. GREAT G and surprise,POPS＆アニメ,MiLK PLUS,std,master,13,13.3,はっぴー,546,16,124,,66,752,false,true,true
 100851,[幸]犬日和。(はっぴー歌唱Ver),こうのさんとはっぴーちゃん/Hiroの犯行,宴会場,,utage,【幸】,13?,13,,,,,,,,true,true,false
 100998,[宴]Oshama Scramble! (Cranky Remix),Cranky,宴会場,maimai でらっくす BUDDiES,utage,【宴】,14+?,14.6,,,,,,,,true,true,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,basic,5,5,-,184,19,4,31,7,245,false,false,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,advanced,8,8.5,-,312,17,18,23,20,390,false,false,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,expert,12+,12.8,はっぴー,480,88,41,35,21,665,false,false,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,master,14,14.5,サファ太 vs 翠楼屋,754,87,49,114,80,1084,false,false,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,basic,5,5,-,68,21,7,,1,97,false,true,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,advanced,8+,8.6,-,203,20,5,,13,241,false,true,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,expert,10+,10.6,譜面-100号,274,61,26,,34,395,false,true,true
@@ -7088,7 +7092,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 110417,[習]ウミユリ海底譚,n-buna,宴会場,maimai でらっくす PRiSM,utage,【習】,12+?,12.6,,,,,,,,true,true,true
 110532,[奏]洗脳,ゆりん・柿チョコ×Neru,宴会場,maimai でらっくす PRiSM,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,true
 110553,[奏]チュルリラ・チュルリラ・ダッダッダ！,和田たけあき(くらげP),宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,13?,13,,,,,,,,true,true,true
-110579,[協]ポップミュージックは僕のもの,ONIGAWARA,宴会場,maimai でらっくす BUDDiES,utage,【協】,12+?,12.6,,,,,,,,true,true,true
+110579,[協]ポップミュージックは僕のもの,ONIGAWARA,宴会場,maimai MURASAKi,utage,【協】,12+?,12.6,,,,,,,,true,true,true
 110606,[右]The wheel to the right,Sampling Masters MEGA,宴会場,maimai でらっくす BUDDiES,utage,【右】,14+?,14.6,,,,,,,,true,true,true
 110631,[逆]KING is BACK!!,A-One,宴会場,maimai でらっくす BUDDiES,utage,【逆】,13+?,13.6,,,,,,,,true,true,true
 110647,[協]エイリアンエイリアン,ナユタン星人,宴会場,maimai でらっくす BUDDiES,utage2p,【協】,13?,13,,,,,,,,true,true,true
@@ -7117,7 +7121,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111188,[藍]絶え間なく藍色,獅子志司,niconico & VOCALOID,maimai でらっくす Splash,DX,advanced,6,6.2,-,186,21,16,14,3,240,false,false,true
 111188,[藍]絶え間なく藍色,獅子志司,niconico & VOCALOID,maimai でらっくす Splash,DX,expert,8,8.5,はっぴー,263,56,15,31,6,371,false,false,true
 111188,[藍]絶え間なく藍色,獅子志司,niconico & VOCALOID,maimai でらっくす Splash,DX,master,13,13.4,Jack,447,46,109,35,9,646,false,false,true
-111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,,5,,60,1039,1104,false,false,true
+111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,basic,5,5,-,172,10,8,,17,207,false,false,true
+111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,advanced,8,8.5,-,321,17,14,26,36,414,false,false,true
+111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,expert,12+,12.8,サファ太,513,65,42,55,57,732,false,false,true
+111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,master,14+,14.6,サファ太 vs -ZONE- SaFaRi,797,76,121,62,50,1106,false,false,true
 111234,[星]ほしぞらスペクタクル,奏音,宴会場,maimai でらっくす PRiSM,utage,【星】,14?,14,,,,,,,,true,true,true
 111325,[奏]テレキャスタービーボーイ,すりぃ,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,true
 111355,[協]ラグトレイン,稲葉曇,宴会場,maimai でらっくす BUDDiES,utage2p,【協】,13?,13,,,,,,,,true,true,true
@@ -7131,7 +7138,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111479,[覚]Hainuwele,ETIA.,宴会場,maimai でらっくす FESTiVAL,utage,【覚】,13+?,13.6,,,,,,,,true,true,true
 111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,宴会場,maimai でらっくす BUDDiES,utage2p,【覚】,12?,12,,,,,,,,true,true,true
 111513,[回]回る空うさぎ,Orangestar,宴会場,maimai でらっくす BUDDiES,utage,【回】,11?,11,,,,,,,,true,true,true
-111516,[蔵]Aegleseeker,Silentroom vs Frums,宴会場,maimai でらっくす BUDDiES,utage,【蔵】,14+?,14.6,,,,,,,,true,true,true
+111516,[蔵]Aegleseeker,Silentroom vs Frums,宴会場,maimai でらっくす FESTiVAL,utage,【蔵】,14+?,14.6,,,,,,,,true,true,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,basic,3,3,-,147,11,4,7,11,180,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,advanced,7,7,-,267,12,6,33,10,328,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,expert,10+,10.7,サファ太,344,54,38,19,76,531,false,false,true
