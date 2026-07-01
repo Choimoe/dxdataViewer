@@ -3310,7 +3310,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11917,Eureka,sasakure.UK × ArmyTom (w/z Bitplane),ゲーム＆バラエティ,,dx,advanced,7+,7.6,-,262,28,8,24,6,328,false,true,false
 11918,ニルヴの心臓,TJ.hangneil + Atomic Sphere feat.Annabel,ゲーム＆バラエティ,,dx,basic,6,6,-,278,8,12,9,4,311,false,true,false
 11918,ニルヴの心臓,TJ.hangneil + Atomic Sphere feat.Annabel,ゲーム＆バラエティ,,dx,advanced,8,8,-,340,15,8,28,3,394,false,true,false
-11919,エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,basic,3,3,-,174,18,4,18,4,218,false,false,true
+11919,エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,basic,3,3,-,174,16,4,20,4,218,false,false,true
 11919,エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,advanced,7+,7.8,-,309,19,12,7,8,355,false,false,true
 11920,Hurtling Boys,さだきち「太鼓の達人」より,ゲーム＆バラエティ,maimai でらっくす PRiSM,dx,basic,5,5,-,201,9,4,10,9,233,false,true,true
 11920,Hurtling Boys,さだきち「太鼓の達人」より,ゲーム＆バラエティ,maimai でらっくす PRiSM,dx,advanced,8,8,-,314,12,6,24,4,360,false,true,true
@@ -3458,8 +3458,8 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 100775,[宴]ジンギスカン,仁井山征弘 Feat. GREAT G and surprise,POPS＆アニメ,MiLK PLUS,std,advanced,7+,7.6,-,276,37,14,,29,356,false,true,true
 100851,[幸]犬日和。(はっぴー歌唱Ver),こうのさんとはっぴーちゃん/Hiroの犯行,宴会場,,utage,【幸】,13?,13,,,,,,,,true,true,false
 100998,[宴]Oshama Scramble! (Cranky Remix),Cranky,宴会場,maimai でらっくす BUDDiES,utage,【宴】,14+?,14.6,,,,,,,,true,true,true
-101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,basic,5,5,-,184,19,4,31,7,245,false,false,true
-101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,advanced,8,8.5,-,312,17,18,23,20,390,false,false,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,basic,5,5,-,184,16,4,34,7,245,false,false,true
+101516,[藏]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,advanced,8,8.5,-,312,16,18,24,20,390,false,false,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,basic,5,5,-,68,21,7,,1,97,false,true,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,advanced,8+,8.6,-,203,20,5,,13,241,false,true,true
 110114,[耐]Space Harrier Main Theme [Reborn],佐野 信義「スペースハリアー」,宴会場,maimai でらっくす BUDDiES,utage,【耐】,14+?,14.6,,,,,,,,true,true,true
@@ -3507,30 +3507,30 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,宴会場,maimai でらっくす BUDDiES,utage2p,【覚】,12?,12,,,,,,,,true,true,true
 111513,[回]回る空うさぎ,Orangestar,宴会場,maimai でらっくす BUDDiES,utage,【回】,11?,11,,,,,,,,true,true,true
 111516,[蔵]Aegleseeker,Silentroom vs Frums,宴会場,maimai でらっくす FESTiVAL,utage,【蔵】,14+?,14.6,,,,,,,,true,true,true
-111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,basic,3,3,-,147,11,4,7,11,180,false,false,true
+111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,basic,3,3,-,147,10,4,8,11,180,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,advanced,7,7,-,267,12,6,33,10,328,false,false,true
 111557,[蛸]不機嫌なスリーカード,HIMEHINA,宴会場,maimai でらっくす PRiSM,utage,【蛸】,13?,13,,,,,,,,true,true,true
 111577,[両]はんぶんこ,三枝明那,宴会場,maimai でらっくす BUDDiES,utage,【両】,12?,12,,,,,,,,true,true,true
 111597,[息]ノンブレス・オブリージュ,ピノキオピー,宴会場,maimai でらっくす BUDDiES,utage,【息】,13+?,13.6,,,,,,,,true,true,true
 111628,[逆]WE'RE BACK!!,Zekk,宴会場,maimai でらっくす BUDDiES,utage,【逆】,12+?,12.6,,,,,,,,true,true,true
 111636,[奏]さくゆいたいそう,さくゆい,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,true
-111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,basic,5,5,-,189,16,6,23,5,239,false,false,true
-111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,advanced,8,8,-,314,23,6,16,10,369,false,false,true
+111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,basic,5,5,-,189,15,6,24,5,239,false,false,true
+111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,advanced,8,8,-,314,22,6,17,10,369,false,false,true
 111670,[奏]のじゃロリック,なみぐる feat.ちょこ 桃寝ちのい,舞萌,maimai でらっくす PRiSM,DX,basic,3,3,-,137,10,8,8,6,169,false,false,true
-111670,[奏]のじゃロリック,なみぐる feat.ちょこ 桃寝ちのい,舞萌,maimai でらっくす PRiSM,DX,advanced,7,7.5,-,262,7,10,48,12,339,false,false,true
+111670,[奏]のじゃロリック,なみぐる feat.ちょこ 桃寝ちのい,舞萌,maimai でらっくす PRiSM,DX,advanced,7,7.5,-,262,6,10,49,12,339,false,false,true
 111697,[音]ラビットホール,DECO*27,niconico & VOCALOID,maimai でらっくす PRiSM,DX,basic,3,3,-,164,18,8,8,1,199,false,false,true
 111697,[音]ラビットホール,DECO*27,niconico & VOCALOID,maimai でらっくす PRiSM,DX,advanced,7,7,-,223,60,12,27,12,334,false,false,true
 111714,[匿]匿名M,ピノキオピー,宴会場,maimai でらっくす PRiSM PLUS,utage2p,【匿】,13+?,13.6,,,,,,,,true,true,true
 111715,[嘘]ライアーダンサー,マサラダ,宴会場,maimai でらっくす PRiSM,utage,【嘘】,12+?,12.6,,,,,,,,true,true,true
 111770,[協]Ultimate taste,ぱらどっと,宴会場,maimai でらっくす PRiSM,utage2p,【協】,13+?,13.6,,,,,,,,true,true,true
 111772,[X]人マニア,原口沙輔 feat.重音テト,宴会場,maimai でらっくす PRiSM,utage,【X】,14?,14,,,,,,,,true,true,true
-111783,[音]snooze,wotaku feat.SHIKI,niconico & VOCALOID,maimai でらっくす PRiSM,DX,basic,4,4,-,182,13,4,6,11,216,false,false,true
+111783,[音]snooze,wotaku feat.SHIKI,niconico & VOCALOID,maimai でらっくす PRiSM,DX,basic,4,4,-,182,12,4,7,11,216,false,false,true
 111783,[音]snooze,wotaku feat.SHIKI,niconico & VOCALOID,maimai でらっくす PRiSM,DX,advanced,6,6.8,-,293,12,10,26,4,345,false,false,true
-111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,basic,3,3,-,131,17,4,8,5,165,false,false,true
+111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,basic,3,3,-,131,16,4,9,5,165,false,false,true
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,advanced,6,6.7,-,268,16,10,26,2,322,false,false,true
 111838,[助]メズマライザー,サツキ feat.初音ミク・重音テト,宴会場,maimai でらっくす PRiSM PLUS,utage2p,【助】,13+?,13.6,,,,,,,,true,true,true
 111852,[好]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【好】,14?,14,,,,,,,,true,true,false
-111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,basic,3,3,-,174,18,4,18,4,218,false,false,true
+111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,basic,3,3,-,174,16,4,20,4,218,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,advanced,7+,7.8,-,309,19,12,7,8,355,false,false,true
 120227,[r]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【r】,14?,14,,,,,,,,true,true,true
 121634,[協]青春コンプレックス,結束バンド,宴会場,,utage2p,【協】,13?,13,,,,,,,,true,true,false
