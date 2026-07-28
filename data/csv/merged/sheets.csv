@@ -187,7 +187,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 68,オレンジの夏,Hiro/タクマロ,maimai,maimai,std,master,12,12.4,ニャイン,293,33,29,,16,371,false,true,true
 69,BaBan!! －甘い罠－,Hiro/永江理奈,maimai,maimai,std,basic,6,6,-,186,7,4,,3,200,false,true,true
 69,BaBan!! －甘い罠－,Hiro/永江理奈,maimai,maimai,std,advanced,8+,8.6,-,234,45,5,,4,288,false,true,true
-69,BaBan!! －甘い罠－,Hiro/永江理奈,maimai,maimai,std,expert,12,12.5,譜面-100号,236,75,18,,4,333,false,true,true
+69,BaBan!! －甘い罠－,Hiro/永江理奈,maimai,maimai,std,expert,12,12.3,譜面-100号,236,75,18,,4,333,false,true,true
 69,BaBan!! －甘い罠－,Hiro/永江理奈,maimai,maimai,std,master,12,12.5,maimai TEAM,381,48,20,,8,457,false,true,true
 70,ジングルベル,SEGA Sound Unit [H.],maimai,maimai,std,basic,6,6,-,139,13,2,,3,157,false,true,true
 70,ジングルベル,SEGA Sound Unit [H.],maimai,maimai,std,advanced,7+,7.6,-,149,26,5,,5,185,false,true,true
@@ -355,7 +355,11 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 130,FEEL ALIVE,ELEMENTAS feat. NAGISA,maimai,maimai PLUS,std,advanced,8+,8.6,-,211,20,8,,8,247,false,true,true
 130,FEEL ALIVE,ELEMENTAS feat. NAGISA,maimai,maimai PLUS,std,expert,12,12.1,ニャイン,279,31,12,,8,330,false,true,true
 130,FEEL ALIVE,ELEMENTAS feat. NAGISA,maimai,maimai PLUS,std,master,13+,13.7,mai-Star,375,29,36,,29,469,false,true,true
-131,Link,Clean Tears feat. Youna,maimai,maimai PLUS,std,remaster,13,13.5,じゃこレモン,322,29,84,,40,475,false,true,true
+131,Link,Clean Tears feat. Youna,舞萌,maimai PLUS,SD,basic,6,6,-,110,5,4,,5,124,false,false,true
+131,Link,Clean Tears feat. Youna,舞萌,maimai PLUS,SD,advanced,7+,7.8,-,145,19,7,,3,174,false,false,true
+131,Link,Clean Tears feat. Youna,舞萌,maimai PLUS,SD,expert,12+,12.6,はっぴー,253,31,23,,7,314,false,false,true
+131,Link,Clean Tears feat. Youna,舞萌,maimai PLUS,SD,master,12,12.5,mai-Star,208,14,73,,13,308,false,false,true
+131,Link,Clean Tears feat. Youna,舞萌,maimai PLUS,SD,remaster,13,13.5,じゃこレモン,322,29,84,,40,475,false,false,true
 132,Turn around,Clean Tears,maimai,maimai PLUS,std,basic,6,6,-,132,8,2,,3,145,false,true,true
 132,Turn around,Clean Tears,maimai,maimai PLUS,std,advanced,8,8,-,167,16,8,,3,194,false,true,true
 132,Turn around,Clean Tears,maimai,maimai PLUS,std,expert,13,13.1,ニャイン,361,26,11,,4,402,false,true,true
@@ -1119,7 +1123,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 358,毒占欲,DECO*27,niconico＆ボーカロイド,,std,basic,3,3,-,116,3,4,,4,127,false,true,false
 358,毒占欲,DECO*27,niconico＆ボーカロイド,,std,advanced,7,7,-,287,16,9,,4,316,false,true,false
 358,毒占欲,DECO*27,niconico＆ボーカロイド,,std,expert,10+,10.6,rioN,310,42,27,,11,390,false,true,false
-358,毒占欲,DECO*27,niconico＆ボーカロイド,,std,master,13,13.6,mai-Star,502,46,58,,11,617,false,true,false
+358,毒占欲,DECO*27,niconico＆ボーカロイド,,std,master,13,13,mai-Star,502,46,58,,11,617,false,true,false
 359,YU-MU,岸田教団＆THE明星ロケッツ,東方Project,maimai PiNK,std,basic,4,4,-,110,6,9,,2,127,false,true,true
 359,YU-MU,岸田教団＆THE明星ロケッツ,東方Project,maimai PiNK,std,advanced,7,7,-,218,47,7,,10,282,false,true,true
 359,YU-MU,岸田教団＆THE明星ロケッツ,東方Project,maimai PiNK,std,expert,10+,10.6,某S氏,322,54,24,,14,414,false,true,true
@@ -1212,10 +1216,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 382,おこちゃま戦争,ギガ/れをる,niconico＆ボーカロイド,maimai ORANGE,std,advanced,7,7,-,345,7,10,,14,376,false,true,true
 382,おこちゃま戦争,ギガ/れをる,niconico＆ボーカロイド,maimai ORANGE,std,expert,10+,10.6,某S氏,349,58,28,,14,449,false,true,true
 382,おこちゃま戦争,ギガ/れをる,niconico＆ボーカロイド,maimai ORANGE,std,master,13,13.3,はっぴー,658,27,40,,15,740,false,true,true
-383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico＆ボーカロイド,maimai ORANGE,std,basic,6,6,-,269,4,2,,3,278,false,true,true
-383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico＆ボーカロイド,maimai ORANGE,std,advanced,8,8,-,282,26,17,,12,337,false,true,true
-383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico＆ボーカロイド,maimai ORANGE,std,expert,10+,10.6,はっぴー,367,28,22,,8,425,false,true,true
-383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico＆ボーカロイド,maimai ORANGE,std,master,12,12.5,某S氏,485,57,60,,11,613,false,true,true
+383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico & VOCALOID,maimai ORANGE,SD,basic,6,6,-,269,4,2,,3,278,false,false,true
+383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico & VOCALOID,maimai ORANGE,SD,advanced,8,8.2,-,282,26,17,,12,337,false,false,true
+383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico & VOCALOID,maimai ORANGE,SD,expert,10+,10.7,はっぴー,367,28,22,,8,425,false,false,true
+383,Link,Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん),niconico & VOCALOID,maimai ORANGE,SD,master,12,12.5,某S氏,485,57,60,,11,613,false,false,true
 384,VERTeX,Hiro「maimai」より,maimai,maimai ORANGE,std,basic,5,5,-,184,4,5,,4,197,false,true,true
 384,VERTeX,Hiro「maimai」より,maimai,maimai ORANGE,std,advanced,8+,8.6,-,306,6,4,,5,321,false,true,true
 384,VERTeX,Hiro「maimai」より,maimai,maimai ORANGE,std,expert,11+,11.6,mai-Star,433,46,26,,22,527,false,true,true
@@ -2221,7 +2225,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 679,Los! Los! Los!,ターニャ・デグレチャフ(CV.悠木碧)「幼女戦記」,POPS＆アニメ,,std,basic,4,4,-,89,10,6,,2,107,false,true,false
 679,Los! Los! Los!,ターニャ・デグレチャフ(CV.悠木碧)「幼女戦記」,POPS＆アニメ,,std,advanced,8,8,-,234,17,10,,4,265,false,true,false
 679,Los! Los! Los!,ターニャ・デグレチャフ(CV.悠木碧)「幼女戦記」,POPS＆アニメ,,std,expert,11,11,LabiLabi,287,41,18,,15,361,false,true,false
-679,Los! Los! Los!,ターニャ・デグレチャフ(CV.悠木碧)「幼女戦記」,POPS＆アニメ,,std,master,12,12.6,rioN,353,50,60,,10,473,false,true,false
+679,Los! Los! Los!,ターニャ・デグレチャフ(CV.悠木碧)「幼女戦記」,POPS＆アニメ,,std,master,12,12,rioN,353,50,60,,10,473,false,true,false
 680,Candy Tall Woman,naotyu- feat. 佐々木恵梨,maimai,maimai MiLK,std,basic,6,6,-,189,4,9,,1,203,false,true,true
 680,Candy Tall Woman,naotyu- feat. 佐々木恵梨,maimai,maimai MiLK,std,advanced,7+,7.6,-,267,11,31,,13,322,false,true,true
 680,Candy Tall Woman,naotyu- feat. 佐々木恵梨,maimai,maimai MiLK,std,expert,11+,11.6,ものくろっく,351,60,59,,15,485,false,true,true
@@ -2232,7 +2236,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 681,Signature,Palme,maimai,maimai MiLK,std,master,13,13.5,Techno Kitchen,562,45,65,,26,698,false,true,true
 682,人生リセットボタン,kemu,niconico＆ボーカロイド,maimai MiLK,std,basic,6,6,-,229,10,9,,4,252,false,true,true
 682,人生リセットボタン,kemu,niconico＆ボーカロイド,maimai MiLK,std,advanced,8+,8.6,-,371,8,7,,11,397,false,true,true
-682,人生リセットボタン,kemu,niconico＆ボーカロイド,maimai MiLK,std,expert,11+,12.1,サファ太,514,40,41,,19,614,false,true,true
+682,人生リセットボタン,kemu,niconico＆ボーカロイド,maimai MiLK,std,expert,11+,11.6,サファ太,514,40,41,,19,614,false,true,true
 682,人生リセットボタン,kemu,niconico＆ボーカロイド,maimai MiLK,std,master,13+,13.8,ぴちネコ,701,48,166,,52,967,false,true,true
 683,しねばいいのに,どぶウサギ,niconico＆ボーカロイド,maimai MiLK,std,basic,3,3,-,122,6,4,,2,134,false,true,true
 683,しねばいいのに,どぶウサギ,niconico＆ボーカロイド,maimai MiLK,std,advanced,7,7,-,189,28,10,,7,234,false,true,true
@@ -4429,7 +4433,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11321,夜に駆ける,YOASOBI,POPS＆アニメ,,dx,advanced,6,6,-,280,15,15,8,5,323,false,true,false
 11321,夜に駆ける,YOASOBI,POPS＆アニメ,,dx,expert,8,8,みそかつ侍,303,62,36,43,20,464,false,true,false
 11321,夜に駆ける,YOASOBI,POPS＆アニメ,,dx,master,11,11,緑風 犬三郎,512,51,88,20,13,684,false,true,false
-11321,夜に駆ける,YOASOBI,POPS＆アニメ,,dx,remaster,13,12.8,隅田川星人,632,61,87,27,17,824,false,true,false
+11321,夜に駆ける,YOASOBI,POPS＆アニメ,,dx,remaster,13,13,隅田川星人,632,61,87,27,17,824,false,true,false
 11322,うっせぇわ,Ado,POPS＆アニメ,,dx,basic,3,3,-,89,17,4,17,6,133,false,true,false
 11322,うっせぇわ,Ado,POPS＆アニメ,,dx,advanced,7,7,-,272,28,19,6,17,342,false,true,false
 11322,うっせぇわ,Ado,POPS＆アニメ,,dx,expert,9+,9.6,隅田川星人,320,56,40,68,26,510,false,true,false
@@ -4748,11 +4752,11 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11407,くらべられっ子,ツユ,POPS＆アニメ,,dx,remaster,13,13,はっぴー,416,64,116,17,15,628,false,true,false
 11408,あの世行きのバスに乗ってさらば。,ツユ,POPS＆アニメ,,dx,basic,3,3,-,84,16,7,8,5,120,false,true,false
 11408,あの世行きのバスに乗ってさらば。,ツユ,POPS＆アニメ,,dx,advanced,7+,7.6,-,240,37,12,32,11,332,false,true,false
-11408,あの世行きのバスに乗ってさらば。,ツユ,POPS＆アニメ,,dx,expert,11+,11,翠楼屋,380,41,24,13,28,486,false,true,false
+11408,あの世行きのバスに乗ってさらば。,ツユ,POPS＆アニメ,,dx,expert,11+,11.6,翠楼屋,380,41,24,13,28,486,false,true,false
 11408,あの世行きのバスに乗ってさらば。,ツユ,POPS＆アニメ,,dx,master,13,13.2,すきやき奉行,462,63,71,38,64,698,false,true,false
 11409,うまぴょい伝説,スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）,POPS＆アニメ,,dx,basic,5,5,-,167,14,3,24,16,224,false,true,false
 11409,うまぴょい伝説,スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）,POPS＆アニメ,,dx,advanced,6,6,-,230,17,19,9,13,288,false,true,false
-11409,うまぴょい伝説,スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）,POPS＆アニメ,,dx,expert,9+,8.7,隅田川星人,292,85,15,35,21,448,false,true,false
+11409,うまぴょい伝説,スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）,POPS＆アニメ,,dx,expert,9+,9.6,隅田川星人,292,85,15,35,21,448,false,true,false
 11409,うまぴょい伝説,スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）,POPS＆アニメ,,dx,master,11,11,緑風 犬三郎,353,65,61,35,46,560,false,true,false
 11409,うまぴょい伝説,スペシャルウィーク （CV.和氣あず未）、サイレンススズカ （CV.高野麻里佳）、トウカイテイオー （CV.Machico）,POPS＆アニメ,,dx,remaster,13,13.5,翠楼屋,515,58,138,26,93,830,false,true,false
 11410,ヴァンパイア,DECO*27,niconico＆ボーカロイド,maimai でらっくす FESTiVAL,dx,basic,3,3,-,142,11,3,8,10,174,false,true,true
@@ -4814,7 +4818,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11426,Mjölnir,xi,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,master,14,14.4,翠楼屋,834,207,93,76,31,1241,false,true,true
 11427,Define,Zekk,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,basic,3,3,-,113,5,7,13,3,141,false,true,true
 11427,Define,Zekk,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,advanced,7+,7.6,-,244,12,21,34,5,316,false,true,true
-11427,Define,Zekk,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,expert,11+,11.2,隅田川星人,316,88,47,47,10,508,false,true,true
+11427,Define,Zekk,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,expert,11+,11.6,隅田川星人,316,88,47,47,10,508,false,true,true
 11427,Define,Zekk,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,master,13,13.5,じゃこレモン,461,36,137,4,11,649,false,true,true
 11428,BANG!,Shoichiro Hirata feat.Sana,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,basic,2,2,-,80,10,6,12,1,109,false,true,true
 11428,BANG!,Shoichiro Hirata feat.Sana,ゲーム＆バラエティ,maimai でらっくす FESTiVAL,dx,advanced,6,6,-,142,13,12,38,4,209,false,true,true
@@ -6930,8 +6934,8 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11986,AiAe,DJ'TEKINA//SOMETHING a.k.a ゆよゆっぺ,ゲーム＆バラエティ,,dx,advanced,8,8,-,319,15,7,31,3,375,false,true,false
 11986,AiAe,DJ'TEKINA//SOMETHING a.k.a ゆよゆっぺ,ゲーム＆バラエティ,,dx,expert,12,12.4,サファ太,388,43,65,51,66,613,false,true,false
 11986,AiAe,DJ'TEKINA//SOMETHING a.k.a ゆよゆっぺ,ゲーム＆バラエティ,,dx,master,14,14.4,サファ太,749,43,124,66,67,1049,false,true,false
-100018,[協]Love You,Q;indivi [cover],宴会場,maimai でらっくす BUDDiES,utage,【協】,12?,12,,,,,,,,true,true,true
-100022,[蔵]In Chaos,Hiro「Crackin’DJ」,宴会場,maimai でらっくす BUDDiES,utage,【蔵】,14+?,14.6,,,,,,,,true,true,true
+100018,[協]Love You,Q;indivi [cover],宴会場,maimai でらっくす BUDDiES,DX,basic,12?,12,-,268,44,30,,6,348,false,false,true
+100022,[蔵]In Chaos,Hiro「Crackin’DJ」,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,824,,110,,9,943,false,false,true
 100070,[即]ジングルベル,SEGA Sound Unit [H.],maimai,,dx,basic,5,5,-,144,12,3,6,10,175,false,true,false
 100070,[即]ジングルベル,SEGA Sound Unit [H.],maimai,,dx,advanced,7+,7.6,-,242,9,6,23,4,284,false,true,false
 100070,[即]ジングルベル,SEGA Sound Unit [H.],maimai,,dx,expert,10+,10.6,翠楼屋,266,36,21,27,77,427,false,true,false
@@ -6941,20 +6945,23 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 100070,[即]ジングルベル,SEGA Sound Unit [H.],maimai,,std,expert,10+,10.6,譜面-100号,282,18,18,,14,332,false,true,false
 100070,[即]ジングルベル,SEGA Sound Unit [H.],maimai,,std,master,14,14.4,チャン@DP皆伝,564,27,37,,20,648,false,true,false
 100070,[即]ジングルベル,SEGA Sound Unit [H.],maimai,,std,remaster,14,14.2,チャン@DP皆伝,450,63,124,,100,737,false,true,false
-100199,[蛸]チルノのパーフェクトさんすう教室,ARM＋夕野ヨシミ(IOSYS)feat. miko,宴会場,maimai でらっくす BUDDiES,utage,【蛸】,12+?,12.6,,,,,,,,true,true,true
-100206,[星]しゅわスパ大作戦☆,SOUND HOLIC feat. Nana Takahashi,宴会場,maimai でらっくす BUDDiES,utage,【星】,13?,13,,,,,,,,true,true,true
+100199,[蛸]チルノのパーフェクトさんすう教室,ARM＋夕野ヨシミ(IOSYS)feat. miko,宴会場,maimai でらっくす BUDDiES,DX,basic,12+?,12.7,-,58,217,27,,7,309,false,false,true
+100206,[星]しゅわスパ大作戦☆,SOUND HOLIC feat. Nana Takahashi,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,405,54,81,,34,574,false,false,true
 100207,[蛸]時空を超えて久しぶり！,アルル(CV 園崎未恵)「ぷよぷよ」,其他游戏,maimai GreeN,SD,basic,3,3,-,60,15,9,,4,88,false,false,true
 100207,[蛸]時空を超えて久しぶり！,アルル(CV 園崎未恵)「ぷよぷよ」,其他游戏,maimai GreeN,SD,advanced,6,6.2,-,165,21,17,,12,215,false,false,true
 100207,[蛸]時空を超えて久しぶり！,アルル(CV 園崎未恵)「ぷよぷよ」,其他游戏,maimai GreeN,SD,expert,10,10.3,ニャイン,182,28,51,,6,267,false,false,true
 100207,[蛸]時空を超えて久しぶり！,アルル(CV 園崎未恵)「ぷよぷよ」,其他游戏,maimai GreeN,SD,master,12+,12.7,はっぴー,333,40,49,,9,431,false,false,true
-100220,[宴]セガサターン起動音[H.][Remix],Hiro,宴会場,maimai でらっくす BUDDiES,utage,【宴】,13+?,13.6,,,,,,,,true,true,true
+100220,[宴]セガサターン起動音[H.][Remix],Hiro,宴会場,maimai でらっくす BUDDiES,DX,basic,13+?,13.7,-,904,,2,,44,950,false,false,true
 100224,[傾]ウサテイ,あまね＋ビートまりお(COOL＆CREATE),東方Project,maimai GreeN,std,basic,5,5,-,137,8,4,,10,159,false,true,true
 100224,[傾]ウサテイ,あまね＋ビートまりお(COOL＆CREATE),東方Project,maimai GreeN,std,advanced,7,7,-,224,28,12,,5,269,false,true,true
 100224,[傾]ウサテイ,あまね＋ビートまりお(COOL＆CREATE),東方Project,maimai GreeN,std,expert,10+,10.6,某S氏,406,42,7,,10,465,false,true,true
 100224,[傾]ウサテイ,あまね＋ビートまりお(COOL＆CREATE),東方Project,maimai GreeN,std,master,14,14,はっぴー,549,16,65,,16,646,false,true,true
-100227,[は]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【は】,14?,14,,,,,,,,true,true,true
-100230,[宴]CYCLES,Masayoshi Minoshima feat. 綾倉盟,宴会場,maimai でらっくす BUDDiES,utage,【宴】,13?,13,,,,,,,,true,true,true
-100259,[協]ぽっぴっぽー, ,宴会場,maimai GreeN,utage,【協】,13+?,13.6,,,,,,,,true,true,true
+100227,[は]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,DX,basic,14?,14,-,659,52,202,,20,933,false,false,true
+100230,[宴]CYCLES,Masayoshi Minoshima feat. 綾倉盟,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,357,,361,,62,780,false,false,true
+100259,[協]ぽっぴっぽー, ,niconico & VOCALOID,maimai GreeN,SD,basic,4,4,-,109,3,2,,2,116,false,false,true
+100259,[協]ぽっぴっぽー, ,niconico & VOCALOID,maimai GreeN,SD,advanced,7,7.5,-,234,2,14,,18,268,false,false,true
+100259,[協]ぽっぴっぽー, ,niconico & VOCALOID,maimai GreeN,SD,expert,9+,9.9,はっぴー,285,52,17,,8,362,false,false,true
+100259,[協]ぽっぴっぽー, ,niconico & VOCALOID,maimai GreeN,SD,master,13,13.3,はっぴー,430,36,37,,4,507,false,false,true
 100282,[撫]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,basic,3,3,-,107,,5,,2,114,false,false,true
 100282,[撫]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,advanced,6,6.6,-,162,10,16,,5,193,false,false,true
 100282,[撫]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,expert,10,10.1,Jack,254,30,43,,8,335,false,false,true
@@ -6972,12 +6979,12 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 100326,[宴]コトバ・カラフル,うたよめ575＜正岡小豆(大坪由佳)小林抹茶(大橋彩香)＞,ゲーム＆バラエティ,maimai GreeN PLUS,std,advanced,7,7,-,144,11,9,,6,170,false,true,true
 100326,[宴]コトバ・カラフル,うたよめ575＜正岡小豆(大坪由佳)小林抹茶(大橋彩香)＞,ゲーム＆バラエティ,maimai GreeN PLUS,std,expert,8+,8.6,mai-Star,234,17,9,,15,275,false,true,true
 100326,[宴]コトバ・カラフル,うたよめ575＜正岡小豆(大坪由佳)小林抹茶(大橋彩香)＞,ゲーム＆バラエティ,maimai GreeN PLUS,std,master,13+,13.7,はっぴー,459,3,53,,60,575,false,true,true
-100327,[狂]タカハせ！名人マン,ビートまりお + ARM feat. 高橋名人,宴会場,maimai でらっくす BUDDiES,utage,【狂】,14+?,14.6,,,,,,,,true,true,true
+100327,[狂]タカハせ！名人マン,ビートまりお + ARM feat. 高橋名人,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,682,564,3,,3,1252,false,false,true
 100339,[宴]DRAGONLADY,Nankumo/CUBE3,ゲーム＆バラエティ,maimai GreeN PLUS,std,basic,4,4,-,127,7,2,,10,146,false,true,true
 100339,[宴]DRAGONLADY,Nankumo/CUBE3,ゲーム＆バラエティ,maimai GreeN PLUS,std,advanced,8,8,-,247,20,24,,12,303,false,true,true
 100339,[宴]DRAGONLADY,Nankumo/CUBE3,ゲーム＆バラエティ,maimai GreeN PLUS,std,expert,12+,12.8,譜面-100号,267,2,95,,27,391,false,true,true
 100339,[宴]DRAGONLADY,Nankumo/CUBE3,ゲーム＆バラエティ,maimai GreeN PLUS,std,master,13+,13.9,チャン@DP皆伝,609,,19,,14,642,false,true,true
-100363,[宴]Oshama Scramble!,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【宴】,13?,13,,,,,,,,true,true,true
+100363,[宴]Oshama Scramble!,t+pazolite,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,87,36,132,,35,290,false,false,true
 100413,[覚]キャプテン・ムラサのケツアンカー,ARM＋夕野ヨシミ(IOSYS)feat.山本椛,東方Project,maimai ORANGE PLUS,std,basic,6,6,-,145,10,2,,7,164,false,true,true
 100413,[覚]キャプテン・ムラサのケツアンカー,ARM＋夕野ヨシミ(IOSYS)feat.山本椛,東方Project,maimai ORANGE PLUS,std,advanced,7,7,-,209,14,9,,4,236,false,true,true
 100413,[覚]キャプテン・ムラサのケツアンカー,ARM＋夕野ヨシミ(IOSYS)feat.山本椛,東方Project,maimai ORANGE PLUS,std,expert,11,11,某S氏,275,30,37,,19,361,false,true,true
@@ -6990,16 +6997,16 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 100422,[覚]LANCE,Ras,maimai,,std,advanced,8+,8.6,-,297,24,17,,16,354,false,true,false
 100422,[覚]LANCE,Ras,maimai,,std,expert,11+,11.6,Jack,485,44,51,,9,589,false,true,false
 100422,[覚]LANCE,Ras,maimai,,std,master,13+,13.8,mai-Star,704,28,109,,14,855,false,true,false
-100456,[蔵]Glorious Crown,xi,宴会場,maimai でらっくす BUDDiES,utage,【蔵】,14+?,14.6,,,,,,,,true,true,true
-100508,[協]恋愛裁判,40mP,宴会場,maimai でらっくす BUDDiES,utage,【協】,13?,13,,,,,,,,true,true,true
+100456,[蔵]Glorious Crown,xi,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,1192,15,56,,19,1282,false,false,true
+100508,[協]恋愛裁判,40mP,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,607,160,56,,32,855,false,false,true
 100516,[狂]ココロ,トラボルタ,niconico＆ボーカロイド,,std,basic,3,3,-,178,15,5,,8,206,false,true,false
 100516,[狂]ココロ,トラボルタ,niconico＆ボーカロイド,,std,advanced,7,7,-,264,38,19,,6,327,false,true,false
 100516,[狂]ココロ,トラボルタ,niconico＆ボーカロイド,,std,expert,9+,9.6,はっぴー,295,58,58,,5,416,false,true,false
 100516,[狂]ココロ,トラボルタ,niconico＆ボーカロイド,,std,master,12,12.5,rioN,366,48,142,,10,566,false,true,false
-100517,[覚]東京リアルワールド,out of service,宴会場,maimai でらっくす BUDDiES,utage,【覚】,12?,12,,,,,,,,true,true,true
-100524,[協]Hand in Hand,livetune,宴会場,maimai でらっくす BUDDiES,utage,【協】,13?,13,,,,,,,,true,true,true
-100548,[疑]DETARAME ROCK&ROLL THEORY,箱部 なる(CV:M・A・O),宴会場,maimai でらっくす BUDDiES,utage,【疑】,13?,13,,,,,,,,true,true,true
-100700,[協]疾走あんさんぶる,ビートまりお（COOL&CREATE）,宴会場,maimai でらっくす BUDDiES,utage,【協】,14?,14,,,,,,,,true,true,true
+100517,[覚]東京リアルワールド,out of service,宴会場,maimai でらっくす BUDDiES,DX,basic,12?,12,-,146,46,154,,12,358,false,false,true
+100524,[協]Hand in Hand,livetune,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,903,165,84,,55,1207,false,false,true
+100548,[疑]DETARAME ROCK&ROLL THEORY,箱部 なる(CV:M・A・O),宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,475,16,150,,22,663,false,false,true
+100700,[協]疾走あんさんぶる,ビートまりお（COOL&CREATE）,宴会場,maimai でらっくす BUDDiES,DX,basic,14?,14,-,1092,220,2,,51,1365,false,false,true
 100712,[蛸]ミラクル・ショッピング,田中マイミ,POPS＆アニメ,maimai MiLK,std,basic,5,5,-,188,16,4,,5,213,false,true,true
 100712,[蛸]ミラクル・ショッピング,田中マイミ,POPS＆アニメ,maimai MiLK,std,advanced,7,7,-,272,20,33,,16,341,false,true,true
 100712,[蛸]ミラクル・ショッピング,田中マイミ,POPS＆アニメ,maimai MiLK,std,expert,10+,10.6,某S氏,335,54,47,,14,450,false,true,true
@@ -7022,10 +7029,11 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,advanced,8+,8.6,-,203,20,5,,13,241,false,true,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,expert,10+,10.6,譜面-100号,274,61,26,,34,395,false,true,true
 110082,[藏]Reach For The Stars,"大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",ゲーム＆バラエティ,maimai,std,master,13+,13.9,チャン@DP皆伝,456,29,50,,14,549,false,true,true
-110114,[耐]Space Harrier Main Theme [Reborn],佐野 信義「スペースハリアー」,宴会場,maimai でらっくす BUDDiES,utage,【耐】,14+?,14.6,,,,,,,,true,true,true
-110121,[甘]スイートマジック,ろん×Junky,宴会場,maimai でらっくす PRiSM PLUS,utage,【甘】,12?,12,,,,,,,,true,true,true
-110227,[J]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【J】,14?,14,,,,,,,,true,true,true
-110281,[回]ダブルラリアット,アゴアニキ,宴会場,maimai でらっくす PRiSM,utage2p,【回】,13?,13,,,,,,,,true,true,true
+110114,[耐]Space Harrier Main Theme [Reborn],佐野 信義「スペースハリアー」,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,1476,,7,,7,1490,false,false,true
+110121,[甘]スイートマジック,ろん×Junky,宴会場,maimai でらっくす PRiSM PLUS,DX,basic,12?,12,-,303,43,21,18,47,432,false,false,true
+110227,[J]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,DX,basic,14?,14,-,718,6,134,,19,877,false,false,true
+110281,[回]ダブルラリアット,アゴアニキ,宴会場,maimai でらっくす PRiSM,DX,basic,13?,13,-,557,20,55,,21,653,false,false,true
+110281,[回]ダブルラリアット,アゴアニキ,宴会場,maimai でらっくす PRiSM,DX,advanced,13?,13,-,557,20,55,,21,653,false,false,true
 110282,[習]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,basic,3,3,-,107,,5,,2,114,false,false,true
 110282,[習]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,advanced,6,6.6,-,162,10,16,,5,193,false,false,true
 110282,[習]からくりピエロ,40mP,niconico & VOCALOID,maimai GreeN PLUS,SD,expert,10,10.1,Jack,254,30,43,,8,335,false,false,true
@@ -7035,13 +7043,19 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 110351,[鏡]MIRROR of MAGIC,Shoichiro Hirata feat.SUIMI,舞萌,maimai ORANGE,SD,advanced,7+,7.8,-,302,20,14,,8,344,false,false,true
 110351,[鏡]MIRROR of MAGIC,Shoichiro Hirata feat.SUIMI,舞萌,maimai ORANGE,SD,expert,10+,10.7,mai-Star,291,36,61,,14,402,false,false,true
 110351,[鏡]MIRROR of MAGIC,Shoichiro Hirata feat.SUIMI,舞萌,maimai ORANGE,SD,master,13,13.2,Jack,406,52,82,,12,552,false,false,true
-110417,[習]ウミユリ海底譚,n-buna,宴会場,maimai でらっくす PRiSM,utage,【習】,12+?,12.6,,,,,,,,true,true,true
-110532,[奏]洗脳,ゆりん・柿チョコ×Neru,宴会場,maimai でらっくす PRiSM,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,true
-110553,[奏]チュルリラ・チュルリラ・ダッダッダ！,和田たけあき(くらげP),宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,13?,13,,,,,,,,true,true,true
-110579,[協]ポップミュージックは僕のもの,ONIGAWARA,宴会場,maimai MURASAKi,utage,【協】,12+?,12.6,,,,,,,,true,true,true
-110606,[右]The wheel to the right,Sampling Masters MEGA,宴会場,maimai でらっくす BUDDiES,utage,【右】,14+?,14.6,,,,,,,,true,true,true
-110631,[逆]KING is BACK!!,A-One,宴会場,maimai でらっくす BUDDiES,utage,【逆】,13+?,13.6,,,,,,,,true,true,true
-110647,[協]エイリアンエイリアン,ナユタン星人,宴会場,maimai でらっくす BUDDiES,utage2p,【協】,13?,13,,,,,,,,true,true,true
+110417,[習]ウミユリ海底譚,n-buna,宴会場,maimai でらっくす PRiSM,DX,basic,12+?,12.7,-,549,7,109,,1,666,false,false,true
+110532,[奏]洗脳,ゆりん・柿チョコ×Neru,宴会場,maimai でらっくす PRiSM,DX,basic,12+?,12.7,-,516,47,72,,9,644,false,false,true
+110532,[奏]洗脳,ゆりん・柿チョコ×Neru,宴会場,maimai でらっくす PRiSM,DX,advanced,12+?,12.7,-,653,63,52,,9,777,false,false,true
+110553,[奏]チュルリラ・チュルリラ・ダッダッダ！,和田たけあき(くらげP),宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,514,44,156,40,24,778,false,false,true
+110553,[奏]チュルリラ・チュルリラ・ダッダッダ！,和田たけあき(くらげP),宴会場,maimai でらっくす BUDDiES,DX,advanced,13?,13,-,490,21,115,90,69,785,false,false,true
+110579,[協]ポップミュージックは僕のもの,ONIGAWARA,流行&动漫,maimai MURASAKi,SD,basic,4,4,-,115,26,7,,4,152,false,false,true
+110579,[協]ポップミュージックは僕のもの,ONIGAWARA,流行&动漫,maimai MURASAKi,SD,advanced,7,7,-,335,22,19,,7,383,false,false,true
+110579,[協]ポップミュージックは僕のもの,ONIGAWARA,流行&动漫,maimai MURASAKi,SD,expert,9+,9.9,チャン@DP皆伝,272,47,29,,16,364,false,false,true
+110579,[協]ポップミュージックは僕のもの,ONIGAWARA,流行&动漫,maimai MURASAKi,SD,master,12,12.5,譜面-100号,368,159,33,,1,561,false,false,true
+110606,[右]The wheel to the right,Sampling Masters MEGA,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,603,20,185,,200,1008,false,false,true
+110631,[逆]KING is BACK!!,A-One,宴会場,maimai でらっくす BUDDiES,DX,basic,13+?,13.7,-,777,24,138,,96,1035,false,false,true
+110647,[協]エイリアンエイリアン,ナユタン星人,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,378,165,56,55,86,740,false,false,true
+110647,[協]エイリアンエイリアン,ナユタン星人,宴会場,maimai でらっくす BUDDiES,DX,advanced,13?,13,-,344,175,59,54,85,717,false,false,true
 110684,[一]もうみんなしねばいいのに,谷屋楽,东方Project,maimai MiLK,SD,basic,5,5,-,192,16,8,,4,220,false,false,true
 110684,[一]もうみんなしねばいいのに,谷屋楽,东方Project,maimai MiLK,SD,advanced,8,8.1,-,305,35,18,,18,376,false,false,true
 110684,[一]もうみんなしねばいいのに,谷屋楽,东方Project,maimai MiLK,SD,expert,12+,12.7,玉子豆腐,481,27,102,,36,646,false,false,true
@@ -7054,15 +7068,14 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 110781,[協]Seyana. ～何でも言うことを聞いてくれるアカネチャン～,GYARI,niconico & VOCALOID,MiLK PLUS,SD,advanced,7+,7.6,-,254,18,15,,5,292,false,false,true
 110781,[協]Seyana. ～何でも言うことを聞いてくれるアカネチャン～,GYARI,niconico & VOCALOID,MiLK PLUS,SD,expert,10+,10.7,Moon Strix,305,43,56,,37,441,false,false,true
 110781,[協]Seyana. ～何でも言うことを聞いてくれるアカネチャン～,GYARI,niconico & VOCALOID,MiLK PLUS,SD,master,13,13.3,玉子豆腐,529,36,66,,37,668,false,false,true
-110793,[疑]ロキ,みきとP,宴会場,maimai でらっくす BUDDiES,utage,【疑】,13?,13,,,,,,,,true,true,true
+110793,[疑]ロキ,みきとP,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,459,20,150,,40,669,false,false,true
 110816,[奏]クレイジークレイジーダンサーズ,ビートまりお＋あまね（COOL&CREATE）,东方Project,maimai FiNALE,SD,basic,5,5,-,186,13,5,,11,215,false,false,true
 110816,[奏]クレイジークレイジーダンサーズ,ビートまりお＋あまね（COOL&CREATE）,东方Project,maimai FiNALE,SD,advanced,8,8.3,-,307,20,11,,58,396,false,false,true
 110816,[奏]クレイジークレイジーダンサーズ,ビートまりお＋あまね（COOL&CREATE）,东方Project,maimai FiNALE,SD,expert,10+,10.8,サファ太,340,62,59,,49,510,false,false,true
 110816,[奏]クレイジークレイジーダンサーズ,ビートまりお＋あまね（COOL&CREATE）,东方Project,maimai FiNALE,SD,master,11+,11.7,緑風 犬三郎,459,31,105,,11,606,false,false,true
 110816,[奏]クレイジークレイジーダンサーズ,ビートまりお＋あまね（COOL&CREATE）,东方Project,maimai FiNALE,SD,remaster,13,13.3,小鳥遊さん,469,27,113,,185,794,false,false,true
-111069,[協]太陽系デスコ,ナユタン星人,宴会場,maimai でらっくす PRiSM,utage,【協】,11+?,11.6,,,,,,,,true,true,true
-111113,[回]ハム太郎とっとこうた,ハムちゃんず [covered by 光吉猛修],宴会場,maimai でらっくす PRiSM PLUS,utage,【回】,13?,13,,,,,,,,true,true,true
-111156,[奏]マイオドレ！舞舞タイム,キノシタ feat. そらみこ (ホロライブ ときのそら＆さくらみこ),宴会場,,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,false
+111069,[協]太陽系デスコ,ナユタン星人,宴会場,maimai でらっくす PRiSM,DX,basic,11+?,11.7,-,243,15,52,20,56,386,false,false,true
+111113,[回]ハム太郎とっとこうた,ハムちゃんず [covered by 光吉猛修],宴会場,maimai でらっくす PRiSM PLUS,DX,basic,13?,13,-,421,78,81,36,58,674,false,false,true
 111188,[藍]絶え間なく藍色,獅子志司,niconico & VOCALOID,maimai でらっくす Splash,DX,basic,3,3,-,78,11,5,12,4,110,false,false,true
 111188,[藍]絶え間なく藍色,獅子志司,niconico & VOCALOID,maimai でらっくす Splash,DX,advanced,6,6.2,-,186,21,16,14,3,240,false,false,true
 111188,[藍]絶え間なく藍色,獅子志司,niconico & VOCALOID,maimai でらっくす Splash,DX,expert,8,8.5,はっぴー,263,56,15,31,6,371,false,false,true
@@ -7071,29 +7084,45 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,advanced,8,8.5,-,321,17,14,26,36,414,false,false,true
 111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,expert,12+,12.8,サファ太,513,65,42,55,57,732,false,false,true
 111222,[光]BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,舞萌,maimai でらっくす Splash,DX,master,14+,14.6,サファ太 vs -ZONE- SaFaRi,797,76,121,62,50,1106,false,false,true
-111234,[星]ほしぞらスペクタクル,奏音,宴会場,maimai でらっくす PRiSM,utage,【星】,14?,14,,,,,,,,true,true,true
-111325,[奏]テレキャスタービーボーイ,すりぃ,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,true
-111355,[協]ラグトレイン,稲葉曇,宴会場,maimai でらっくす BUDDiES,utage2p,【協】,13?,13,,,,,,,,true,true,true
-111359,[奏]アカツキアライヴァル,Last Note.,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,13?,13,,,,,,,,true,true,true
-111363,[片]神々が恋した幻想郷,Unlucky Morpheus,宴会場,maimai でらっくす PRiSM,utage,【片】,14?,14,,,,,,,,true,true,true
-111365,[奏]アンビバレンス,すりぃ×相沢,宴会場,maimai でらっくす PRiSM,utage2p,【奏】,13?,13,,,,,,,,true,true,true
-111388,[即]チューリングの跡,Frums,宴会場,maimai でらっくす PRiSM PLUS,utage,【即】,13?,13,,,,,,,,true,true,true
-111429,[爆]Love's Theme of BADASS ～バッド・アス 愛のテーマ～,Hommarju,宴会場,maimai でらっくす PRiSM,utage,【爆】,14?,14,,,,,,,,true,true,true
-111433,[奏]ヒトガタ,HIMEHINA,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,13?,13,,,,,,,,true,true,true
-111437,[協]三妖精SAY YA!!!,森羅万象,宴会場,maimai でらっくす BUDDiES,utage,【協】,13?,13,,,,,,,,true,true,true
-111479,[覚]Hainuwele,ETIA.,宴会場,maimai でらっくす FESTiVAL,utage,【覚】,13+?,13.6,,,,,,,,true,true,true
-111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,宴会場,maimai でらっくす BUDDiES,utage2p,【覚】,12?,12,,,,,,,,true,true,true
-111513,[回]回る空うさぎ,Orangestar,宴会場,maimai でらっくす BUDDiES,utage,【回】,11?,11,,,,,,,,true,true,true
-111516,[蔵]Aegleseeker,Silentroom vs Frums,宴会場,maimai でらっくす FESTiVAL,utage,【蔵】,14+?,14.6,,,,,,,,true,true,true
+111234,[星]ほしぞらスペクタクル,奏音,宴会場,maimai でらっくす PRiSM,DX,basic,14?,14,-,1127,,69,,26,1222,false,false,true
+111325,[奏]テレキャスタービーボーイ,すりぃ,宴会場,maimai でらっくす BUDDiES,DX,basic,12+?,12.7,-,474,61,59,28,15,637,false,false,true
+111325,[奏]テレキャスタービーボーイ,すりぃ,宴会場,maimai でらっくす BUDDiES,DX,advanced,12+?,12.7,-,470,59,59,28,15,631,false,false,true
+111355,[協]ラグトレイン,稲葉曇,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,183,76,53,164,173,649,false,false,true
+111355,[協]ラグトレイン,稲葉曇,宴会場,maimai でらっくす BUDDiES,DX,advanced,13?,13,-,172,63,53,102,216,606,false,false,true
+111359,[奏]アカツキアライヴァル,Last Note.,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,618,56,49,73,13,809,false,false,true
+111359,[奏]アカツキアライヴァル,Last Note.,宴会場,maimai でらっくす BUDDiES,DX,advanced,13?,13,-,603,65,51,70,13,802,false,false,true
+111363,[片]神々が恋した幻想郷,Unlucky Morpheus,宴会場,maimai でらっくす PRiSM,DX,basic,14?,14,-,955,57,45,1,33,1091,false,false,true
+111365,[奏]アンビバレンス,すりぃ×相沢,宴会場,maimai でらっくす PRiSM,DX,basic,13?,13,-,558,52,206,51,17,884,false,false,true
+111365,[奏]アンビバレンス,すりぃ×相沢,宴会場,maimai でらっくす PRiSM,DX,advanced,13?,13,-,566,51,198,51,18,884,false,false,true
+111388,[即]チューリングの跡,Frums,宴会場,maimai でらっくす PRiSM PLUS,DX,basic,13?,13,-,263,,202,,9,474,false,false,true
+111429,[爆]Love's Theme of BADASS ～バッド・アス 愛のテーマ～,Hommarju,宴会場,maimai でらっくす PRiSM,DX,basic,14?,14,-,337,115,8,391,491,1342,false,false,true
+111433,[奏]ヒトガタ,HIMEHINA,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,543,85,97,18,61,804,false,false,true
+111433,[奏]ヒトガタ,HIMEHINA,宴会場,maimai でらっくす BUDDiES,DX,advanced,13?,13,-,519,94,111,22,60,806,false,false,true
+111437,[協]三妖精SAY YA!!!,森羅万象,宴会場,maimai でらっくす BUDDiES,DX,basic,13?,13,-,724,251,71,25,211,1282,false,false,true
+111479,[覚]Hainuwele,ETIA.,音击&中二节奏,maimai でらっくす FESTiVAL,DX,basic,5,5,-,201,13,4,6,15,239,false,false,true
+111479,[覚]Hainuwele,ETIA.,音击&中二节奏,maimai でらっくす FESTiVAL,DX,advanced,8,8,-,348,28,12,26,8,422,false,false,true
+111479,[覚]Hainuwele,ETIA.,音击&中二节奏,maimai でらっくす FESTiVAL,DX,expert,12+,12.9,Jack,501,82,42,32,17,674,false,false,true
+111479,[覚]Hainuwele,ETIA.,音击&中二节奏,maimai でらっくす FESTiVAL,DX,master,14,14.3,サファ太 vs 翠楼屋,809,58,70,16,77,1030,false,false,true
+111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,宴会場,maimai でらっくす BUDDiES,DX,basic,12?,12,-,99,4,34,80,17,234,false,false,true
+111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,宴会場,maimai でらっくす BUDDiES,DX,advanced,12?,12,-,83,4,34,90,17,228,false,false,true
+111513,[回]回る空うさぎ,Orangestar,宴会場,maimai でらっくす BUDDiES,DX,basic,11?,11,-,,,32,221,1,254,false,false,true
+111516,[蔵]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,basic,5,5,-,184,19,4,31,7,245,false,false,true
+111516,[蔵]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,advanced,8,8.5,-,312,17,18,23,20,390,false,false,true
+111516,[蔵]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,expert,12+,12.8,はっぴー,480,88,41,35,21,665,false,false,true
+111516,[蔵]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,master,14,14.5,サファ太 vs 翠楼屋,754,87,49,114,80,1084,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,basic,3,3,-,147,11,4,7,11,180,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,advanced,7,7,-,267,12,6,33,10,328,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,expert,10+,10.7,サファ太,344,54,38,19,76,531,false,false,true
 111545,[餡]隠密あんみつDX,"カルロス袴田 feat. 日南めい, 古川由彩",舞萌,maimai でらっくす BUDDiES,DX,master,13,13.5,はっぴー,581,31,117,54,49,832,false,false,true
-111557,[蛸]不機嫌なスリーカード,HIMEHINA,宴会場,maimai でらっくす PRiSM,utage,【蛸】,13?,13,,,,,,,,true,true,true
-111577,[両]はんぶんこ,三枝明那,宴会場,maimai でらっくす BUDDiES,utage,【両】,12?,12,,,,,,,,true,true,true
-111597,[息]ノンブレス・オブリージュ,ピノキオピー,宴会場,maimai でらっくす BUDDiES,utage,【息】,13+?,13.6,,,,,,,,true,true,true
-111628,[逆]WE'RE BACK!!,Zekk,宴会場,maimai でらっくす BUDDiES,utage,【逆】,12+?,12.6,,,,,,,,true,true,true
-111636,[奏]さくゆいたいそう,さくゆい,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,12+?,12.6,,,,,,,,true,true,true
+111557,[蛸]不機嫌なスリーカード,HIMEHINA,宴会場,maimai でらっくす PRiSM,DX,basic,13?,13,-,467,130,16,18,62,693,false,false,true
+111577,[両]はんぶんこ,三枝明那,宴会場,maimai でらっくす BUDDiES,DX,basic,12?,12,-,354,42,64,37,12,509,false,false,true
+111597,[息]ノンブレス・オブリージュ,ピノキオピー,宴会場,maimai でらっくす BUDDiES,DX,basic,13+?,13.7,-,803,89,15,1,17,925,false,false,true
+111628,[逆]WE'RE BACK!!,Zekk,音击&中二节奏,maimai でらっくす BUDDiES,DX,basic,4,4,-,158,14,6,16,14,208,false,false,true
+111628,[逆]WE'RE BACK!!,Zekk,音击&中二节奏,maimai でらっくす BUDDiES,DX,advanced,8,8,-,306,16,6,28,8,364,false,false,true
+111628,[逆]WE'RE BACK!!,Zekk,音击&中二节奏,maimai でらっくす BUDDiES,DX,expert,12,12.2,鳩ホルダー,489,47,56,26,30,648,false,false,true
+111628,[逆]WE'RE BACK!!,Zekk,音击&中二节奏,maimai でらっくす BUDDiES,DX,master,14,14,Luxizhel,730,78,89,32,32,961,false,false,true
+111636,[奏]さくゆいたいそう,さくゆい,宴会場,maimai でらっくす BUDDiES,DX,basic,12+?,12.7,-,390,139,58,49,71,707,false,false,true
+111636,[奏]さくゆいたいそう,さくゆい,宴会場,maimai でらっくす BUDDiES,DX,advanced,12+?,12.7,-,405,129,63,50,61,708,false,false,true
 111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,basic,5,5,-,189,16,6,23,5,239,false,false,true
 111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,advanced,8,8,-,314,23,6,16,10,369,false,false,true
 111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,niconico & VOCALOID,maimai でらっくす BUDDiES,DX,expert,11+,11.9,Luxizhel,475,58,80,43,51,707,false,false,true
@@ -7107,10 +7136,12 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111697,[音]ラビットホール,DECO*27,niconico & VOCALOID,maimai でらっくす PRiSM,DX,expert,9+,9.8,サファ太,401,64,44,29,16,554,false,false,true
 111697,[音]ラビットホール,DECO*27,niconico & VOCALOID,maimai でらっくす PRiSM,DX,master,11+,11.8,緑風 犬三郎,452,73,129,38,21,713,false,false,true
 111697,[音]ラビットホール,DECO*27,niconico & VOCALOID,maimai でらっくす PRiSM,DX,remaster,13,13.3,Luxizhel & Jack,662,49,158,28,25,922,false,false,true
-111714,[匿]匿名M,ピノキオピー,宴会場,maimai でらっくす PRiSM PLUS,utage2p,【匿】,13+?,13.6,,,,,,,,true,true,true
-111715,[嘘]ライアーダンサー,マサラダ,宴会場,maimai でらっくす PRiSM,utage,【嘘】,12+?,12.6,,,,,,,,true,true,true
-111770,[協]Ultimate taste,ぱらどっと,宴会場,maimai でらっくす PRiSM PLUS,utage2p,【協】,13+?,13.6,,,,,,,,true,true,true
-111772,[X]人マニア,原口沙輔 feat.重音テト,宴会場,maimai でらっくす PRiSM,utage,【X】,14?,14,,,,,,,,true,true,true
+111714,[匿]匿名M,ピノキオピー,宴会場,maimai でらっくす PRiSM PLUS,DX,basic,13+?,13.7,-,347,59,48,7,14,475,false,false,true
+111714,[匿]匿名M,ピノキオピー,宴会場,maimai でらっくす PRiSM PLUS,DX,advanced,13+?,13.7,-,549,,60,45,2,656,false,false,true
+111715,[嘘]ライアーダンサー,マサラダ,宴会場,maimai でらっくす PRiSM,DX,basic,12+?,12.7,-,157,,158,,47,362,false,false,true
+111770,[協]Ultimate taste,ぱらどっと,宴会場,maimai でらっくす PRiSM PLUS,DX,basic,13+?,13.7,-,537,166,71,164,26,964,false,false,true
+111770,[協]Ultimate taste,ぱらどっと,宴会場,maimai でらっくす PRiSM PLUS,DX,advanced,13+?,13.7,-,640,161,98,39,41,979,false,false,true
+111772,[X]人マニア,原口沙輔 feat.重音テト,宴会場,maimai でらっくす PRiSM,DX,basic,14?,14,-,362,47,76,230,86,801,false,false,true
 111783,[音]snooze,wotaku feat.SHIKI,niconico & VOCALOID,maimai でらっくす PRiSM,DX,basic,4,4,-,182,13,4,6,11,216,false,false,true
 111783,[音]snooze,wotaku feat.SHIKI,niconico & VOCALOID,maimai でらっくす PRiSM,DX,advanced,6,6.8,-,293,12,10,26,4,345,false,false,true
 111783,[音]snooze,wotaku feat.SHIKI,niconico & VOCALOID,maimai でらっくす PRiSM,DX,expert,10+,10.7,サファ太,407,46,62,45,56,616,false,false,true
@@ -7119,18 +7150,12 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,advanced,6,6.7,-,268,16,10,26,2,322,false,false,true
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,expert,9,9.5,まぐランド,350,54,27,27,20,478,false,false,true
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,master,12+,12.9,はっぴー,433,64,75,36,34,642,false,false,true
-111838,[助]メズマライザー,サツキ feat.初音ミク・重音テト,宴会場,maimai でらっくす PRiSM PLUS,utage2p,【助】,13+?,13.6,,,,,,,,true,true,true
-111852,[好]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【好】,14?,14,,,,,,,,true,true,false
+111838,[助]メズマライザー,サツキ feat.初音ミク・重音テト,宴会場,maimai でらっくす PRiSM PLUS,DX,basic,13+?,13.7,-,652,124,151,132,21,1080,false,false,true
+111838,[助]メズマライザー,サツキ feat.初音ミク・重音テト,宴会場,maimai でらっくす PRiSM PLUS,DX,advanced,13+?,13.7,-,578,148,2,47,188,963,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,basic,3,3,-,174,18,4,18,4,218,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,advanced,7+,7.8,-,309,19,12,7,8,355,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,expert,10,10,Luxizhel,407,44,48,21,19,539,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,master,13+,13.7,サファ太,592,56,101,24,61,834,false,false,true
-120227,[r]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【r】,14?,14,,,,,,,,true,true,true
-121634,[協]青春コンプレックス,結束バンド,宴会場,,utage2p,【協】,13?,13,,,,,,,,true,true,false
-121852,[譜]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【譜】,14?,14,,,,,,,,true,true,false
-130227,[玉]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【玉】,14+?,14.6,,,,,,,,true,true,true
-131852,[面]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【面】,14?,14,,,,,,,,true,true,false
-140227,[某]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【某】,14+?,14.6,,,,,,,,true,true,true
-141852,[発]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【発】,13+?,13.6,,,,,,,,true,true,false
-151852,[表]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【表】,13+?,13.6,,,,,,,,true,true,false
-161852,[龍]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【龍】,13+?,13.6,,,,,,,,true,true,false
+120227,[r]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,DX,basic,14?,14,-,769,34,177,,19,999,false,false,true
+130227,[玉]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,660,31,126,,253,1070,false,false,true
+140227,[某]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,DX,basic,14+?,14.7,-,699,44,120,,341,1204,false,false,true
