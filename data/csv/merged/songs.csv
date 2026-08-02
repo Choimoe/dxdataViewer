@@ -1580,7 +1580,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11849,DATAERR0R,Cosmograph,180,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11850,あいたい星人,DECO*27,150,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11851,ハオ,DECO*27,176,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
-11852,好きな惣菜発表ドラゴン,ンバヂ,160,niconico＆ボーカロイド,,,true,false,4,true,false,true
+11852,好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
 11853,"Help me, ERINNNNNN!!",ビートまりお,185,東方Project,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11854,超最終鬼畜妹フランドール・S,ビートまりお×まろん,210,東方Project,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11855,Destined Marionette,ビートまりお,186,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
@@ -1789,17 +1789,17 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 111783,[音]snooze,wotaku feat.SHIKI,150,niconico & VOCALOID,maimai でらっくす PRiSM,,false,false,4,false,true,true
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,154,流行&动漫,maimai でらっくす PRiSM,,false,false,4,false,true,true
 111838,[助]メズマライザー,サツキ feat.初音ミク・重音テト,185,宴会場,maimai でらっくす PRiSM PLUS,,false,false,1,true,true,true
-111852,[好]好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
+111852,[好]好きな惣菜発表ドラゴン,ンバヂ,160,宴会場,,,false,false,1,true,false,true
 111859,[騒]ありきたりな恋の歌,,,,,,false,false,0,false,false,true
 111908,[耐]死ぬな！,,,,,,false,false,0,false,false,true
 111914,[音]テトリス,,,,,,false,false,0,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,180,其他游戏,maimai でらっくす PRiSM,,false,false,4,false,true,true
 120227,[r]Garakuta Doll Play,t+pazolite,256,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
 121634,[協]青春コンプレックス,,,,,,false,false,0,false,false,true
-121852,[譜]好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
+121852,[譜]好きな惣菜発表ドラゴン,ンバヂ,160,宴会場,,,false,false,1,true,false,true
 130227,[玉]Garakuta Doll Play,t+pazolite,256,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-131852,[面]好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
+131852,[面]好きな惣菜発表ドラゴン,ンバヂ,160,宴会場,,,false,false,1,true,false,true
 140227,[某]Garakuta Doll Play,t+pazolite,256,宴会場,maimai でらっくす BUDDiES,,false,false,1,true,true,true
-141852,[発]好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
-151852,[表]好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
-161852,[龍]好きな惣菜発表ドラゴン,,,,,,false,false,0,false,false,true
+141852,[発]好きな惣菜発表ドラゴン,ンバヂ,160,宴会場,,,false,false,1,true,false,true
+151852,[表]好きな惣菜発表ドラゴン,ンバヂ,160,宴会場,,,false,false,1,true,false,true
+161852,[龍]好きな惣菜発表ドラゴン,ンバヂ,160,宴会場,,,false,false,1,true,false,true

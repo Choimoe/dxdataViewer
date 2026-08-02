@@ -7009,10 +7009,6 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11851,ハオ,DECO*27,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,advanced,7,7,-,288,14,7,27,8,344,false,true,true
 11851,ハオ,DECO*27,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,expert,9+,9.9,Luxizhel,392,27,21,24,38,502,false,true,true
 11851,ハオ,DECO*27,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,master,13,13.2,鳩ホルダー,442,28,136,76,70,752,false,true,true
-11852,好きな惣菜発表ドラゴン,ンバヂ,niconico＆ボーカロイド,,dx,basic,3,3,-,131,11,6,6,10,164,false,true,false
-11852,好きな惣菜発表ドラゴン,ンバヂ,niconico＆ボーカロイド,,dx,advanced,6,6.5,-,247,12,9,28,6,302,false,true,false
-11852,好きな惣菜発表ドラゴン,ンバヂ,niconico＆ボーカロイド,,dx,expert,9,9.5,はっぴー,250,39,22,,43,354,false,true,false
-11852,好きな惣菜発表ドラゴン,ンバヂ,niconico＆ボーカロイド,,dx,master,12,12.5,はっぴー,294,63,55,28,50,490,false,true,false
 11853,"Help me, ERINNNNNN!!",ビートまりお,東方Project,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,190,11,6,6,7,220,false,true,true
 11853,"Help me, ERINNNNNN!!",ビートまりお,東方Project,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.8,-,297,12,8,42,2,361,false,true,true
 11853,"Help me, ERINNNNNN!!",ビートまりお,東方Project,maimai でらっくす PRiSM PLUS,dx,expert,10+,10.7,Luxizhel,471,48,41,8,13,581,false,true,true
@@ -7680,10 +7676,16 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,expert,9,9.5,まぐランド,350,54,27,27,20,478,false,false,true
 111791,[音]On your mark (104期 Ver.),蓮ノ空女学院スクールアイドルクラブ,流行&动漫,maimai でらっくす PRiSM,DX,master,12+,12.9,はっぴー,433,64,75,36,34,642,false,false,true
 111838,[助]メズマライザー,サツキ feat.初音ミク・重音テト,宴会場,maimai でらっくす PRiSM PLUS,utage2p,【助】,13+?,13.6,,,,,,,,true,true,true
+111852,[好]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【好】,14?,14,,689,61,123,28,25,926,true,true,false
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,basic,3,3,-,174,18,4,18,4,218,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,advanced,7+,7.8,-,309,19,12,7,8,355,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,expert,10,10,Luxizhel,407,44,48,21,19,539,false,false,true
 111919,[充]エンジェル ドリーム,「太鼓の達人」より,其他游戏,maimai でらっくす PRiSM,DX,master,13+,13.7,サファ太,592,56,101,24,61,834,false,false,true
 120227,[r]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【r】,14?,14,,769,34,177,,19,999,true,true,true
+121852,[譜]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【譜】,14?,14,,574,51,119,32,55,831,true,true,false
 130227,[玉]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【玉】,14+?,14.6,,660,31,126,,253,1070,true,true,true
+131852,[面]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【面】,14?,14,,533,70,115,73,69,860,true,true,false
 140227,[某]Garakuta Doll Play,t+pazolite,宴会場,maimai でらっくす BUDDiES,utage,【某】,14+?,14.6,,699,44,120,,341,1204,true,true,true
+141852,[発]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【発】,13+?,13.6,,487,52,153,5,32,729,true,true,false
+151852,[表]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【表】,13+?,13.6,,399,75,102,79,30,685,true,true,false
+161852,[龍]好きな惣菜発表ドラゴン,ンバヂ,宴会場,,utage,【龍】,13+?,13.6,,545,62,80,5,15,707,true,true,false
