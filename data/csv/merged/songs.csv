@@ -191,7 +191,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 264,L'épilogue,SOUND HOLIC feat. Nana Takahashi,145,maimai,maimai GreeN,,false,false,4,true,true,true
 265,Save This World νMIX,「PHANTASY STAR PORTABLE」,143,ゲーム＆バラエティ,maimai GreeN,,false,false,5,true,true,true
 266,Living Universe,「PHANTASY STAR PORTABLE2」,155,ゲーム＆バラエティ,maimai GreeN,,false,false,5,true,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,160,ゲーム＆バラエティ,maimai GreeN,,false,false,4,true,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,160,ゲーム＆バラエティ,maimai GreeN,,false,false,8,true,true,true
 268,トルコ行進曲 - オワタ＼(^o^)／,オワタP,120,niconico＆ボーカロイド,maimai GreeN,,false,false,4,true,true,true
 269,裏表ラバーズ,wowaka,159,niconico＆ボーカロイド,maimai GreeN,,false,false,4,true,true,true
 270,Outlaw's Lullaby,「龍が如く２」,145,ゲーム＆バラエティ,maimai GreeN PLUS,,false,false,4,true,true,true
@@ -1111,7 +1111,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11354,春嵐,john,140,niconico＆ボーカロイド,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11355,ラグトレイン,稲葉曇,147,niconico & VOCALOID,maimai でらっくす UNiVERSE,,false,false,4,false,true,true
 11356,なだめスかし Negotiation（TVsize）,鹿乃と宇崎ちゃん,150,POPS＆アニメ,,,false,false,4,true,false,true
-11358,インドア系ならトラックメイカー,Yunomi & nicamoq,128,POPS＆アニメ,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
+11358,インドア系ならトラックメイカー,Yunomi & nicamoq,128,流行&动漫,maimai でらっくす UNiVERSE,,false,false,4,false,true,true
 11359,アカツキアライヴァル,Last Note.,125,niconico & VOCALOID,maimai でらっくす UNiVERSE,,false,false,4,false,true,true
 11360,リモコン,じーざす（ワンダフル☆オポチュニティ！）,165,niconico＆ボーカロイド,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11361,on the rocks,OSTER project,150,niconico＆ボーカロイド,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
