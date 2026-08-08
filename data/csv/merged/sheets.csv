@@ -912,10 +912,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 266,Living Universe,「PHANTASY STAR PORTABLE2」,ゲーム＆バラエティ,maimai GreeN,std,expert,10,10,ニャイン,116,45,19,,12,192,false,true,true
 266,Living Universe,「PHANTASY STAR PORTABLE2」,ゲーム＆バラエティ,maimai GreeN,std,master,11+,11.8,某S氏,150,45,37,,7,239,false,true,true
 266,Living Universe,「PHANTASY STAR PORTABLE2」,ゲーム＆バラエティ,maimai GreeN,std,remaster,12+,12.6,rioN,375,24,73,,23,495,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,basic,3,3,-,,,,,,119,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,advanced,6,6,-,,,,,,210,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,expert,10,10,-,,,,,,316,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,master,13,13,-,,,,,,521,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,basic,3,3,-,93,11,4,7,4,119,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,advanced,6,6.5,-,173,15,4,14,4,210,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,expert,10,10.2,-,212,42,28,5,29,316,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,master,13,13,メロンポップ,317,42,82,55,25,521,false,true,true
 267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,std,basic,4,4,-,81,5,5,,6,97,false,true,true
 267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,std,advanced,7,7.2,-,116,45,8,,5,174,false,true,true
 267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,std,expert,11+,11.9,譜面-100号,174,49,76,,2,301,false,true,true

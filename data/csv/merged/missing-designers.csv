@@ -433,10 +433,9 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 265,Save This World νMIX,「PHANTASY STAR PORTABLE」,ゲーム＆バラエティ,maimai GreeN,std,advanced,8,8.1,-,84,85,25,,2,196,false,true,true
 266,Living Universe,「PHANTASY STAR PORTABLE2」,ゲーム＆バラエティ,maimai GreeN,std,basic,3,3,-,56,9,3,,6,74,false,true,true
 266,Living Universe,「PHANTASY STAR PORTABLE2」,ゲーム＆バラエティ,maimai GreeN,std,advanced,8,8.1,-,137,24,6,,2,169,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,basic,3,3,-,,,,,,119,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,advanced,6,6,-,,,,,,210,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,expert,10,10,-,,,,,,316,false,true,true
-267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,master,13,13,-,,,,,,521,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,basic,3,3,-,93,11,4,7,4,119,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,advanced,6,6.5,-,173,15,4,14,4,210,false,true,true
+267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,dx,expert,10,10.2,-,212,42,28,5,29,316,false,true,true
 267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,std,basic,4,4,-,81,5,5,,6,97,false,true,true
 267,Ignite Infinity,「PHANTASY STAR PORTABLE2 ∞」,ゲーム＆バラエティ,maimai GreeN,std,advanced,7,7.2,-,116,45,8,,5,174,false,true,true
 268,トルコ行進曲 - オワタ＼(^o^)／,オワタP,niconico＆ボーカロイド,maimai GreeN,std,basic,3,3,-,107,11,5,,3,126,false,true,true
