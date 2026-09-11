@@ -3442,14 +3442,14 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 10302,ケロ⑨destiny,Silver Forest,東方Project,maimai でらっくす FESTiVAL,std,advanced,7,7.3,-,187,10,10,,6,213,false,true,true
 10302,ケロ⑨destiny,Silver Forest,東方Project,maimai でらっくす FESTiVAL,std,expert,10+,10.9,はっぴー,226,144,18,,36,424,false,true,true
 10302,ケロ⑨destiny,Silver Forest,東方Project,maimai でらっくす FESTiVAL,std,master,13,13,某S氏,458,70,62,,32,622,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,dx,basic,3,3,-,157,9,4,8,8,186,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,dx,advanced,6,6.5,-,227,17,6,27,4,281,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,dx,expert,10+,10.7,サファ太,335,35,37,20,25,452,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,dx,master,13,13.3,Luxizhel,557,34,95,13,33,732,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,std,basic,4,4,-,146,8,3,,6,163,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,std,advanced,8,8.3,-,263,28,21,,11,323,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,std,expert,10+,10.8,Jack,349,57,40,,18,464,false,true,true
-10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai GreeN PLUS,std,master,13,13.3,mai-Star,549,25,91,,19,684,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,157,9,4,8,8,186,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,dx,advanced,6,6.5,-,227,17,6,27,4,281,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,dx,expert,10+,10.7,サファ太,335,35,37,20,25,452,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,dx,master,13,13.3,Luxizhel,557,34,95,13,33,732,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,std,basic,4,4,-,146,8,3,,6,163,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,std,advanced,8,8.3,-,263,28,21,,11,323,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,std,expert,10+,10.8,Jack,349,57,40,,18,464,false,true,true
+10303,"Endless, Sleepless Night",samfree feat.(V)・∀・(V)かにぱん。(A-ONE),東方Project,maimai でらっくす PRiSM PLUS,std,master,13,13.3,mai-Star,549,25,91,,19,684,false,true,true
 10315,深海少女,ゆうゆ,niconico＆ボーカロイド,maimai でらっくす BUDDiES,dx,basic,2,2,-,92,16,4,12,1,125,false,true,true
 10315,深海少女,ゆうゆ,niconico＆ボーカロイド,maimai でらっくす BUDDiES,dx,advanced,6,6.5,-,199,23,10,24,12,268,false,true,true
 10315,深海少女,ゆうゆ,niconico＆ボーカロイド,maimai でらっくす BUDDiES,dx,expert,9,9.5,佑,229,50,26,18,21,344,false,true,true
@@ -6902,10 +6902,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11824,なんかノイズにきこえる,HaNaMiNa feat.Hana,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7,7.5,-,316,16,10,26,3,371,false,true,true
 11824,なんかノイズにきこえる,HaNaMiNa feat.Hana,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,expert,9+,9.7,じゃこレモン,416,39,47,6,36,544,false,true,true
 11824,なんかノイズにきこえる,HaNaMiNa feat.Hana,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,master,13+,13.7,はっぴー,661,37,135,11,49,893,false,true,true
-11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,,dx,basic,4,4,-,227,9,4,6,4,250,false,true,false
-11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,,dx,advanced,7+,7.8,-,326,14,12,26,12,390,false,true,false
-11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,,dx,expert,11,11.4,サファ太,447,59,72,6,40,624,false,true,false
-11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,,dx,master,14,14,鳩ホルダー,725,72,110,56,55,1018,false,true,false
+11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,227,9,4,6,4,250,false,true,true
+11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.8,-,326,14,12,26,12,390,false,true,true
+11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,expert,11,11.4,サファ太,447,59,72,6,40,624,false,true,true
+11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,master,14,14,鳩ホルダー,725,72,110,56,55,1018,false,true,true
 11826,Lover's Trick,litmus*,オンゲキ＆CHUNITHM,,dx,basic,3,3,-,138,12,6,13,2,171,false,true,false
 11826,Lover's Trick,litmus*,オンゲキ＆CHUNITHM,,dx,advanced,7,7,-,212,16,5,21,7,261,false,true,false
 11826,Lover's Trick,litmus*,オンゲキ＆CHUNITHM,,dx,expert,10+,10.8,鳩ホルダー,245,82,46,35,34,442,false,true,false
@@ -6914,14 +6914,14 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,,dx,advanced,7,7,-,261,13,9,27,4,314,false,true,false
 11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,,dx,expert,10,10,鳩ホルダー,380,65,44,8,22,519,false,true,false
 11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,,dx,master,13+,13.7,サファ太,551,73,73,107,33,837,false,true,false
-11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,,dx,basic,3,3,-,147,14,3,8,4,176,false,true,false
-11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,,dx,advanced,7,7,-,225,10,10,26,3,274,false,true,false
-11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,,dx,expert,10+,10.8,サファ太,268,32,40,27,42,409,false,true,false
-11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,,dx,master,13+,13.7,Jack,494,75,52,89,33,743,false,true,false
-11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,,dx,basic,4,4,-,188,9,4,7,6,214,false,true,false
-11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,,dx,advanced,7+,7.8,-,319,18,6,30,3,376,false,true,false
-11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,,dx,expert,12,12.2,鳩ホルダー,402,64,55,28,16,565,false,true,false
-11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,,dx,master,13+,13.6,アマリリス,512,91,98,43,43,787,false,true,false
+11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,147,14,3,8,4,176,false,true,true
+11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7,7,-,225,10,10,26,3,274,false,true,true
+11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,expert,10+,10.8,サファ太,268,32,40,27,42,409,false,true,true
+11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,master,13+,13.7,Jack,494,75,52,89,33,743,false,true,true
+11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,188,9,4,7,6,214,false,true,true
+11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.8,-,319,18,6,30,3,376,false,true,true
+11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,expert,12,12.2,鳩ホルダー,402,64,55,28,16,565,false,true,true
+11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,master,13+,13.6,アマリリス,512,91,98,43,43,787,false,true,true
 11830,Tidal Wave,D-Cee,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,173,10,4,20,5,212,false,true,true
 11830,Tidal Wave,D-Cee,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.7,-,263,12,13,21,6,315,false,true,true
 11830,Tidal Wave,D-Cee,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,expert,12,12.3,鳩ホルダー,342,44,34,17,16,453,false,true,true
@@ -7045,22 +7045,22 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11859,ありきたりな恋の歌,GYARI,niconico＆ボーカロイド,,dx,advanced,7,7.5,-,343,19,9,12,4,387,false,true,false
 11859,ありきたりな恋の歌,GYARI,niconico＆ボーカロイド,,dx,expert,10,10.5,はっぴー,411,89,25,28,24,577,false,true,false
 11859,ありきたりな恋の歌,GYARI,niconico＆ボーカロイド,,dx,master,13+,13.7,鳩ホルダー,503,53,122,136,117,931,false,true,false
-11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,,dx,basic,6,6,-,221,25,8,12,9,275,false,true,false
-11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,,dx,advanced,8,8,-,337,27,10,45,2,421,false,true,false
-11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,,dx,expert,12+,12.9,Luxizhel,553,45,61,25,78,762,false,true,false
-11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,,dx,master,14,14.5,サファ太 Vs. Safari Vs. Saf Vs. モリモリさふぁた,627,63,57,64,300,1111,false,true,false
-11861,∀,ああああ,ゲーム＆バラエティ,,dx,basic,6,6,-,195,17,4,8,1,225,false,true,false
-11861,∀,ああああ,ゲーム＆バラエティ,,dx,advanced,8,8.2,-,335,8,9,9,2,363,false,true,false
-11861,∀,ああああ,ゲーム＆バラエティ,,dx,expert,11+,11.9,Luxizhel,378,42,30,9,29,488,false,true,false
-11861,∀,ああああ,ゲーム＆バラエティ,,dx,master,14,14.3,サファ太,474,61,56,49,30,670,false,true,false
-11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,,dx,basic,3,3,-,186,8,4,15,13,226,false,true,false
-11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,,dx,advanced,7,7.5,-,338,14,7,11,10,380,false,true,false
-11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,,dx,expert,9+,9.8,サファ太,389,78,28,,49,544,false,true,false
-11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,,dx,master,13,13.4,はっぴー,664,59,113,56,86,978,false,true,false
-11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,,dx,basic,3,3,-,185,9,4,6,9,213,false,true,false
-11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,,dx,advanced,7+,7.7,-,345,16,8,26,5,400,false,true,false
-11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,,dx,expert,10,10,鳩ホルダー,428,39,54,23,15,559,false,true,false
-11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,,dx,master,13,13,サファ太,489,56,110,27,40,722,false,true,false
+11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,basic,6,6,-,221,25,8,12,9,275,false,true,true
+11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,advanced,8,8,-,337,27,10,45,2,421,false,true,true
+11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,expert,12+,12.9,Luxizhel,553,45,61,25,78,762,false,true,true
+11860,MYTH Re：LEASE,打打だいず Vs. Tanchiky Vs. uma Vs. モリモリあつし,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,master,14,14.5,サファ太 Vs. Safari Vs. Saf Vs. モリモリさふぁた,627,63,57,64,300,1111,false,true,true
+11861,∀,ああああ,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,basic,6,6,-,195,17,4,8,1,225,false,true,true
+11861,∀,ああああ,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,advanced,8,8.2,-,335,8,9,9,2,363,false,true,true
+11861,∀,ああああ,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,expert,11+,11.9,Luxizhel,378,42,30,9,29,488,false,true,true
+11861,∀,ああああ,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,master,14,14.3,サファ太,474,61,56,49,30,670,false,true,true
+11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,186,8,4,15,13,226,false,true,true
+11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,advanced,7,7.5,-,338,14,7,11,10,380,false,true,true
+11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,expert,9+,9.8,サファ太,389,78,28,,49,544,false,true,true
+11862,㋰責任集合体,マサラダ,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,master,13,13.4,はっぴー,664,59,113,56,86,978,false,true,true
+11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,185,9,4,6,9,213,false,true,true
+11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.7,-,345,16,8,26,5,400,false,true,true
+11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,expert,10,10,鳩ホルダー,428,39,54,23,15,559,false,true,true
+11863,三日月ステップ 2023,r-906,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,master,13,13,サファ太,489,56,110,27,40,722,false,true,true
 11864,少女レイ,みきとP,niconico＆ボーカロイド,,dx,basic,2,2,-,163,11,4,15,6,199,false,true,false
 11864,少女レイ,みきとP,niconico＆ボーカロイド,,dx,advanced,6,6.5,-,296,12,7,27,4,346,false,true,false
 11864,少女レイ,みきとP,niconico＆ボーカロイド,,dx,expert,9+,9.9,鳩ホルダー,324,33,62,13,11,443,false,true,false
@@ -7073,23 +7073,23 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11866,帝国少女,R Sound Design,niconico＆ボーカロイド,,dx,advanced,6,6,-,195,15,8,27,6,251,false,true,false
 11866,帝国少女,R Sound Design,niconico＆ボーカロイド,,dx,expert,9,9.2,はっぴー,283,63,26,14,3,389,false,true,false
 11866,帝国少女,R Sound Design,niconico＆ボーカロイド,,dx,master,13,13.3,カマボコホルダー,506,28,93,49,21,697,false,true,false
-11867,うぇいびー,三枝明那,POPS＆アニメ,,dx,basic,3,3,-,185,12,4,20,4,225,false,true,false
-11867,うぇいびー,三枝明那,POPS＆アニメ,,dx,advanced,7+,7.8,-,355,10,16,13,6,400,false,true,false
-11867,うぇいびー,三枝明那,POPS＆アニメ,,dx,expert,10,10.4,サファ太,370,72,37,29,37,545,false,true,false
-11867,うぇいびー,三枝明那,POPS＆アニメ,,dx,master,13,13,Luxizhel,580,44,133,35,47,839,false,true,false
-11867,うぇいびー,三枝明那,POPS＆アニメ,,dx,remaster,13+,13.7,三枝明那とはっぴー,629,48,176,23,59,935,false,true,false
-11868,RED,三枝明那,POPS＆アニメ,,dx,basic,3,3,-,136,11,6,8,3,164,false,true,false
-11868,RED,三枝明那,POPS＆アニメ,,dx,advanced,6,6.5,-,253,12,12,28,3,308,false,true,false
-11868,RED,三枝明那,POPS＆アニメ,,dx,expert,9+,9.7,はっぴー,317,31,27,16,8,399,false,true,false
-11868,RED,三枝明那,POPS＆アニメ,,dx,master,13,13.3,サファ太,385,36,60,65,57,603,false,true,false
-11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,,dx,basic,4,4,-,191,12,8,7,6,224,false,true,false
-11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,,dx,advanced,7+,7.7,-,302,16,6,13,4,341,false,true,false
-11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,,dx,expert,10+,10.8,Luxizhel,390,49,28,26,37,530,false,true,false
-11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,,dx,master,13+,13.6,メロンポップ,457,54,126,80,39,756,false,true,false
-11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,,dx,basic,4,4,-,186,9,5,6,8,214,false,true,false
-11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,,dx,advanced,8,8,-,349,12,15,26,2,404,false,true,false
-11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,,dx,expert,11,11,鳩ホルダー,406,50,50,41,42,589,false,true,false
-11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,,dx,master,13+,13.9,Luxizhel,693,112,124,27,42,998,false,true,false
+11867,うぇいびー,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,185,12,4,20,4,225,false,true,true
+11867,うぇいびー,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.8,-,355,10,16,13,6,400,false,true,true
+11867,うぇいびー,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,expert,10,10.4,サファ太,370,72,37,29,37,545,false,true,true
+11867,うぇいびー,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,master,13,13,Luxizhel,580,44,133,35,47,839,false,true,true
+11867,うぇいびー,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,remaster,13+,13.7,三枝明那とはっぴー,629,48,176,23,59,935,false,true,true
+11868,RED,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,136,11,6,8,3,164,false,true,true
+11868,RED,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,advanced,6,6.5,-,253,12,12,28,3,308,false,true,true
+11868,RED,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,expert,9+,9.7,はっぴー,317,31,27,16,8,399,false,true,true
+11868,RED,三枝明那,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,master,13,13.3,サファ太,385,36,60,65,57,603,false,true,true
+11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,191,12,8,7,6,224,false,true,true
+11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.7,-,302,16,6,13,4,341,false,true,true
+11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,expert,10+,10.8,Luxizhel,390,49,28,26,37,530,false,true,true
+11869,ホラフキパペット,七次元生徒会！,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,master,13+,13.6,メロンポップ,457,54,126,80,39,756,false,true,true
+11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,186,9,5,6,8,214,false,true,true
+11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,advanced,8,8,-,349,12,15,26,2,404,false,true,true
+11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,expert,11,11,鳩ホルダー,406,50,50,41,42,589,false,true,true
+11870,BlackFlagBreaker!!,社築 × sasakure.UK,POPS＆アニメ,maimai でらっくす PRiSM PLUS,dx,master,13+,13.9,Luxizhel,693,112,124,27,42,998,false,true,true
 11871,クーネル・エンゲイザー,電ǂ鯨,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,183,10,4,8,5,210,false,true,true
 11871,クーネル・エンゲイザー,電ǂ鯨,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,advanced,7,7,-,310,14,8,14,4,350,false,true,true
 11871,クーネル・エンゲイザー,電ǂ鯨,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,dx,expert,9+,9.7,サファ太,303,75,33,18,52,481,false,true,true
@@ -7118,10 +7118,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11877,Luminescence,米虾Fomiki & 初云CLoudie,ゲーム＆バラエティ,,dx,advanced,7+,7.6,-,316,20,16,26,2,380,false,true,false
 11877,Luminescence,米虾Fomiki & 初云CLoudie,ゲーム＆バラエティ,,dx,expert,11,11.2,サファ太,332,78,61,46,61,578,false,true,false
 11877,Luminescence,米虾Fomiki & 初云CLoudie,ゲーム＆バラエティ,,dx,master,13+,13.8,Jack,599,40,72,129,42,882,false,true,false
-11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,,dx,basic,3,3,-,130,10,8,13,6,167,false,true,false
-11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,,dx,advanced,7,7.4,-,285,13,12,21,3,334,false,true,false
-11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,,dx,expert,9+,9.9,サファ太,301,70,30,31,59,491,false,true,false
-11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,,dx,master,13,13.1,じゃこレモン,523,49,76,13,60,721,false,true,false
+11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,130,10,8,13,6,167,false,true,true
+11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,advanced,7,7.4,-,285,13,12,21,3,334,false,true,true
+11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,expert,9+,9.9,サファ太,301,70,30,31,59,491,false,true,true
+11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,master,13,13.1,じゃこレモン,523,49,76,13,60,721,false,true,true
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,maimai,,dx,basic,4,4,-,223,9,8,6,8,254,false,true,false
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,maimai,,dx,advanced,7+,7.8,-,337,18,15,28,7,405,false,true,false
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,maimai,,dx,expert,11,11,サファ太,418,65,54,19,63,619,false,true,false
@@ -7619,7 +7619,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111429,[爆]Love's Theme of BADASS ～バッド・アス 愛のテーマ～,Hommarju,宴会場,maimai でらっくす PRiSM,utage,【爆】,14?,14,,337,115,8,391,491,1342,true,true,true
 111433,[奏]ヒトガタ,HIMEHINA,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,13?,13,,,,,,,,true,true,true
 111437,[協]三妖精SAY YA!!!,森羅万象,宴会場,maimai でらっくす BUDDiES,utage,【協】,13?,13,,724,251,71,25,211,1282,true,true,true
-111479,[覚]Hainuwele,ETIA.,宴会場,maimai でらっくす FESTiVAL,utage,【覚】,13+?,13.7,,151,24,159,,56,390,true,true,true
+111479,[覚]Hainuwele,ETIA.,宴会場,maimai でらっくす PRiSM PLUS,utage,【覚】,13+?,13.7,,151,24,159,,56,390,true,true,true
 111488,[覚]スカーレット警察のゲットーパトロール24時,七条レタスグループ,宴会場,maimai でらっくす BUDDiES,utage2p,【覚】,12?,12,,,,,,,,true,true,true
 111513,[回]回る空うさぎ,Orangestar,宴会場,maimai でらっくす BUDDiES,utage,【回】,11?,11,,,,32,221,1,254,true,true,true
 111516,[蔵]Aegleseeker,Silentroom vs Frums,其他游戏,maimai でらっくす FESTiVAL,DX,basic,5,5,-,184,19,4,31,7,245,false,false,true
@@ -7630,7 +7630,7 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 111557,[蛸]不機嫌なスリーカード,HIMEHINA,宴会場,maimai でらっくす PRiSM,utage,【蛸】,13?,13,,467,130,16,18,62,693,true,true,true
 111577,[両]はんぶんこ,三枝明那,宴会場,maimai でらっくす BUDDiES,utage,【両】,12?,12,,354,42,64,37,12,509,true,true,true
 111597,[息]ノンブレス・オブリージュ,ピノキオピー,宴会場,maimai でらっくす BUDDiES,utage,【息】,13+?,13.7,,803,89,15,1,17,925,true,true,true
-111628,[逆]WE'RE BACK!!,Zekk,宴会場,maimai でらっくす BUDDiES,utage,【逆】,12+?,12.7,,489,47,56,26,30,648,true,true,true
+111628,[逆]WE'RE BACK!!,Zekk,宴会場,maimai でらっくす PRiSM PLUS,utage,【逆】,12+?,12.7,,489,47,56,26,30,648,true,true,true
 111636,[奏]さくゆいたいそう,さくゆい,宴会場,maimai でらっくす BUDDiES,utage2p,【奏】,12+?,12.7,,,,,,,,true,true,true
 111638,[耐]星界ちゃんと可不ちゃんのおつかい合騒曲,南ノ南,宴会場,maimai でらっくす BUDDiES,utage,【耐】,14?,14,,866,21,277,84,49,1297,true,true,true
 111670,[奏]のじゃロリック,なみぐる feat.ちょこ 桃寝ちのい,宴会場,maimai でらっくす PRiSM,utage2p,【奏】,13?,13,,,,,,,,true,true,true
