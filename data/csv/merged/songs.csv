@@ -268,7 +268,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 357,みかんのうた,SEX MACHINEGUNS［cover］,288,POPS＆アニメ,,,false,false,4,true,false,true
 358,毒占欲,DECO*27,117,niconico＆ボーカロイド,,,false,false,4,true,false,true
 359,YU-MU,岸田教団＆THE明星ロケッツ,160,東方Project,maimai PiNK,,false,false,4,true,true,true
-360,物凄い勢いでけーねが物凄いうた,Halozy,180,東方Project,maimai PiNK,,false,false,4,true,true,true
+360,物凄い勢いでけーねが物凄いうた,Halozy,180,東方Project,maimai PiNK,,false,false,8,true,true,true
 362,BETTER CHOICE,Jimmy Weckl feat.高貴みな,130,maimai,maimai ORANGE,,false,false,4,true,true,true
 363,Oshama Scramble!,t+pazolite,190,maimai,maimai ORANGE PLUS,,false,false,8,true,true,true
 364,D✪N’T  ST✪P  R✪CKIN’,EB(aka EarBreaker),140,maimai,maimai ORANGE PLUS,,false,false,5,true,true,true
@@ -663,9 +663,9 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 818,隠然,豚乙女,210,東方Project,maimai FiNALE,,false,false,5,true,true,true
 819,White Traveling Girl,A-One,154,東方Project,maimai FiNALE,,false,false,4,true,true,true
 820,FFT,cybermiso,180,maimai,maimai FiNALE,,false,false,5,true,true,true
-821,-OutsideR:RequieM-,箱部なる(CV:M・A・O),181,オンゲキ＆CHUNITHM,maimai FiNALE,,false,false,4,true,true,true
-822,イロトリドリのメロディ,小仏凪(CV:佐倉薫),140,オンゲキ＆CHUNITHM,maimai FiNALE,,false,false,4,true,true,true
-823,奏者はただ背中と提琴で語るのみ,月鈴那知(CV:今村彩夏),230,オンゲキ＆CHUNITHM,maimai FiNALE,,false,false,4,true,true,true
+821,-OutsideR:RequieM-,箱部 なる(CV:M・A・O),181,オンゲキ＆CHUNITHM,maimai FiNALE,,false,false,4,true,true,true
+822,イロトリドリのメロディ,小仏 凪(CV:佐倉 薫),140,オンゲキ＆CHUNITHM,maimai FiNALE,,false,false,4,true,true,true
+823,奏者はただ背中と提琴で語るのみ,月鈴 那知(CV:今村 彩夏),230,オンゲキ＆CHUNITHM,maimai FiNALE,,false,false,4,true,true,true
 824,Deep in Abyss,リコ（CV：富田美憂）、レグ（CV：伊瀬茉莉也）,135,POPS＆アニメ,,,false,false,4,true,false,true
 825,雷切-RAIKIRI-,kanone,165,maimai,maimai FiNALE,,false,false,5,true,true,true
 826,キミとボクのミライ,ジータ（CV:金元寿子）、ルリア（CV:東山奈央）、ヴィーラ（CV:今井麻美）、マリー（CV:長谷川明子）,178,ゲーム＆バラエティ,,,false,false,5,true,false,true
@@ -776,7 +776,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 10702,WARNING×WARNING×WARNING,暁Records,172,東方Project,maimai でらっくす,,false,false,8,true,true,true
 10706,シャルル,バルーン,145,niconico＆ボーカロイド,maimai でらっくす,,false,false,8,true,true,true
 10728,POP TEAM EPIC,上坂すみれ「ポプテピピック」,142,POPS＆アニメ,,,false,false,4,true,false,true
-10734,ENERGY SYNERGY MATRIX,Tanchiky,160,ゲーム＆バラエティ,maimai でらっくす,,false,false,8,true,true,true
+10734,ENERGY SYNERGY MATRIX,Tanchiky,160,其他游戏,maimai でらっくす,,false,false,4,false,true,true
 10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,133,maimai,maimai FiNALE,,false,false,8,true,true,true
 11001,BLACK ROSE,S!N・+α/あるふぁきゅん。×ALI PROJECT,145,maimai,maimai でらっくす,,false,false,4,true,true,true
 11002,Secret Sleuth,島爺×蜂屋ななし,288,maimai,maimai でらっくす,,false,false,5,true,true,true
@@ -960,7 +960,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11193,デリヘル呼んだら君が来た,ナナホシ管弦楽団,190,niconico＆ボーカロイド,maimai でらっくす Splash,,false,false,4,true,true,true
 11194,ベノム,かいりきベア feat.flower,152,niconico＆ボーカロイド,maimai でらっくす Splash,,false,false,4,true,true,true
 11195,マネマネサイコトロピック,かいりきベア feat.GUMI,210,niconico＆ボーカロイド,maimai でらっくす Splash,,false,false,4,true,true,true
-11197,劣等上等,Giga / 鏡音リン・レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,160,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11197,劣等上等,Giga / Vivid BAD SQUAD × 鏡音リン・レン「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,160,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11198,アスノヨゾラ哨戒班,Orangestar feat.IA,185,niconico＆ボーカロイド,maimai でらっくす Splash,,false,false,4,true,true,true
 11199,悪戯センセーション,森羅万象,192,东方Project,maimai でらっくす Splash,,false,false,4,false,true,true
 11200,Paranoia,DiGiTAL WiNG feat. 花たん,150,東方Project,maimai でらっくす Splash,,false,false,8,true,true,true
@@ -980,7 +980,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11215,"Sqlupp (Camellia's ""Sqleipd*Hiytex"" Remix)",owl＊tree Remixed by Camellia,154,maimai,maimai でらっくす Splash,,false,false,4,true,true,true
 11216,felys -final remix-,onoken,180,ゲーム＆バラエティ,maimai でらっくす Splash,,false,false,4,true,true,true
 11217,Pretender,Official髭男dism,92,POPS＆アニメ,,,false,false,4,true,false,true
-11218,自傷無色,ササノマリイ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,120,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11218,自傷無色,ササノマリイ / 25時、ナイトコードで。 × 初音ミク「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,120,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11219,Prismatic,CielArc,180,東方Project,maimai でらっくす Splash,,false,false,4,true,true,true
 11221,"≠彡""/了→",水野健治,222,maimai,maimai でらっくす Splash,,false,false,4,true,true,true
 11222,BREaK! BREaK! BREaK!,HiTECH NINJA vs Cranky,165,舞萌,maimai でらっくす Splash,,false,false,4,false,true,true
@@ -1093,7 +1093,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11334,Upshift,s-don as Iriss-Frantzz,155,ゲーム＆バラエティ,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11335,MOBILYS,Dachs,144,ゲーム＆バラエティ,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11336,ドラゴンエネルギー,オーイシマサヨシ×加藤純一,148,POPS＆アニメ,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
-11337,セカイはまだ始まってすらいない,ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,138,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11337,セカイはまだ始まってすらいない,ピノキオピー / ワンダーランズ×ショウタイム × 初音ミク「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,138,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11340,Sweets Time,SYNC.ART'S feat. 3L,150,東方Project,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11341,紅星ミゼラブル～廃憶編,東京アクティブNEETs,160,東方Project,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11342,幻想に咲いた花,岸田教団&THE明星ロケッツ×草野華余子「東方ダンマクカグラ」,186,東方Project,maimai でらっくす UNiVERSE,,false,false,5,true,true,true
@@ -1122,8 +1122,8 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11367,veil,須田景凪,150,POPS＆アニメ,,,false,false,4,true,false,true
 11369,廻廻奇譚,Eve TVアニメ「呪術廻戦」第1クールオープニングテーマ,185,POPS＆アニメ,maimai でらっくす UNiVERSE,,false,false,5,true,true,true
 11370,さんさーら！,ARuFa,140,ゲーム＆バラエティ,,,false,false,4,true,false,true
-11371,アイドル新鋭隊,Mitchie M / 初音ミク / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,176,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11372,needLe,DECO*27 / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,190,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11371,アイドル新鋭隊,Mitchie M / MORE MORE JUMP！ × 初音ミク「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,176,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11372,needLe,DECO*27 / Leo/need × 初音ミク「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,190,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11373,ヒステリックナイトガール,PSYQUI,126,ゲーム＆バラエティ,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11374,GIGANTØMAKHIA,BlackYooh vs. siromaru,190,maimai,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
 11375,ミルキースター・シューティングスター,烏屋茶房 feat. 利香,184,maimai,maimai でらっくす FESTiVAL,,false,false,4,true,true,true
@@ -1400,9 +1400,9 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11662,raputa,sasakure.UK × TJ.hangneil,339,maimai,maimai でらっくす BUDDiES,,false,false,4,true,true,true
 11663,系ぎて,rintaro soma,88,maimai,maimai でらっくす BUDDiES,,false,false,5,true,true,true
 11664,アルカンシエル,Yamajet,176,ゲーム＆バラエティ,maimai でらっくす BUDDiES,,false,false,4,true,true,true
-11665,RAD DOGS,八王子P / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,140,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11666,アイディスマイル,とあ / MEIKO / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,171,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
-11667,にっこり^^調査隊のテーマ,ワンダフル☆オポチュニティ！ / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,180,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11665,RAD DOGS,八王子P / Vivid BAD SQUAD × 初音ミク「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,140,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11666,アイディスマイル,とあ / 25時、ナイトコードで。 × MEIKO「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,171,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
+11667,にっこり^^調査隊のテーマ,ワンダフル☆オポチュニティ！ / ワンダーランズ×ショウタイム × 初音ミク「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」,180,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
 11668,PinqPiq (xovevox Remix),owl＊tree Remixed by sasakure.UK,150,オンゲキ＆CHUNITHM,maimai でらっくす BUDDiES,,false,false,4,true,true,true
 11669,エスオーエス,カロンズベカラズ,196,maimai,maimai でらっくす PRiSM,,true,false,4,true,true,true
 11670,のじゃロリック,なみぐる feat.ちょこ 桃寝ちのい,160,舞萌,maimai でらっくす PRiSM,,false,false,4,false,true,true
@@ -1564,7 +1564,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11833,ゆりかご,歌：可不／作詞・作曲：MIMI,120,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11834,月光,歌：V.I.P／作詞・作曲：廉,195,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11835,はいよろこんで,こっちのけんと,147,POPS＆アニメ,maimai でらっくす PRiSM PLUS,,true,false,5,true,true,true
-11836,ビビデバ,星街すいせい（ホロライブ）,120,POPS＆アニメ,maimai でらっくす PRiSM PLUS,,true,false,5,true,true,true
+11836,ビビデバ,星街すいせい（ホロライブ）,120,流行&动漫,maimai でらっくす PRiSM PLUS,,true,false,5,false,true,true
 11837,シカ色デイズ,シカ部 [鹿乃子のこ (CV.潘めぐみ)、虎視虎子 (CV.藤田 咲)、虎視餡子 (CV.田辺留依)、馬車芽めめ (CV.和泉風花)],183,POPS＆アニメ,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11838,メズマライザー,サツキ feat.初音ミク・重音テト,185,niconico & VOCALOID,maimai でらっくす PRiSM PLUS,,true,false,5,false,true,true
 11839,ももいろの鍵,いよわ,165,niconico＆ボーカロイド,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
@@ -1609,23 +1609,23 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11878,Pixel Galaxy,Snail's House,150,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11879,Xaleid◆scopiX (2),,,,,,false,false,0,false,false,true
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,182,maimai,,,true,false,4,true,false,true
-11881,Magical Paradox,Mr.Asyu,192,maimai,,,true,true,4,true,false,true
-11882,殿ッ！？ご乱心！？,Shu feat. 天羽しろっぷ,200,maimai,,,true,true,4,true,false,true
+11881,Magical Paradox,Mr.Asyu,192,maimai,,,true,false,4,true,false,true
+11882,殿ッ！？ご乱心！？,Shu feat. 天羽しろっぷ,200,maimai,,,true,false,4,true,false,true
 11883,廃墟にいますキャンペーン,吉田夜世 feat.ちっく。,215,maimai,,,true,false,4,true,false,true
 11884,Customized Justice,Kobaryo,292,maimai,,,true,false,4,true,false,true
 11885,"False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)",かめりあ,132,maimai,,,true,false,4,true,false,true
-11886,真空都市,ナナツカゼ,185,maimai,,,true,true,4,true,false,true
-11887,Eternal Return,Tatsunoshin & Aira Arere,180,maimai,,,true,true,4,true,false,true
-11888,ぱぱぱらビーチ,ぱぱぱらビーチ,160,maimai,,,true,true,4,true,false,true
-11889,Get U ♭ack,Ryo Fukuda,205,maimai,,,true,true,4,true,false,true
-11890,ミクマリ,テヅカ,174,maimai,,,true,true,4,true,false,true
-11891,雲外蒼電 -Dreaming Voltage-,adaptor vs DRIVE.,160,maimai,,,true,true,4,true,false,true
-11892,鬼女紅妖,Earliri,165,maimai,,,true,true,4,true,false,true
-11893,華天月兎,satella feat.Risa Yuzuki,184,maimai,,,true,true,4,true,false,true
-11894,スローグロー,nayuta,180,maimai,,,true,true,4,true,false,true
-11895,"ECHO,",棗いつき,140,maimai,maimai PiNK PLUS,,true,true,4,true,true,true
-11896,Phase: Theatre,藍月なくる,195,maimai,,,true,true,4,true,false,true
-11897,Sky Trails,La prière,171,maimai,,,true,true,4,true,false,true
+11886,真空都市,ナナツカゼ,185,maimai,,,true,false,4,true,false,true
+11887,Eternal Return,Tatsunoshin & Aira Arere,180,maimai,,,true,false,4,true,false,true
+11888,ぱぱぱらビーチ,ぱぱぱらビーチ,160,maimai,,,true,false,4,true,false,true
+11889,Get U ♭ack,Ryo Fukuda,205,maimai,,,true,false,4,true,false,true
+11890,ミクマリ,テヅカ,174,maimai,,,true,false,4,true,false,true
+11891,雲外蒼電 -Dreaming Voltage-,adaptor vs DRIVE.,160,maimai,,,true,false,4,true,false,true
+11892,鬼女紅妖,Earliri,165,maimai,,,true,false,4,true,false,true
+11893,華天月兎,satella feat.Risa Yuzuki,184,maimai,,,true,false,4,true,false,true
+11894,スローグロー,nayuta,180,maimai,,,true,false,4,true,false,true
+11895,"ECHO,",棗いつき,140,maimai,maimai PiNK PLUS,,true,false,4,true,true,true
+11896,Phase: Theatre,藍月なくる,195,maimai,,,true,false,4,true,false,true
+11897,Sky Trails,La prière,171,maimai,,,true,false,4,true,false,true
 11898,7 Wonders,削除,168,maimai,,,true,false,4,true,false,true
 11899,イーヴィルガール,Fushi feat.吉乃,180,オンゲキ＆CHUNITHM,,,true,false,4,true,false,true
 11900,Dazzle hop,Sampling Masters MEGA,220,オンゲキ＆CHUNITHM,,,true,false,4,true,false,true
