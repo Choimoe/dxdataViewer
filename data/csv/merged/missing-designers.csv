@@ -1407,10 +1407,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 1301,華の集落、秋のお届け,Umiai,maimai,maimai でらっくす PRiSM,std,advanced,8,8,-,244,40,21,,9,314,false,true,true
 1327,僕は空気が嫁ない,cosMo＠暴走P,niconico＆ボーカロイド,maimai でらっくす UNiVERSE,std,basic,4,4,-,144,10,4,,3,161,false,true,true
 1327,僕は空気が嫁ない,cosMo＠暴走P,niconico＆ボーカロイド,maimai でらっくす UNiVERSE,std,advanced,7+,7.7,-,272,15,8,,5,300,false,true,true
-1736,プリズム△▽リズム,Shoichiro Hirata feat.Sana,maimai,maimai でらっくす PRiSM,std,basic,4,4,-,187,18,7,,1,213,false,true,true
-1736,プリズム△▽リズム,Shoichiro Hirata feat.Sana,maimai,maimai でらっくす PRiSM,std,advanced,6,6.5,-,249,16,15,,4,284,false,true,true
-1819,AFTER PANDORA,削除,maimai,,std,basic,3,3,-,165,6,8,,4,183,false,true,false
-1819,AFTER PANDORA,削除,maimai,,std,advanced,7+,7.7,-,275,11,6,,6,298,false,true,false
+1736,プリズム△▽リズム,Shoichiro Hirata feat.Sana,maimai,maimai でらっくす PRiSM PLUS,std,basic,4,4,-,187,18,7,,1,213,false,true,true
+1736,プリズム△▽リズム,Shoichiro Hirata feat.Sana,maimai,maimai でらっくす PRiSM PLUS,std,advanced,6,6.5,-,249,16,15,,4,284,false,true,true
+1819,AFTER PANDORA,削除,maimai,maimai でらっくす PRiSM PLUS,std,basic,3,3,-,165,6,8,,4,183,false,true,true
+1819,AFTER PANDORA,削除,maimai,maimai でらっくす PRiSM PLUS,std,advanced,7+,7.7,-,275,11,6,,6,298,false,true,true
 10021,コネクト,ClariS「魔法少女まどか☆マギカ」,POPS＆アニメ,,dx,basic,3,3,-,69,11,3,16,4,103,false,true,false
 10021,コネクト,ClariS「魔法少女まどか☆マギカ」,POPS＆アニメ,,dx,advanced,6,6,-,184,18,11,14,2,229,false,true,false
 10030,ネコ日和。,Kai/能登有沙,maimai,maimai でらっくす PRiSM PLUS,dx,basic,2,2,-,97,11,6,4,8,126,false,true,true
@@ -1545,8 +1545,8 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 10728,POP TEAM EPIC,上坂すみれ「ポプテピピック」,POPS＆アニメ,,dx,advanced,6,6,-,124,18,7,16,9,174,false,true,false
 10734,ENERGY SYNERGY MATRIX,Tanchiky,ゲーム＆バラエティ,maimai でらっくす,dx,basic,4,4,-,124,17,2,16,5,164,false,true,true
 10734,ENERGY SYNERGY MATRIX,Tanchiky,ゲーム＆バラエティ,maimai でらっくす,dx,advanced,8,8,-,280,28,8,16,25,357,false,true,true
-10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,maimai,maimai FiNALE,dx,basic,2,2,-,144,11,4,6,3,168,false,true,true
-10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,maimai,maimai FiNALE,dx,advanced,6,6.2,-,198,17,9,26,4,254,false,true,true
+10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,maimai,maimai でらっくす PRiSM PLUS,dx,basic,2,2,-,144,11,4,6,3,168,false,true,true
+10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,6,6.2,-,198,17,9,26,4,254,false,true,true
 11001,BLACK ROSE,S!N・+α/あるふぁきゅん。×ALI PROJECT,maimai,maimai でらっくす,dx,basic,2,2,-,102,10,6,22,2,142,false,true,true
 11001,BLACK ROSE,S!N・+α/あるふぁきゅん。×ALI PROJECT,maimai,maimai でらっくす,dx,advanced,6,6.5,-,216,21,14,38,8,297,false,true,true
 11002,Secret Sleuth,島爺×蜂屋ななし,maimai,maimai でらっくす,dx,basic,2,2,-,84,6,4,16,1,111,false,true,true
@@ -3079,18 +3079,18 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11813,忙シー日,"原口沙輔, 式部めぐり",maimai,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.9,-,298,16,14,26,2,356,false,true,true
 11814,FLΛME/FRΦST,FANTAGIRAFF,maimai,maimai でらっくす PRiSM PLUS,dx,basic,5,5,-,203,12,6,8,14,243,false,true,true
 11814,FLΛME/FRΦST,FANTAGIRAFF,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,8,8,-,297,20,10,28,3,358,false,true,true
-11815,IMBRUED:FLUX,qfeileadh feat.のあ,maimai,,dx,basic,4,4,-,177,8,10,9,4,208,false,true,false
-11815,IMBRUED:FLUX,qfeileadh feat.のあ,maimai,,dx,advanced,7+,7.7,-,302,10,11,14,4,341,false,true,false
-11816,砂の函,Nego_tiator,maimai,,dx,basic,3,3,-,171,10,4,26,2,213,false,true,false
-11816,砂の函,Nego_tiator,maimai,,dx,advanced,6,6.2,-,237,30,8,6,2,283,false,true,false
-11817,Amereistr,rN,maimai,,dx,basic,5,5,-,231,13,4,8,5,261,false,true,false
-11817,Amereistr,rN,maimai,,dx,advanced,8,8,-,366,18,10,34,8,436,false,true,false
-11818,World's end BLACKBOX,打打だいず,maimai,,dx,basic,7+,7.8,-,340,27,8,25,6,406,false,true,false
-11818,World's end BLACKBOX,打打だいず,maimai,,dx,advanced,10,10.5,-,576,20,14,22,8,640,false,true,false
-11820,Xaleid◆scopiX,xi,maimai,,dx,basic,7+,7.9,-,517,26,12,36,9,600,false,true,false
-11820,Xaleid◆scopiX,xi,maimai,,dx,advanced,11,11,-,865,51,20,60,4,1000,false,true,false
-11821,Ref:rain (for 7th Heaven),カモメサノエレクトリックオーケストラ include Limonène,maimai,,dx,basic,4,4,-,279,28,14,32,3,356,false,true,false
-11821,Ref:rain (for 7th Heaven),カモメサノエレクトリックオーケストラ include Limonène,maimai,,dx,advanced,8,8,-,523,20,19,31,28,621,false,true,false
+11815,IMBRUED:FLUX,qfeileadh feat.のあ,maimai,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,177,8,10,9,4,208,false,true,true
+11815,IMBRUED:FLUX,qfeileadh feat.のあ,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.7,-,302,10,11,14,4,341,false,true,true
+11816,砂の函,Nego_tiator,maimai,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,171,10,4,26,2,213,false,true,true
+11816,砂の函,Nego_tiator,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,6,6.2,-,237,30,8,6,2,283,false,true,true
+11817,Amereistr,rN,maimai,maimai でらっくす PRiSM PLUS,dx,basic,5,5,-,231,13,4,8,5,261,false,true,true
+11817,Amereistr,rN,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,8,8,-,366,18,10,34,8,436,false,true,true
+11818,World's end BLACKBOX,打打だいず,maimai,maimai でらっくす PRiSM PLUS,dx,basic,7+,7.8,-,340,27,8,25,6,406,false,true,true
+11818,World's end BLACKBOX,打打だいず,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,10,10.5,-,576,20,14,22,8,640,false,true,true
+11820,Xaleid◆scopiX,xi,maimai,maimai でらっくす PRiSM PLUS,dx,basic,7+,7.9,-,517,26,12,36,9,600,false,true,true
+11820,Xaleid◆scopiX,xi,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,11,11,-,865,51,20,60,4,1000,false,true,true
+11821,Ref:rain (for 7th Heaven),カモメサノエレクトリックオーケストラ include Limonène,maimai,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,279,28,14,32,3,356,false,true,true
+11821,Ref:rain (for 7th Heaven),カモメサノエレクトリックオーケストラ include Limonène,maimai,maimai でらっくす PRiSM PLUS,dx,advanced,8,8,-,523,20,19,31,28,621,false,true,true
 11822,Supersonic Generation,Massive New Krew,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,140,11,4,6,10,171,false,true,true
 11822,Supersonic Generation,Massive New Krew,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,8,8,-,251,22,7,28,3,311,false,true,true
 11823,Zitronectar,Reku Mochizuki,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,5,5,-,168,8,8,9,5,198,false,true,true
@@ -3101,8 +3101,8 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7+,7.8,-,326,14,12,26,12,390,false,true,true
 11826,Lover's Trick,litmus*,オンゲキ＆CHUNITHM,,dx,basic,3,3,-,138,12,6,13,2,171,false,true,false
 11826,Lover's Trick,litmus*,オンゲキ＆CHUNITHM,,dx,advanced,7,7,-,212,16,5,21,7,261,false,true,false
-11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,,dx,basic,3,3,-,170,11,4,7,6,198,false,true,false
-11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,,dx,advanced,7,7,-,261,13,9,27,4,314,false,true,false
+11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,170,11,4,7,6,198,false,true,true
+11827,サウンドプレイヤー,tilt-six feat.バル,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7,7,-,261,13,9,27,4,314,false,true,true
 11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,147,14,3,8,4,176,false,true,true
 11828,crazy (about you),kamome sano,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,advanced,7,7,-,225,10,10,26,3,274,false,true,true
 11829,Drivessover,Taishi,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,dx,basic,4,4,-,188,9,4,7,6,214,false,true,true
@@ -3205,6 +3205,10 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 11877,Luminescence,米虾Fomiki & 初云CLoudie,ゲーム＆バラエティ,,dx,advanced,7+,7.6,-,316,20,16,26,2,380,false,true,false
 11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,basic,3,3,-,130,10,8,13,6,167,false,true,true
 11878,Pixel Galaxy,Snail's House,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,dx,advanced,7,7.4,-,285,13,12,21,3,334,false,true,true
+11879,Xaleid◆scopiX (2),xi,舞萌,maimai でらっくす PRiSM PLUS,DX,basic,7+,7.9,-,248,15,6,20,85,374,false,false,true
+11879,Xaleid◆scopiX (2),xi,舞萌,maimai でらっくす PRiSM PLUS,DX,advanced,11,11,-,420,43,9,28,92,592,false,false,true
+11879,Xaleid◆scopiX (2),xi,舞萌,maimai でらっくす PRiSM PLUS,DX,expert,13+,13.7,-,515,93,45,28,138,819,false,false,true
+11879,Xaleid◆scopiX (2),xi,舞萌,maimai でらっくす PRiSM PLUS,DX,master,14+,14.9,-,917,89,105,47,250,1408,false,false,true
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,maimai,,dx,basic,4,4,-,223,9,8,6,8,254,false,true,false
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,maimai,,dx,advanced,7+,7.8,-,337,18,15,28,7,405,false,true,false
 11881,Magical Paradox,Mr.Asyu,maimai,,dx,basic,5,5,-,227,30,4,15,3,279,false,true,false

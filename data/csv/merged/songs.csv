@@ -708,8 +708,8 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 1235,VIIIbit Explorer,Lime,188,maimai,maimai でらっくす FESTiVAL,,false,false,4,true,true,true
 1301,華の集落、秋のお届け,Umiai,165,maimai,maimai でらっくす PRiSM,,false,false,4,true,true,true
 1327,僕は空気が嫁ない,cosMo＠暴走P,192,niconico＆ボーカロイド,maimai でらっくす UNiVERSE,,false,false,4,true,true,true
-1736,プリズム△▽リズム,Shoichiro Hirata feat.Sana,155,maimai,maimai でらっくす PRiSM,,true,false,4,true,true,true
-1819,AFTER PANDORA,削除,85,maimai,,,false,false,4,true,false,true
+1736,プリズム△▽リズム,Shoichiro Hirata feat.Sana,155,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
+1819,AFTER PANDORA,削除,85,maimai,maimai でらっくす PRiSM PLUS,,false,false,4,true,true,true
 10021,コネクト,ClariS「魔法少女まどか☆マギカ」,175,POPS＆アニメ,,,false,false,5,true,false,true
 10030,ネコ日和。,Kai/能登有沙,171,maimai,maimai でらっくす PRiSM PLUS,,false,false,4,true,true,true
 10044,ハッピーシンセサイザ,EasyPop,127,niconico＆ボーカロイド,maimai でらっくす PRiSM,,false,false,4,true,true,true
@@ -777,7 +777,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 10706,シャルル,バルーン,145,niconico＆ボーカロイド,maimai でらっくす,,false,false,4,true,true,true
 10728,POP TEAM EPIC,上坂すみれ「ポプテピピック」,142,POPS＆アニメ,,,false,false,4,true,false,true
 10734,ENERGY SYNERGY MATRIX,Tanchiky,160,ゲーム＆バラエティ,maimai でらっくす,,false,false,4,true,true,true
-10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,133,maimai,maimai FiNALE,,false,false,4,true,true,true
+10835,Believe the Rainbow,Shoichiro Hirata feat.Sana,133,maimai,maimai でらっくす PRiSM PLUS,,false,false,4,true,true,true
 11001,BLACK ROSE,S!N・+α/あるふぁきゅん。×ALI PROJECT,145,maimai,maimai でらっくす,,false,false,4,true,true,true
 11002,Secret Sleuth,島爺×蜂屋ななし,288,maimai,maimai でらっくす,,false,false,5,true,true,true
 11003,でらっくmaimai♪てんてこまい!,やしきん feat.でらっくま(CV:三森すずこ),178,maimai,maimai でらっくす,,false,false,4,true,true,true
@@ -1544,18 +1544,18 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11812,Unfinished Epic,SLAVE.V-V-R feat.Sor△,185,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11813,忙シー日,"原口沙輔, 式部めぐり",150,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11814,FLΛME/FRΦST,FANTAGIRAFF,174,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
-11815,IMBRUED:FLUX,qfeileadh feat.のあ,176,maimai,,,true,false,4,true,false,true
-11816,砂の函,Nego_tiator,180,maimai,,,true,false,4,true,false,true
-11817,Amereistr,rN,147,maimai,,,true,false,4,true,false,true
-11818,World's end BLACKBOX,打打だいず,205,maimai,,,true,false,4,true,false,true
-11820,Xaleid◆scopiX,xi,180,maimai,,,false,false,5,true,false,true
-11821,Ref:rain (for 7th Heaven),カモメサノエレクトリックオーケストラ include Limonène,188,maimai,,,false,false,4,true,false,true
+11815,IMBRUED:FLUX,qfeileadh feat.のあ,176,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
+11816,砂の函,Nego_tiator,180,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
+11817,Amereistr,rN,147,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
+11818,World's end BLACKBOX,打打だいず,205,maimai,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
+11820,Xaleid◆scopiX,xi,180,maimai,maimai でらっくす PRiSM PLUS,,false,false,5,true,true,true
+11821,Ref:rain (for 7th Heaven),カモメサノエレクトリックオーケストラ include Limonène,188,maimai,maimai でらっくす PRiSM PLUS,,false,false,4,true,true,true
 11822,Supersonic Generation,Massive New Krew,155,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11823,Zitronectar,Reku Mochizuki,222,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11824,なんかノイズにきこえる,HaNaMiNa feat.Hana,160,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11825,JIGOKU STATION CENTRAL GATE,鬱P feat.000,160,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11826,Lover's Trick,litmus*,130,オンゲキ＆CHUNITHM,,,true,false,4,true,false,true
-11827,サウンドプレイヤー,tilt-six feat.バル,143,オンゲキ＆CHUNITHM,,,true,false,4,true,false,true
+11827,サウンドプレイヤー,tilt-six feat.バル,143,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11828,crazy (about you),kamome sano,145,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11829,Drivessover,Taishi,182,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
 11830,Tidal Wave,D-Cee,175,オンゲキ＆CHUNITHM,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
@@ -1607,7 +1607,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 11876,Retribution ～ Cycle of Redemption ～,Ardolf vs. Daily天利 (原曲： nm-y & Kry.exe),112,ゲーム＆バラエティ,,,true,false,4,true,false,true
 11877,Luminescence,米虾Fomiki & 初云CLoudie,184,ゲーム＆バラエティ,,,true,false,4,true,false,true
 11878,Pixel Galaxy,Snail's House,150,ゲーム＆バラエティ,maimai でらっくす PRiSM PLUS,,true,false,4,true,true,true
-11879,Xaleid◆scopiX (2),,,,,,false,false,0,false,false,true
+11879,Xaleid◆scopiX (2),xi,180,舞萌,maimai でらっくす PRiSM PLUS,,true,false,4,false,true,true
 11880,CiRCLE CAMPAiGN,サツキ feat.天音かなた,182,maimai,,,true,false,4,true,false,true
 11881,Magical Paradox,Mr.Asyu,192,maimai,,,true,false,4,true,false,true
 11882,殿ッ！？ご乱心！？,Shu feat. 天羽しろっぷ,200,maimai,,,true,false,4,true,false,true
