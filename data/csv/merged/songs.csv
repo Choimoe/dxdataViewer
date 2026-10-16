@@ -297,7 +297,7 @@ id,title,artist,bpm,category,version,releaseDate,isNew,isLocked,sheetCount,dxdat
 388,きたさいたま2000,LindaAI-CUE(BNGI)「太鼓の達人」より,222,ゲーム＆バラエティ,maimai ORANGE,,false,false,4,true,true,true
 389,FLOWER,DJ YOSHITAKA「jubeat」より,173,ゲーム＆バラエティ,maimai ORANGE,,false,false,5,true,true,true
 390,Got more raves？,E.G.G.「グルーヴコースター」より,266,ゲーム＆バラエティ,maimai ORANGE,,false,false,4,true,true,true
-397,Can Do,GRANRODEO[PV],200,POPS＆アニメ,,,false,false,4,true,false,true
+397,Can Do,GRANRODEO,200,POPS＆アニメ,,,true,false,5,true,false,true
 398,The Other self,GRANRODEO[PV],150,POPS＆アニメ,,,false,false,4,true,false,true
 399,不毛！,ぽてんしゃる0,200,niconico＆ボーカロイド,maimai ORANGE,,false,false,4,true,true,true
 400,デッドレッドガールズ,MARUDARUMA,230,niconico＆ボーカロイド,maimai ORANGE PLUS,,false,false,4,true,true,true
