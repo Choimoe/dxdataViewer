@@ -597,9 +597,8 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 389,FLOWER,DJ YOSHITAKA「jubeat」より,ゲーム＆バラエティ,maimai ORANGE,std,advanced,9,9,-,248,24,17,,8,297,false,true,true
 390,Got more raves？,E.G.G.「グルーヴコースター」より,ゲーム＆バラエティ,maimai ORANGE,std,basic,6,6,-,197,20,6,,2,225,false,true,true
 390,Got more raves？,E.G.G.「グルーヴコースター」より,ゲーム＆バラエティ,maimai ORANGE,std,advanced,9,9.5,-,330,16,11,,6,363,false,true,true
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,basic,4,4,-,135,6,3,,7,151,false,true,false
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,advanced,7+,6.8,-,273,9,5,,12,299,false,true,false
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,remaster,13+,13.6,-,,,,,,,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,basic,4,4,-,146,8,4,,4,162,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,advanced,7+,7.7,-,199,22,6,,6,233,false,true,false
 398,The Other self,GRANRODEO[PV],POPS＆アニメ,,std,basic,4,4,-,100,8,2,,2,112,false,true,false
 398,The Other self,GRANRODEO[PV],POPS＆アニメ,,std,advanced,6,6,-,224,6,15,,8,253,false,true,false
 399,不毛！,ぽてんしゃる0,niconico＆ボーカロイド,maimai ORANGE,std,basic,3,3,-,131,3,5,,5,144,false,true,true

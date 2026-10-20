@@ -1253,11 +1253,11 @@ songId,songTitle,artist,category,version,sheetType,difficulty,level,internalLeve
 390,Got more raves？,E.G.G.「グルーヴコースター」より,ゲーム＆バラエティ,maimai ORANGE,std,advanced,9,9.5,-,330,16,11,,6,363,false,true,true
 390,Got more raves？,E.G.G.「グルーヴコースター」より,ゲーム＆バラエティ,maimai ORANGE,std,expert,12+,12.8,某S氏,412,71,9,,10,502,false,true,true
 390,Got more raves？,E.G.G.「グルーヴコースター」より,ゲーム＆バラエティ,maimai ORANGE,std,master,14,14.1,はっぴー,762,25,81,,34,902,false,true,true
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,basic,4,4,-,135,6,3,,7,151,false,true,false
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,advanced,7+,6.8,-,273,9,5,,12,299,false,true,false
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,expert,10+,9,Jack,368,14,19,,22,423,false,true,false
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,master,13,11.8,mai-Star,446,37,64,,34,581,false,true,false
-397,Can Do,GRANRODEO,POPS＆アニメ,,std,remaster,13+,13.6,-,,,,,,,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,basic,4,4,-,146,8,4,,4,162,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,advanced,7+,7.7,-,199,22,6,,6,233,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,expert,10+,10.8,はっぴー,337,33,25,,20,415,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,master,13,13.4,mai-Star,446,37,64,,34,581,false,true,false
+397,Can Do,GRANRODEO,POPS＆アニメ,,std,remaster,13+,13.7,Luxizhel,446,19,106,,43,614,false,true,false
 398,The Other self,GRANRODEO[PV],POPS＆アニメ,,std,basic,4,4,-,100,8,2,,2,112,false,true,false
 398,The Other self,GRANRODEO[PV],POPS＆アニメ,,std,advanced,6,6,-,224,6,15,,8,253,false,true,false
 398,The Other self,GRANRODEO[PV],POPS＆アニメ,,std,expert,9,9,はっぴー,285,63,16,,16,380,false,true,false
